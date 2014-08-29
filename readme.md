@@ -1,5 +1,7 @@
 # Welcome to the world of SOUND
 
+Come with us now on a journey through space and sound. Welcome.
+
 ### Tidal
 
 https://github.com/yaxu/Tidal
