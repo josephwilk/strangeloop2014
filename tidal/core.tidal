@@ -1,0 +1,26 @@
+d1 $ sound "[bd:1 bd:2]"
+
+d2
+
+d3
+
+d4
+
+d5
+
+d6
+
+d7
+
+d8
+
+hush
+
+d8 silence
+d7 silence
+d6 silence
+d5 silence
+d4 silence
+d3 silence
+d2 silence
+d1 silence

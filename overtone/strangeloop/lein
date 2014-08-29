@@ -1,0 +1,5 @@
+#!/bin/bash
+export LEIN_HOME=vendor/lein
+export LEIN_ROOT=true
+LEIN_BIN=vendor/lein/lein
+eval ./$LEIN_BIN $@
