@@ -28,7 +28,7 @@ adjust your volume
 
 and your ears are ready to begin their journey.
 
-##> You encounter a Haskell. It seems to want to play.
+##> You encounter a Tidal. It seems to want to play.
 
 Tidal is a pattern language written in Haskell.
 
