@@ -28,6 +28,13 @@ adjust your volume
 
 and your ears are ready to begin their journey.
 
+
+##> Before you begin
+
+```
+git clone git@github.com:josephwilk/strangeloop2014.git && cd strangeloop2014 && make
+```
+
 ##> You encounter a Tidal. It seems to want to play.
 
 Tidal is a pattern language written in Haskell.
@@ -48,4 +55,4 @@ http://overtone.github.io
 
 #### Install
 
-* Java: http://www.java.com/en/download/help/download_options.xml
+Prerequisite: Java: http://www.java.com/en/download/help/download_options.xml
