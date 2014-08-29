@@ -2,9 +2,9 @@
 
 
 all:
-	@echo "> Preparing for the adventure..."
+	@echo "> Preparing..."
 	@echo ""
 	git submodule update --init --recursive
 	cd overtone/strangeloop && ./lein deps
 	@echo ""
-	@echo "> You are ready, go forth..."
+	@echo "> You can now make sound!"
