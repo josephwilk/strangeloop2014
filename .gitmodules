@@ -1,6 +1,6 @@
-[submodule "tidal/vendor/Dirt"]
-	path = tidal/vendor/Dirt
-	url = git@github.com:yaxu/Dirt.git
 [submodule "tidal/vendor/Tidal"]
 	path = tidal/vendor/Tidal
 	url = git@github.com:yaxu/Tidal.git
+[submodule "tidal/vendor/Dirt"]
+	path = tidal/vendor/Dirt
+	url = git@github.com:yaxu/Dirt.git
