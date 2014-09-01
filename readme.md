@@ -38,18 +38,19 @@ git clone git@github.com:josephwilk/strangeloop2014.git && cd strangeloop2014 &&
 ##> You reach a fork in the road
 
 ```
->
->    Power         Freedom
->    \   \         /   /
->     \   \       /   /
->      \   \     /   /
->       \   \   /   /
->        \   :?    / 
->         \  /█\  /
->          \ .Π. /  
->
-> One path leads to instant power but you are never truely free.
-> The other leads to complete freedom but you have to build your world from scratch.
+    -----         -------
+   |Power|       |Freedom|
+    -----         -------
+    \   \         /   /
+     \   \       /   /
+      \   \     /   /
+       \   \   /   /
+        \   :?    / 
+         \  /█\  /
+          \ .Π. /  
+
+One path leads to instant power but you are never truely free.
+The other leads to complete freedom but you have to build your world from scratch.
 ```
 
 ##> You encounter a Tidal. It seems to want to play.
