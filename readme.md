@@ -38,9 +38,9 @@ git clone git@github.com:josephwilk/strangeloop2014.git && cd strangeloop2014 &&
 ##> You reach a fork in the road
 
 ```
-    -----         -------
-   |Power|       |Freedom|
-    -----         -------
+   -----          -------
+  |Power|        |Freedom|
+   -----          -------
     \   \         /   /
      \   \       /   /
       \   \     /   /
@@ -74,11 +74,11 @@ https://github.com/yaxu/Tidal
 ##> Armed with braces you enter the Overtone
 
 ```
-               .d88b.
-  :\  *gulp*  d88""88b
-  █-((        88    88
-.//.          Y88..88P
-               "Y88P"
+                .d88b.
+*gulp*  :\     d88""88b
+         █-((  88    88
+       .//.    Y88..88P
+                "Y88P"
 ```
 
 Overtone, a Clojure framework provides a lot of freedom, but at the cost of being more verbose and requiring you to build your own abstractions. It is a Clojure client to the SuperCollider sound engine.
