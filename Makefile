@@ -2,9 +2,9 @@
 
 
 all:
-	@echo "> Preparing..."
+	@echo "> You are staring at a computer screen."
 	@echo ""
 	git submodule update --init --recursive
 	cd freedom/overtone && ./lein deps
 	@echo ""
-	@echo "> You can now make sound!"
+	@echo "> Do you seek power, freedom or both?"
