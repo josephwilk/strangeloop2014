@@ -8,7 +8,7 @@ Come with us now on a journey through space and sound ♪♫.
 .Π.
 ```
 
-You have at your hands the capability to make every possible sound imaginable.
+You have at your hands the capability to make every sound imaginable.
 
 ```clojure
 (definst creativity [amp 9999] (* amp (lf-saw 300)))
@@ -35,6 +35,23 @@ and your ears are ready to begin their journey.
 git clone git@github.com:josephwilk/strangeloop2014.git && cd strangeloop2014 && make
 ```
 
+##> You reach a fork in the road
+
+```
+>
+>    Power         Freedom
+>    \   \         /   /
+>     \   \       /   /
+>      \   \     /   /
+>       \   \   /   /
+>        \   :?    / 
+>         \  /█\  /
+>          \ .Π. /  
+>
+> One path leads to instant power but you are never truely free.
+> The other leads to complete freedom but you have to build your world from scratch.
+```
+
 ##> You encounter a Tidal. It seems to want to play.
 
 ```
@@ -43,7 +60,7 @@ git clone git@github.com:josephwilk/strangeloop2014.git && cd strangeloop2014 &&
 `-'  `-'  `-'  `-'  `-'  ` ./ \.
 ```
 
-Tidal is a pattern language written in Haskell.
+Tidal, a Haskell framework focusing on conciseness, building up complicated patterns manipulating samples quickly.
 
 https://github.com/yaxu/Tidal
 
@@ -63,7 +80,7 @@ https://github.com/yaxu/Tidal
                "Y88P"
 ```
 
-Overtone is a Clojure client to the SuperCollider sound engine.
+Overtone, a Clojure framework provides a lot of freedom, but at the cost of being more verbose and requiring you to build your own abstractions. It is a Clojure client to the SuperCollider sound engine.
 
 http://overtone.github.io
 
