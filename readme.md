@@ -37,6 +37,12 @@ git clone git@github.com:josephwilk/strangeloop2014.git && cd strangeloop2014 &&
 
 ##> You encounter a Tidal. It seems to want to play.
 
+```
+                            :O  Hi 
+   ,(   ,(   ,(   ,(   ,(   /█\
+`-'  `-'  `-'  `-'  `-'  ` ./ \.
+```
+
 Tidal is a pattern language written in Haskell.
 
 https://github.com/yaxu/Tidal
@@ -48,6 +54,14 @@ https://github.com/yaxu/Tidal
 * Windows installation:  https://github.com/yaxu/Tidal/blob/master/doc/install-windows.md
 
 ##> Armed with braces you enter the Overtone
+
+```
+               .d88b.
+  :\  *gulp*  d88""88b
+  █-((        88    88
+.//.          Y88..88P
+               "Y88P"
+```
 
 Overtone is a Clojure client to the SuperCollider sound engine.
 
