@@ -5,6 +5,6 @@ all:
 	@echo "> Preparing..."
 	@echo ""
 	git submodule update --init --recursive
-	cd overtone/strangeloop && ./lein deps
+	cd freedom/overtone && ./lein deps
 	@echo ""
 	@echo "> You can now make sound!"
