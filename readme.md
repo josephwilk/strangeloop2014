@@ -88,3 +88,14 @@ http://overtone.github.io
 #### Install
 
 Prerequisite: Java: http://www.java.com/en/download/help/download_options.xml
+
+
+##> Out of a bush bursts a swarm of Sonic-PIs
+
+```
+  \:o/    Π       Π
+   █      Π   Π    Π
+ .||.    Π   Π  Π
+```
+
+Sonic-PI is an IDE for live coding music using Ruby. It comes pre-packaged in a nice dmg file which means its very quick to get started. But alas only on OS X for now.
