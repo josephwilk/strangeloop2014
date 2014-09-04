@@ -18,6 +18,8 @@ Unplug those headphones,
 
 ```
 d[-_-]b
+  /█\
+  .Π.
 ```
 
 adjust your volume
