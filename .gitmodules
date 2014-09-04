@@ -4,3 +4,9 @@
 [submodule "tidal/vendor/Dirt"]
 	path = tidal/vendor/Dirt
 	url = git@github.com:yaxu/Dirt.git
+[submodule "power/tidal/vendor/Dirt"]
+	path = power/tidal/vendor/Dirt
+	url = git@github.com:yaxu/Dirt.git
+[submodule "power/tidal/vendor/Tidal"]
+	path = power/tidal/vendor/Tidal
+	url = git@github.com:yaxu/Tidal.git
