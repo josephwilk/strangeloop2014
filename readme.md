@@ -123,9 +123,8 @@ Sonic-PI is an IDE for live coding music using Ruby. It comes pre-packaged in a 
  \:D   ♪♫  ♪ ♫
   █ \    ♫  ♪  ♪
   |\ 
-
 ```
 
 In our finally session we will have some space for people to demos what they have done. 
 
-#> exit terminal
+#> exit
