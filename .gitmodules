@@ -13,3 +13,9 @@
 [submodule "freedom/overtone/vendor/overtone"]
 	path = freedom/overtone/vendor/overtone
 	url = git@github.com:overtone/overtone.git
+[submodule "weapons/emacs/emacs-live"]
+	path = weapons/emacs/emacs-live
+	url = git@github.com:overtone/emacs-live
+[submodule "weapons/vim/vim-tidal"]
+	path = weapons/vim/vim-tidal
+	url = git@github.com:munshkr/vim-tidal.git
