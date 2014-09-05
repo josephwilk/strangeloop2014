@@ -69,7 +69,7 @@ One path leads to instant power but you are never truely free.
 The other leads to complete freedom but you have to build your world from scratch.
 ```
 
-##> You encounter a Tidal. It seems to want to play.
+###> You encounter a Tidal. It seems to want to play.
 
 ```
  \:O  Hi
@@ -89,7 +89,7 @@ Requires Haskell installed.
 * Mac OS X installation: https://github.com/yaxu/Tidal/blob/master/doc/install-osx.md
 * Windows installation:  https://github.com/yaxu/Tidal/blob/master/doc/install-windows.md
 
-##> Armed with braces you enter the Overtone
+###> Armed with braces you enter the Overtone
 
 ```
                 .d88b.
@@ -107,7 +107,7 @@ http://overtone.github.io
 
 Prerequisite: Java: http://www.java.com/en/download/help/download_options.xml
 
-##> Out of a bush bursts a swarm of Sonic-PIs
+###> Out of a bush bursts a swarm of Sonic-PIs
 
 ```
   \:o/     π      π
@@ -117,7 +117,7 @@ Prerequisite: Java: http://www.java.com/en/download/help/download_options.xml
 
 Sonic-PI is an IDE for live coding music using Ruby. It comes pre-packaged in a nice dmg file which means its very quick to get started. But alas only on OS X for now.
 
-#> Before you return home
+##> Before you return home
 
 ```
  \:D   ♪♫  ♪ ♫
@@ -127,4 +127,4 @@ Sonic-PI is an IDE for live coding music using Ruby. It comes pre-packaged in a 
 
 In our final session we will have some space for people to demos what they have done. 
 
-#> exit
+##> exit
