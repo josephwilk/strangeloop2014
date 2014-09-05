@@ -2,7 +2,7 @@
 
 Assuming all prerequisites have been installed:
 
-(docs/tidal/)[docs/tidal/]
+[Install instructions: docs/tidal/](docs/tidal)
 
 To get started, run dirt: 
 
