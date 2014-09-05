@@ -116,3 +116,16 @@ Prerequisite: Java: http://www.java.com/en/download/help/download_options.xml
 ```
 
 Sonic-PI is an IDE for live coding music using Ruby. It comes pre-packaged in a nice dmg file which means its very quick to get started. But alas only on OS X for now.
+
+#> Before you return home
+
+```
+ \:D
+  █ \ 
+  |\ 
+
+```
+
+In our finally session we will have some space for people to demos what they have done. 
+
+#> exit
