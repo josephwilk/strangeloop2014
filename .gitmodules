@@ -1,9 +1,3 @@
-[submodule "tidal/vendor/Tidal"]
-	path = tidal/vendor/Tidal
-	url = git@github.com:yaxu/Tidal.git
-[submodule "tidal/vendor/Dirt"]
-	path = tidal/vendor/Dirt
-	url = git@github.com:yaxu/Dirt.git
 [submodule "power/tidal/vendor/Dirt"]
 	path = power/tidal/vendor/Dirt
 	url = git@github.com:yaxu/Dirt.git
@@ -13,9 +7,9 @@
 [submodule "freedom/overtone/vendor/overtone"]
 	path = freedom/overtone/vendor/overtone
 	url = git@github.com:overtone/overtone.git
-[submodule "weapons/emacs/emacs-live"]
-	path = weapons/emacs/emacs-live
+[submodule "instruments/emacs/emacs-live"]
+	path = instruments/emacs/emacs-live
 	url = git@github.com:overtone/emacs-live
-[submodule "weapons/vim/vim-tidal"]
-	path = weapons/vim/vim-tidal
+[submodule "instruments/vim/vim-tidal"]
+	path = instruments/vim/vim-tidal
 	url = git@github.com:munshkr/vim-tidal.git
