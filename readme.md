@@ -39,6 +39,8 @@ and your ears are ready to begin their journey.
 git clone git@github.com:josephwilk/strangeloop2014.git && cd strangeloop2014 && make
 ```
 
+Pick and prepare your instruments: [Vim, Emacs, Lighttable](instruments/readme.md)
+
 ##> You reach a fork in the road
 
 ```
