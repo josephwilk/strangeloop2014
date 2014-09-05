@@ -28,7 +28,7 @@ NOTE: if you want to use emacs-live ensure `emacs --version` >= 24.3
 
 Ubuntu
 
-```
+```shell
 sudo add-apt-repository ppa:cassou/emacs
 sudo apt-get update
 
@@ -37,7 +37,7 @@ sudo apt-get install emacs24 emacs24-el emacs24-common-non-dfsg
 
 Homebrew
 
-```
+```shell
 brew install emacs --cocoa --srgb
 $ brew linkapps Emacs
 ```
@@ -46,7 +46,7 @@ $ brew linkapps Emacs
 
 Making an existing emacs ready for live coding very quickly:
 
-```
+```shell
 bash <(curl -fksSL https://raw.github.com/overtone/emacs-live/master/installer/install-emacs-live.sh)
 ```
 
@@ -54,7 +54,7 @@ bash <(curl -fksSL https://raw.github.com/overtone/emacs-live/master/installer/i
 
 Ensure Cider && Clojure-mode packages are installed
 
-```
+```lisp
 (require 'package)
 (add-to-list 'package-archives
   '("melpa-stable" . "http://melpa-stable.milkbox.net/packages/") t)
