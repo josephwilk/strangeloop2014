@@ -49,7 +49,7 @@ git clone git@github.com:josephwilk/strangeloop2014.git && cd strangeloop2014 &&
 
 The path you choose dictates what you need to setup.
 
-Also no matter what you will need to pick and prepare an instrument: [Vim, Emacs, Lighttable](instruments/readme.md)
+Also no matter what, you will need to pick and prepare an instrument: [Vim, Emacs, Lighttable](instruments/readme.md)
 
 ##> You reach a fork in the road
 
@@ -125,6 +125,6 @@ Sonic-PI is an IDE for live coding music using Ruby. It comes pre-packaged in a 
   |\ 
 ```
 
-In our finally session we will have some space for people to demos what they have done. 
+In our final session we will have some space for people to demos what they have done. 
 
 #> exit
