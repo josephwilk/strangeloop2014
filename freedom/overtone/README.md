@@ -20,4 +20,4 @@ and evalulate the context of the file.
 
 Useful reference for overtone functions:
 
-[docs/overtone/overtone-cheat-sheet.pdf](docs/overtone/overtone-cheat-sheet.pdf)
+[/docs/overtone/overtone-cheat-sheet.pdf](docs/overtone/overtone-cheat-sheet.pdf)
