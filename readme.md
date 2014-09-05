@@ -31,13 +31,25 @@ adjust your volume
 and your ears are ready to begin their journey.
 
 
-##> Before you begin
+##> Before you begin your travels
+
+```
+                                    __
+    :O  Urm... please wait        <'..'>
+   /█\  I'm installing Java        (oo)_/6
+   .Π.                               W W
+```
+
+A good journey always starts with getting all your equipment prepared.
+Its rarely fun but hey, you don't want to stand live on stage installing Java.
 
 ```
 git clone git@github.com:josephwilk/strangeloop2014.git && cd strangeloop2014 && make
 ```
 
-Pick and prepare your instruments: [Vim, Emacs, Lighttable](instruments/readme.md)
+The path you choose dictates what you need to setup.
+
+Also no matter what you will need to pick and prepare an instrument: [Vim, Emacs, Lighttable](instruments/readme.md)
 
 ##> You reach a fork in the road
 
@@ -71,6 +83,8 @@ https://github.com/yaxu/Tidal
 
 #### Install
 
+Requires Haskell installed.
+
 * Linux installation:    https://github.com/yaxu/Tidal/blob/master/doc/install-linux.md
 * Mac OS X installation: https://github.com/yaxu/Tidal/blob/master/doc/install-osx.md
 * Windows installation:  https://github.com/yaxu/Tidal/blob/master/doc/install-windows.md
@@ -92,7 +106,6 @@ http://overtone.github.io
 #### Install
 
 Prerequisite: Java: http://www.java.com/en/download/help/download_options.xml
-
 
 ##> Out of a bush bursts a swarm of Sonic-PIs
 
