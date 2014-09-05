@@ -131,6 +131,6 @@ In our final session we will have some space for people to demos what they have 
 
 Goodbye. 
 
-Enjoy some live coding music
+Enjoy some live coded music
 
 https://soundcloud.com/repl-electric/sets/live-coding
