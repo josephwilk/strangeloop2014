@@ -1,6 +1,6 @@
 # Strangeloop
 
-Assuming all prerequistes installed:
+Assuming all prerequisites installed:
 
 [/docs/overtone](/docs/overtone)
 
