@@ -121,6 +121,24 @@ Sonic-PI is an IDE for live coding music using Ruby. It comes pre-packaged in a 
 
 Download and install from: http://sonic-pi.net/get-v2.0 OR grab a USB key.
 
+###> You encounter a &lt;blank&gt;. It seems to want to &lt;action&gt;.
+
+```
+  :?      ███████      
+   █-     ███████            
+ .||.     ███████
+
+```
+
+There are many more environments for you to explore. Feel like breaking off the path?
+Take a look at things like:
+
+* Pure Data http://puredata.info/
+* Chuck http://chuck.cs.princeton.edu/
+* ixi-lang http://www.ixi-audio.net/content/body_software_ixilang.html
+* LiveCodeLab (browser based) http://livecodelab.net/
+* Gibber (browser based) http://gibber.mat.ucsb.edu/
+
 ##> Before you return home
 
 ```
