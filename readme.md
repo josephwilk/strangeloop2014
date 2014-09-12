@@ -124,10 +124,9 @@ Download and install from: http://sonic-pi.net/get-v2.0 OR grab a USB key.
 ###> You encounter a &lt;blank&gt;. It seems to want to &lt;action&gt;.
 
 ```
-  :?      ███████      
-   █-     ███████            
- .||.     ███████
-
+   :o      ███████      
+  [█]      ███████            
+ .||.      ███████
 ```
 
 There are many more environments for you to explore. Feel like breaking off the path?
