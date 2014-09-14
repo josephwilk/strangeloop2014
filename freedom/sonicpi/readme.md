@@ -24,3 +24,9 @@ in_thread(name: :drummers) do
   loop{drums}
 end
 ```
+
+## Examples
+
+Sonic-pi comes with lots of examples to get you started quickly:
+
+[](/docs/sonic-pi/examples_screen.jpg)
