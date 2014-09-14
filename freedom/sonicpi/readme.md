@@ -29,4 +29,4 @@ end
 
 Sonic-pi comes with lots of examples to get you started quickly:
 
-[](/docs/sonic-pi/examples_screen.jpg)
+![](/docs/sonic-pi/examples_screen.jpg)
