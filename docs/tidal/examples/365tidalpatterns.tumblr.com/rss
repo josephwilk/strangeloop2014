@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"><channel><description>365 coded patterns with Tidal in 365 days. 
+
+Follow on Twitter at @365tidalpattrns.
+
+Contact me at @kindohm or www.kindohm.com</description><title>365 Tidal Patterns</title><generator>Tumblr (3.0; @365tidalpatterns)</generator><link>http://365tidalpatterns.tumblr.com/</link><item><title>Pattern 350</title><description>&lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/167454404&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false"&gt;&lt;/iframe&gt;
+
+&lt;pre&gt;&lt;code&gt;bps (155/120)
+
+d1 $ iter 8 $ slowspread ($) [chop 4, rev, (|+| speed "0.5") . slow 2, 
+id, trunc 0.25, jux (|+| speed "1.1"), id] $ stack [ 
+within (0.25, 0.75) (every 3 (rev . slow 2 . stut 8 0.4 0.2)) $  
+whenmod 5 3 (degradeBy 0.6) $ sound (samples "grunt*16" 
+(run 11)) |+| end "0.05" |+| speed "2", sound "~ kv*2 ~ ~ ~ ~ ~ ~", 
+sound "~ ~ shard:16 ~", sound "~ ~ ~ sdeep*4" |+| speed (
+whenmod 6 5 ((*0.5) &amp;lt;$&amp;gt;) "5"), sound (samples 
+"~ ~ ~ b/2 ~ b/5 ~ b/3" (run 328)) |+| cut "3", density 2 $ 
+sound (samples "{hh*2 ~ [~ dup] [~ dup] ~}%4" "10") 
+|+| speed "2", slow 2 $ trunc 0.5 $ (striate 16 $ sound "fxlong:9") 
+|+| speed "[0.75 0.5 1]/4" |+| gain "0.85" ]
+&lt;/code&gt;&lt;/pre&gt;</description><link>http://365tidalpatterns.tumblr.com/post/97324631715</link><guid>http://365tidalpatterns.tumblr.com/post/97324631715</guid><pubDate>Fri, 12 Sep 2014 16:39:35 -0400</pubDate></item><item><title>Pattern 349</title><description>&lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/167452818&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false"&gt;&lt;/iframe&gt;
+
+&lt;pre&gt;&lt;code&gt;bps (140/120)
+
+d1 $ iter 4 $ within (0.25, 0.75) (every 3 (slow 2 . rev . 
+stut 12 0.25 0.25)) $ stack [ whenmod 7 6 ((|+| speed "-1") . 
+(|+| begin "0.25")) $ whenmod 6 5 (|+| speed "0.8") $ whenmod 5 4 
+(|+| speed "0.9") $ slow 2 $ degradeBy 0.5 $ sound "aqua*8" 
+|+| cut "1", whenmod 7 6 (slow 1.5) $ whenmod 8 7 (|+| delay "0.5") 
+$ slow 4 $ sound (samples 
+"flkick*8 [stite:0, cp:3] ~ ktite*6 ~ [~ ktite*4] [stite:0, cp:3] ~"
+(run 44)), slow 4 $ sound (samples 
+"~ ~ [~ sub/3] ~ ~ ~ ~ [[808cy [~ 808cy] ~ 808cy] ~]/2]" "1") 
+|+| cutoff "0.2" |+| resonance "0.01" |+| cut "2" |+| speed "0.25" 
+|+| delay "0.5"] |+| delaytime "0.7" |+| delayfeedback "0.5"
+&lt;/code&gt;&lt;/pre&gt;</description><link>http://365tidalpatterns.tumblr.com/post/97324556670</link><guid>http://365tidalpatterns.tumblr.com/post/97324556670</guid><pubDate>Fri, 12 Sep 2014 16:38:34 -0400</pubDate></item><item><title>Pattern 348</title><description>&lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/167452792&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false"&gt;&lt;/iframe&gt;
+
+&lt;pre&gt;&lt;code&gt;bps (180/120)
+
+d1 $ whenmod 40 35 (slow 2 . (|+| speed "0.75")) $ 
+whenmod 22 20 (density 2) $ whenmod 20 18 (density 2) $ 
+whenmod 32 16 (slow 1.5) $ slowspread ($) [(|+| speed "0.5") . 
+slow 2, within (0.25, 0.75) (rev . (|+| speed "1.2")), 
+(|+| accelerate "-0.5, 0.5"), id, trunc 0.25, trunc 0.25, chop 8 . rev, 
+(|+| accelerate "-1 1")] $ whenmod 14 12 (const $ stack [ 
+sound "kh:12*16" |+| gain "0.8", sound "slayer:8*4 slayer:9*4" 
+|+| cut "1"]) $ every 3 (0.25 &amp;lt;~) $ every 4 (0.25 &amp;lt;~) $ stack [ 
+degradeBy 0.4 $ sound (samples "slayer*8" "[7 9 10 11 6]/6") 
+|+| cut "1" |+| speed "[1 1 1 0.8]/5", whenmod 8 4 (degradeBy 0.5) 
+$ sound "kh:12*16" |+| gain "0.8", every 5 (density 2) $ every 4 (
+density 2) $ every 3 (density 2) $ every 2 (density 2) $ sound 
+"hh:26*4" ]
+&lt;/code&gt;&lt;/pre&gt;</description><link>http://365tidalpatterns.tumblr.com/post/97324472065</link><guid>http://365tidalpatterns.tumblr.com/post/97324472065</guid><pubDate>Fri, 12 Sep 2014 16:37:23 -0400</pubDate></item><item><title>Pattern 347</title><description>&lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/167452750&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false"&gt;&lt;/iframe&gt;
+
+&lt;pre&gt;&lt;code&gt;bps (200/120)
+
+d1 $ whenmod 16 8 (slowspread ($) [chop 8, (|+| speed 
+"-1 1.2 0.8 -1"), rev, trunc 0.25, trunc 0.25, jux ((|+| speed "0.9")), id]) 
+$ within (0.25, 0.75) (whenmod 5 4 (rev . stut 4 0.25 0.25)) $ 
+whenmod 12 8 ( every 4 (0.25 &amp;lt;~) . every 3 (0.25 &amp;lt;~)) $ stack [ 
+sound (samples "tite*8" (run 10)), slow 2 $ sound (samples 
+"~ [~ b:0] ~ ~ ~ ~ b b/2" (run 13)) |+| cut "1", sound "[~ hh]*2", 
+sound "[~ shard:1]", sound "[[kh/2 kh ~ ~] [~ kh ~ ~]]", slow 2 $ 
+sound (samples "~ ~ [kv*2] ~" (run 13)) ]
+&lt;/code&gt;&lt;/pre&gt;</description><link>http://365tidalpatterns.tumblr.com/post/97324350120</link><guid>http://365tidalpatterns.tumblr.com/post/97324350120</guid><pubDate>Fri, 12 Sep 2014 16:35:45 -0400</pubDate></item><item><title>Pattern 346</title><description>&lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/167027381&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false"&gt;&lt;/iframe&gt;
+
+&lt;pre&gt;&lt;code&gt;bps (165/120)
+
+d1 $ iter 4 $ stack [ slowspread ($) [chop 16, (|+| vowel "o u"), 
+stut 8 0.4 0.25, id, (|+| speed "-1"), (|+| accelerate "-1"), id] $ 
+sound "dorug dorug:1", whenmod 10 6 (const $ sound (
+samples "amencutup*16" (slow 0.8 $ run 22))) $ sound (
+samples "amencutup*16?" "[1 4 3 5]/4") |+| shape "0.2" 
+|+| speed "[1 1 0.8 1 1 [1 -1] 1.2 0.8 1]/5", slowspread (trunc) 
+[0.5, 0.25, 0.5, 0.75, 1] $ striate 32 $ sound "pad:9" |+| shape "0.5" 
+|+| cut "2"]
+&lt;/code&gt;&lt;/pre&gt;</description><link>http://365tidalpatterns.tumblr.com/post/97108260740</link><guid>http://365tidalpatterns.tumblr.com/post/97108260740</guid><pubDate>Tue, 09 Sep 2014 22:48:42 -0400</pubDate></item><item><title>Pattern 345</title><description>&lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/167027349&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false"&gt;&lt;/iframe&gt;
+
+&lt;pre&gt;&lt;code&gt;bps (140/120)
+
+d1 $ whenmod 20 12 (slowspread ($) [chop 128, chop 32, id, 
+trunc 0.5 . striate 2 . slow 2 , stut 3 0.4 0.33, id, trunc 0.25, 
+trunc 0.25])  $ whenmod 14 7 (slow 0.8) $ stack [ sound 
+"[rave:1*32? rave:8*32?]/8" |+| speed "[0.5 0.4 0.5 0.75 0.3 0.5]/4" 
+|+| gain "0.9" |+| cut "1" |+| end "0.2", whenmod 16 8 (const $ 
+sound "[sub*32? drop*32?]/8" |+| cut "2" |+| speed 
+"[1 2 1 1.5 3 1]/4") $ sound "[flkick:1*32? flkick:1*32?]/8", 
+stack [(0.025 &amp;lt;~) $ sound "~ cp:4", (0.05 &amp;lt;~) $ sound "~ cp:3", 
+sound "~ cp"], whenmod 6 5 (density 2) $ whenmod 5 4 (density 2) 
+$ whenmod 4 3 (density 2) $ whenmod 3 2 (density 2) $ 
+sound "hh:7*4" ]
+&lt;/code&gt;&lt;/pre&gt;</description><link>http://365tidalpatterns.tumblr.com/post/97107028175</link><guid>http://365tidalpatterns.tumblr.com/post/97107028175</guid><pubDate>Tue, 09 Sep 2014 22:33:51 -0400</pubDate></item><item><title>Pattern 344</title><description>&lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/167027330&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false"&gt;&lt;/iframe&gt;
+
+&lt;pre&gt;&lt;code&gt;bps (165/120)
+
+d1 $ stack [ degradeBy 0.5 $ sound "bl4:2*8" |+| cut "1" 
+|+| speed "[1 1.5 1 ~ 0.75 1.25 ~ 1 2]/3" |+| gain "0.9", 
+whenmod 10 8 (slow 2 . stut 16 0.6 0.1) $ 
+whenmod 15 10 (iter 4) $ every 2 (0.1225 &amp;lt;~) $ 
+every 4 (0.25 &amp;lt;~) $ every 5 (rev) $ every 3 (0.25 &amp;lt;~) $ 
+within (0.25, 0.75) (whenmod 5 3 (0.1225 &amp;lt;~)) $ 
+within (0, 0.5) (every 2 (0.1225 &amp;lt;~) . whenmod 6 4 (0.1225 &amp;lt;~)) 
+$ striate 16 $ sound "amen" |+| shape "0.2" 
+|+| speed "[1 0.9 1 [1.3 1.2] 0.75 1 1.1 1.1]/5" ]
+&lt;/code&gt;&lt;/pre&gt;</description><link>http://365tidalpatterns.tumblr.com/post/97106949780</link><guid>http://365tidalpatterns.tumblr.com/post/97106949780</guid><pubDate>Tue, 09 Sep 2014 22:32:54 -0400</pubDate></item><item><title>Pattern 343</title><description>&lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/166866199&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false"&gt;&lt;/iframe&gt;
+
+&lt;pre&gt;&lt;code&gt;bps (160/120)
+
+d1 $ whenmod 20 12 (every 3 (0.25 &amp;lt;~) . every 4 (0.25 &amp;lt;~)) $ 
+stack [ sound "[~ ~ ~ flkick] [cp, stite:12]", sound "[~ ~ ~ fran] ~" 
+|+| cut "1", whenmod 8 4 (const $ stack [sound "sub*8?" |+| cut "3" 
+|+| speed "[1 2 1.5 3]/5", sound "nerd:14*2" |+| cut "1"]) $ sound 
+"~ [control]" |+| cut "1" |+| end "0.23" |+| speed "0.75", 
+whenmod 8 7 (density 2) $ whenmod 5 3 (density 2) $ sound 
+"hh:2*8" |+| gain "0.6", whenmod 16 12 (const $ sound "808sd*16?" 
+|+| speed (scale 1.5 2.5 $ slow 4.1 sine1)) $ sound "~", density 2 
+$ sound "~ salsa:1" |+| speed (whenmod 9 4 ((*0) &amp;lt;$&amp;gt;) "2") 
+|+| begin "0.1" |+| gain "0.7"]
+&lt;/code&gt;&lt;/pre&gt;</description><link>http://365tidalpatterns.tumblr.com/post/97021664505</link><guid>http://365tidalpatterns.tumblr.com/post/97021664505</guid><pubDate>Mon, 08 Sep 2014 22:02:52 -0400</pubDate></item><item><title>Pattern 342</title><description>&lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/166859307&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false"&gt;&lt;/iframe&gt;
+
+&lt;pre&gt;&lt;code&gt;bps (150/120)
+
+d1 $ whenmod 20 5 (slowspread ($) [id, density 2, rev, stut 8 0.5 0.1, 
+id, (|+| speed "-1 1 0.75 1.5"), id (|+| accelerate "1 -1"), striate 4 . 
+slow 2, chop 16, id, (|+| delay "0.4")]) $ whenmod 8 6 (trunc 0.25) 
+$ whenmod 17 7 (every 4 (0.25 &amp;lt;~) . every 3 (0.25 &amp;lt;~)) $ 
+stack [whenmod 20 13 (|+| gain "0") $ whenmod 11 7 (const $ 
+sound "nerd*4" |+| cut "3") $ sound "[~ nerd]*2" |+| begin "0.05" 
+|+| speed "[1 1.5]/4", sound "~ [stite:3, cp:4]" |+| shape "0.5", 
+whenmod 8 4 (const $ stack [ sound "sub*8?" |+| cut "2", 
+sound "llama*8?" |+| cut "1" |+| end "0.25"]) $ sound "blue:1*8?" 
+|+| shape "0.5" |+| begin "0.1" |+| end "0.2", whenmod 8 4 (const 
+$ sound "flkick*8?") $ sound "kh:10*8?" ] |+| delaytime "0.5" 
+|+| delayfeedback "0.3"
+&lt;/code&gt;&lt;/pre&gt;</description><link>http://365tidalpatterns.tumblr.com/post/97021599075</link><guid>http://365tidalpatterns.tumblr.com/post/97021599075</guid><pubDate>Mon, 08 Sep 2014 22:02:05 -0400</pubDate></item><item><title>Pattern 341</title><description>&lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/166852779&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false"&gt;&lt;/iframe&gt;
+
+&lt;pre&gt;&lt;code&gt;bps (175/120)
+
+d1 $ whenmod 8 6 (trunc 0.25) $ whenmod 12 7 (every 3 (0.25 &amp;lt;~) . 
+every 4 (0.25 &amp;lt;~)) $ stack [ whenmod 11 10 (const $ slow 4 $ 
+striate 16 $ sound "[blh4 blh4:6]/2") $ slow 4 $ striate 16 $ 
+sound "[bl4:4 bl4:5]/2", sound (samples 
+"{kit1*4 kit1*2 kit1*4 shard:13 kit5*2}%4" (run 13)), whenmod 10 6 
+(|+| gain "0") $ sound "ride*2" |+| speed "1.5", whenmod 11 6 
+((|+| speed "1.3") . stut 4 0.25 0.25) $ sound "~ [cp:4, cp:3]"]
+&lt;/code&gt;&lt;/pre&gt;</description><link>http://365tidalpatterns.tumblr.com/post/97011686345</link><guid>http://365tidalpatterns.tumblr.com/post/97011686345</guid><pubDate>Mon, 08 Sep 2014 19:59:51 -0400</pubDate></item><item><title>Pattern 340</title><description>&lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/166852764&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false"&gt;&lt;/iframe&gt;
+
+&lt;pre&gt;&lt;code&gt;bps (170/120)
+
+d1 $ slowspread ($) [(|+| accelerate "1 -1"), id, rev, (0.25 &amp;lt;~), 
+trunc 0.25, trunc 0.25, id, (|+| speed "1"), id, const $ chop 8 $ 
+sound (samples "[[alphabet numbers]/2 [dup*3 808cb*3]/2]*2" 
+(run 7)) |+| speed "[0.9 1.2]" |+| gain "0.9", slow 0.8, id, chop 16, 
+const $ sound "pluck [pluck:2 sub]", within (0.25, 0.75) (density 2)] 
+$ iter 8 $ stack [ every 4 (trunc 0.5) $ trunc 0.25 $ slow 4 
+$ (striate 8 $ sound "harp") |+| shape "0.3" 
+|+| speed "[0.5, [~ 1 ~]/2]", slow 2 $ sound (samples 
+"{tite*4 [s hh*2] [peri*2 s] [hh*6] [shard kh] [hh*2 shard] ride ride 
+[~ flkick] [~ flkick] [k*4]}%8" (run 14)), whenmod 14 7 (|+| gain "0") 
+$ sound "ride*2" |+| speed "1.1" |+| gain "0.9" ]
+&lt;/code&gt;&lt;/pre&gt;</description><link>http://365tidalpatterns.tumblr.com/post/97011591715</link><guid>http://365tidalpatterns.tumblr.com/post/97011591715</guid><pubDate>Mon, 08 Sep 2014 19:58:35 -0400</pubDate></item><item><title>Pattern 339</title><description>&lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/166849915&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false"&gt;&lt;/iframe&gt;
+
+&lt;pre&gt;&lt;code&gt;bps (160/120)
+
+d1 $ whenmod 20 12 (slow 0.8) $  whenmod 8 6 (trunc 0.25) 
+$ whenmod 13 8 (every 3 (0.25 &amp;lt;~) . every 4 (0.25 &amp;lt;~)) $ 
+stack [whenmod 12 8 (const $ sound "llama:6*8?" 
+|+| speed (whenmod 7 5 ((*0.75) &amp;lt;$&amp;gt;) "1") |+| end "0.1" |+| cut "2") 
+$ sound "blue:1*8?" |+| shape "0.2" |+| begin "0.09" |+| end "0.2", 
+whenmod 10 6 (|+| gain "0") $ sound "flkick:309*8?" |+| speed "0.75", 
+whenmod 10 6 (|+| gain "0") $ sound (samples "[~ ~ ~ [kh kh?]] 
+shard:20" (run 22)), sound "~ ~ ~ sub/3", whenmod 6 4 (slow 2) 
+$ slow 4 $ (striate 16 $ sound "ping") |+| speed "[0.5 0.25, 
+[~ ~ ~ 0.75]]/3"]
+&lt;/code&gt;&lt;/pre&gt;</description><link>http://365tidalpatterns.tumblr.com/post/97011531060</link><guid>http://365tidalpatterns.tumblr.com/post/97011531060</guid><pubDate>Mon, 08 Sep 2014 19:57:46 -0400</pubDate></item><item><title>Pattern 338</title><description>&lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/166848314&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false"&gt;&lt;/iframe&gt;
+
+&lt;pre&gt;&lt;code&gt;bps (130/120)
+
+d1 $ slowspread ($) [striate 3, id, rev, (|+| speed "0.9 -0.9"), id, 
+slow 2 . (|+| speed "0.75 -0.8 0.5"), id, chop 4, id]$ whenmod 8 6 
+(trunc 0.25) $ slowspread (density) [1,2,1,3,1,2,1] $ 
+whenmod 6 4 (const $ slow 2 $ sound (samples 
+"kh*16 [shard laz:3] [~ laz:1 ~ laz:2] [~ laz:2 ~ laz:0]" (run 33)) 
+|+| speed "0.8 0.5") $ stack [ sound "flkick:52*8?", 
+sound "electrowave*8?" |+| cut "1", sound "laz:1*8?" |+| cut "2" 
+|+| speed "0.8" |+| gain "0.9"]
+&lt;/code&gt;&lt;/pre&gt;</description><link>http://365tidalpatterns.tumblr.com/post/97011474895</link><guid>http://365tidalpatterns.tumblr.com/post/97011474895</guid><pubDate>Mon, 08 Sep 2014 19:57:02 -0400</pubDate></item><item><title>Pattern 337</title><description>&lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/166847127&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false"&gt;&lt;/iframe&gt;
+
+&lt;pre&gt;&lt;code&gt;bps (100/120)
+
+d1 $ whenmod 8 6 (trunc 0.25) $ slowspread ($) [striate 4 . 
+trunc 0.5 . slow 2, rev, id, stut 3 0.5 0.33, id, (|+| speed "-1"), id, 
+chop 8 . within (0.25, 0.75) (density 2), id] $ whenmod 14 7 (
+every 4 (0.25 &amp;lt;~) . every 3 (0.25 &amp;lt;~)) $ stack [ sound (samples 
+"beeps*16" (run 31)) |+| speed "[1 0.5]/4", every 5 
+((|+| speed "2") . density 2) $ density 2 $ sound "~ lesss", sound 
+"~ [~ lessb] ~ ~ ~ ~ ~ [~ drop/2]" |+| cut "1" ]
+&lt;/code&gt;&lt;/pre&gt;</description><link>http://365tidalpatterns.tumblr.com/post/97011413800</link><guid>http://365tidalpatterns.tumblr.com/post/97011413800</guid><pubDate>Mon, 08 Sep 2014 19:56:18 -0400</pubDate></item><item><title>Pattern 336</title><description>&lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/166846782&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false"&gt;&lt;/iframe&gt;
+
+&lt;pre&gt;&lt;code&gt;bps (150/120)
+
+d1 $ whenmod 6 5 (|+| speed "-1") $ whenmod 8 6 (trunc 0.25) $ 
+iter 8 $ stack [  iter 4 $ whenmod 3 2 (degradeBy 0.6) $ 
+whenmod 4 3 (degradeBy 0.4) $ whenmod 5 4 (degradeBy 0.2) 
+$ sound (samples "[kit5 kit2]*8" (slow 0.8 $ run 16)), slow 3 $ (
+striate 4 $ sound "[bl4 bl4:3]/2") |+| speed "[1 1 -1, 2 -2 2]", 
+sound "~ psh" |+| speed "0.5"]
+&lt;/code&gt;&lt;/pre&gt;</description><link>http://365tidalpatterns.tumblr.com/post/97011364610</link><guid>http://365tidalpatterns.tumblr.com/post/97011364610</guid><pubDate>Mon, 08 Sep 2014 19:55:39 -0400</pubDate></item><item><title>Pattern 335</title><description>&lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/166846574&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false"&gt;&lt;/iframe&gt;
+
+&lt;pre&gt;&lt;code&gt;bps (190/120)
+
+d1 $ slowspread ($) [slow 1.5, id, slow 0.75, rev, within 
+(0.25, 0.75) (density 2), id, trunc 0.25, id] $ stack [ slow 16 $ (
+striate 64 $ sound "padloop16") |+| speed "[[1 0.5 0.25], [~ 0.75]]", 
+whenmod 13 11 (const $ slow 2 $ sound (samples "kh*16 shard" 
+(run 20))) $ whenmod 10 5 (slow 1.5) $ slow 2 $ sound (samples 
+"[k ktite] kh [k ktite] kh [s ktite] s [s ktite] s hh*8 kv*4 [sv hv]*2 
+[kv kh] sea/2 sub:0/3" (every 4 (slow 0.7) $ run 42)) |+| cutoff (
+scale 0.05 0.2 $ slow 2.1 sine1) |+| resonance (scale 0.1 0.6 $ 
+slow 2.7 sine1), slow 6 $ trunc 0.5 $ striate' 2048 (1/1000) $ 
+sound "salsa:1" |+| speed "0.7" |+| delay "0.5" ] |+| delaytime "0.7" 
+|+| delayfeedback "0.6"
+&lt;/code&gt;&lt;/pre&gt;</description><link>http://365tidalpatterns.tumblr.com/post/97011321005</link><guid>http://365tidalpatterns.tumblr.com/post/97011321005</guid><pubDate>Mon, 08 Sep 2014 19:55:05 -0400</pubDate></item><item><title>Pattern 334</title><description>&lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/166846365&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false"&gt;&lt;/iframe&gt;
+
+&lt;pre&gt;&lt;code&gt;bps (175/120)
+
+d1 $ whenmod 8 6 (trunc 0.25) $ every 3 (0.25 &amp;lt;~) $ every 4 
+(0.25 &amp;lt;~) $ stack [ slow 4 $ striate 16 $ sound "[blh4:3 bl4:7]/2", 
+whenmod 7 5 (|+| speed "1.5") $ whenmod 5 3 (0.25 &amp;lt;~) $  
+whenmod 9 8 (stut 16 0.3 0.2 . whenmod 8 5 (slow 2.5)) $ slow 2 
+$ sound "~ sna [~ sna] ~ sna [~ sna] ~ sna", slow 2 $ sound (
+samples "kh*2 kh ~ kh*2 kh ~ [~ kh] [~ kh]" "10"), sound (
+samples "hh*16?" (run 20)) |+| speed "1.5", whenmod 11 9 
+(|+| speed "0.8") $ every 5 (|+| delay "0.7") $ whenmod 8 6 (
+density 8 . (|+| speed "1.5")) $ slow 3 $ sound "salsa:1"] 
+|+| delaytime "0.7" |+| delayfeedback "0.7"
+&lt;/code&gt;&lt;/pre&gt;</description><link>http://365tidalpatterns.tumblr.com/post/97011262960</link><guid>http://365tidalpatterns.tumblr.com/post/97011262960</guid><pubDate>Mon, 08 Sep 2014 19:54:20 -0400</pubDate></item><item><title>Pattern 333</title><description>&lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/166302175&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false"&gt;&lt;/iframe&gt;
+
+&lt;pre&gt;&lt;code&gt;bps (140/120)
+
+d1 $ iter 8 $ whenmod 5 4 (degradeBy 0.8) $ 
+whenmod 4 3 (degradeBy 0.4) $ whenmod 3 2 (degradeBy 0.2) 
+$ whenmod 2 1 (degradeBy 0.1) $ sound (samples "half*16" 
+(irand 33))
+&lt;/code&gt;&lt;/pre&gt;</description><link>http://365tidalpatterns.tumblr.com/post/96674631840</link><guid>http://365tidalpatterns.tumblr.com/post/96674631840</guid><pubDate>Thu, 04 Sep 2014 23:27:21 -0400</pubDate></item><item><title>Pattern 332</title><description>&lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/166302153&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false"&gt;&lt;/iframe&gt;
+
+&lt;pre&gt;&lt;code&gt;bps (250/120)
+
+d1 $ whenmod 12 10 ((|+| speed "1 0.95 0.9 0.85") . trunc 0.25) 
+$ whenmod 8 6 (trunc 0.25) $ every 3 (0.25 &amp;lt;~) $ every 4 (0.25 &amp;lt;~) 
+$ stack [ whenmod 20 10 (const $ sound "~") $ whenmod 7 5 
+(density 2) $ whenmod 6 4 (density 2) $ sound "josie:2*2" 
+|+| speed (every 3 ((*1.2) &amp;lt;$&amp;gt;) $ every 4 ((*2) &amp;lt;$&amp;gt;) $ every 5 
+((*0.7) &amp;lt;$&amp;gt;) "0.7") |+| cut "1", slow 4 $ sound (samples 
+"kh*8 shard:3 [~ kh]*4 shard:3" (run 32)), whenmod 7 4 
+(stut 2 0.5 0.25) $ sound "xh*4" |+| gain "0.8", sound 
+"~ [~ mel*8]/2 pad:4 [pad:4 mel:2*8 ~ ~]/4" |+| cut "2" ]
+&lt;/code&gt;&lt;/pre&gt;</description><link>http://365tidalpatterns.tumblr.com/post/96674548730</link><guid>http://365tidalpatterns.tumblr.com/post/96674548730</guid><pubDate>Thu, 04 Sep 2014 23:26:16 -0400</pubDate></item><item><title>Pattern 331</title><description>&lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/166302124&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false"&gt;&lt;/iframe&gt;
+
+&lt;pre&gt;&lt;code&gt;bps (150/120)
+
+d1 $ whenmod 18 9 (slow 1.5) $ whenmod 12 9 (slow 4 . 
+stut 8 0.5 0.1 . trunc 0.25) $ whenmod 8 5 (within (0.25, 0.75) 
+(slow 4 . stut 4 0.25 0.25 . (|+| speed "0.75"))) $ slowspread (chop) 
+[2,8,64,32,16] $ stack [slow 2 $ sound (samples 
+"{[tite xh]*2 tite*4 [hh tite]*2 tite*4 [hh*2 tite*2] tite*4}%8" (run 53)) 
+|+| speed "1", slow 5 $ sound "fxlong:7 fxlong:9", sound 
+"~ xs [~ stite] [~ xs]", sound (samples 
+"[xk kv]*2 ~ [xk*2 ~] [~ flkick ~ k]" (run 11)), slow 2 $ sound (
+samples "{numbers nerd ~}%4" (run 11)) |+| speed "0.75"]
+&lt;/code&gt;&lt;/pre&gt;</description><link>http://365tidalpatterns.tumblr.com/post/96674476290</link><guid>http://365tidalpatterns.tumblr.com/post/96674476290</guid><pubDate>Thu, 04 Sep 2014 23:25:20 -0400</pubDate></item></channel></rss>

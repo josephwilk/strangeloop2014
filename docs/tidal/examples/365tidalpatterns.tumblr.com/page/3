@@ -1,0 +1,1028 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=779fe45acc2d029187a87fba65d0af9e"></script>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!--
+
+  ◯
+  Theme by inky.
+  Inspired by 'Minimalist', one of the default Tumblr themes.
+
+-->
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>365 Tidal Patterns</title>
+
+    <meta name="color:Background" content="#fff"/>
+    <meta name="color:Text" content="#444"/>
+    <meta name="color:Secondary" content="#888"/>
+    <meta name="color:Minor" content="#bbb"/>
+    <meta name="color:Link" content="#000"/>
+
+    <meta name="font:Body" content="'Helvetica Neue', Arial, Helvetica, sans-serif"/>
+
+    <meta name="if:Show post notes" content="1"/>
+    <meta name="if:Show the number of post notes" content="0"/>
+    <meta name="if:Semitransparent audio player" content="1"/>
+    <meta name="if:Link to liked posts" content="0"/>
+    <meta name="if:Link to theme" content="0"/>
+
+    <meta name="text:Disqus Shortname" content="" />
+
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="http://365tidalpatterns.tumblr.com/rss"/>
+    <link rel="icon" href="http://38.media.tumblr.com/avatar_b6ca2252f94f_128.png"/>
+    <meta name="description" content=""/>
+    <style type="text/css">
+      html, body, div, span, object, iframe,
+      h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+      a, abbr, acronym, address, b, cite, code,
+      del, dfn, em, i, img, ins, kbd, q, samp,
+      strike, strong, tt, var,
+      dl, dt, dd, ol, ul, li,
+      fieldset, form, label, legend,
+      table, caption, tbody, tfoot, thead, tr, th, td
+          {margin: 0; padding: 0; border: 0; outline: 0; font-size: inherit;
+           line-height: inherit; vertical-align: baseline; background: transparent;}
+      html {font-size:100.01%;}
+      caption, cite, code, dfn, th, var {font-style: normal; font-weight: normal;}
+      h1, h2, h3, h4, h5, h6 {font-weight: normal;}
+      blockquote, q {quotes: none;}
+      blockquote:before, blockquote:after, q:before, q:after {content: '';}
+      :focus {outline: 0;}
+      ins {text-decoration: underline;}
+      del {text-decoration: line-through;}
+      a {text-decoration: none;}
+
+      html {background-color: #fff;}
+      body {font: 12pt/18pt 'Helvetica Neue', Arial, Helvetica, sans-serif; background-color: #fff; color: #444;}
+
+      #body {background-color: #fff; padding: 1.5em 0.25em;}
+      #content {position: relative; width: 500px; margin: 0 auto;}
+
+      h1 {font-size: 3em; line-height:1; padding:0.5em 0 1em; text-align:center;}
+      h1 a {color: #444; padding: 0 0.25em; font-weight: bold;}
+
+      h2, h3 {line-height: 18pt;}
+      p, pre, ul, ol, blockquote, form {margin: 9pt 0 18pt; line-height: 18pt;}
+      blockquote {padding-left: 1em; margin-left: 2pt; border-left: 0.25em solid #bbb;}
+      pre {overflow-x: auto; font-size: 11pt;}
+      sup, sub {height: 0; line-height: 1; vertical-align: baseline; _vertical-align: bottom; position: relative;}
+      sup {bottom: 0.5ex;}
+      sub {top: 0.5ex;}
+      sup a {font-weight: normal !important; padding: 0 1px;}
+      hr {height: 0; margin: 0 0 18pt; border: solid #bbb; border-width: 2pt 0 0;}
+
+      #description {position: absolute; left: 530px; color: #bbb; font-size: 11pt; width: 10em;}
+      #description p, #description form, #description ul {margin-top: 0;}
+      #description a {color: #888;}
+      #description a:hover {color: #444;}
+      #description form .input
+        {background: #fff; color: #888; font-size: 10pt;
+         text-transform: lowercase; width: 90%; border: solid #bbb;
+         border-width: 0 1px 1px 0;}
+      #description .submit {height: 0; overflow: hidden; display: block;}
+      #description .meta {list-style: none; word-spacing: 0.25em; font-size: 10pt; text-transform: uppercase;}
+      #description .meta a {color: #bbb;}
+      #description .meta a:hover {color: #444;}
+
+      #posts {margin: 0;}
+      .post {position: relative; list-style: none; margin-bottom: 4.5em;}
+      .post ul li {list-style: square;}
+      .post img {max-width: 100%;}
+
+      .post-body h3 {font-size: 1.25em; position: relative;}
+      .post-body a {font-weight: bold; color: #000; border-bottom: 1px solid transparent;}
+      .post-body a:hover {color: #444; border-bottom-color: #bbb;}
+      .post-body .image a {border-width: 0;}
+      .post-body ul ul, .post-body ul ol, .post-body ol ol, .post-body ol ul,
+        .post-body blockquote ul, .post-body blockquote ol {margin-left: 1.5em;}
+
+      .permalink {font-size: 11pt; position: absolute; right: 530px; text-align: right;}
+      .permalink a {color: #bbb; white-space: nowrap; padding: 0 0 4.5pt 9pt;}
+      .permalink a:hover {color: #444;}
+      a.disqus-permalink {text-transform: lowercase; padding-left: 0;}
+
+      .caption, .cite {font-size: 11pt; margin-top: 9pt;}
+      .caption p {margin-top: 18pt;}
+
+      .text-post {position: relative; top: -2pt;}
+      .text-post h3 {margin-bottom: 9pt;}
+
+      .link-post {position: relative; top: -2pt;}
+      .link-post h3 {display: inline; padding-right:9pt;}
+      .link-post a {color: #444;}
+      .link-post a:hover {color: #888;}
+      .link-post a.link {color: #000;}
+      .link-post a.link:hover {color: #444;}
+
+      .quote-post {position: relative; top: -4.5pt;}
+      .quote-post blockquote.quote
+        {font-size: 18pt; line-height: 24pt; text-indent: -7pt;
+         margin: 0; padding: 0; border-width: 0;}
+      .quote-post .quote:before {content: '“';}
+      .quote-post .quote:after {content: '”';}
+      .quote-post .quote a {color: #444;}
+      .quote-post .quote a:hover {color: #888;}
+      .quote-post .cite {color: #888; margin-left: 1.5em; text-indent: -1.5em;}
+
+      .chat-post li {list-style: none; margin-left: 2em; text-indent: -2em;}
+      .chat-post b {font-weight: bold; padding-right: 4.5pt;}
+
+      
+      .audio-post .audio {opacity: 0.75;}
+      
+
+      .post-source {color: #888;}
+      .post-source a {color: #888;}
+      .post-source a:hover {color: #444;}
+      .post-source .prefix {font-size: 0.9em; text-transform: uppercase;
+                            letter-spacing: 0.1em; word-spacing: 0.1em;}
+
+      #disqus_thread {margin-top: 54pt;}
+      #disqus_thread a {color: #888;}
+
+      .notes {color: #bbb; margin-top: 54pt;}
+      .notes li {list-style: none; margin-bottom: 18pt;}
+      .notes img, .notes .clear {display: none;}
+      .notes .photo_container img {display: block !important;}
+      .notes a {color: #888;}
+      .notes a:hover {color: #444;}
+
+      .footnotes a[rev="footnote"] {color: #888;}
+      .footnotes hr {margin: 34pt 0 18pt;}
+
+      #footer {text-align: center; word-spacing: 0.75em; margin-top:4.5em;}
+      #footer a {color: #888; font-weight:bold; padding: 0.25em 0.5em;}
+      #footer a:hover {color: #444;}
+
+      
+    </style>
+  <link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=365tidalpatterns" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/gibson/stylesheet.css?v=3">
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="365 Tidal Patterns" /><meta property="og:url" content="http://365tidalpatterns.tumblr.com/?og=1" /><meta property="og:description" content="365 coded patterns with Tidal in 365 days. Follow on Twitter at @365tidalpattrns. Contact me at..." /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://38.media.tumblr.com/avatar_b6ca2252f94f_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=365tidalpatterns" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=365tidalpatterns" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="365tidalpatterns" /><meta name="twitter:description" content="365 coded patterns with Tidal in 365 days. 
+
+Follow on Twitter at @365tidalpattrns.
+
+Contact me at @kindohm or www.kindohm.com" /><meta name="twitter:creator" content="365TidalPattrns" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=365tidalpatterns&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=365tidalpatterns&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=365tidalpatterns&amp;referrer=twitter-cards" />
+
+</head>
+  <body>
+    <div id="body">
+      <div id="content">
+
+<h1><a href="/">365 Tidal Patterns</a></h1>
+
+<div id="description">
+  <form action="/search" method="get">
+    <input class="input" type="text" name="q" value=""/>
+    <span class="submit"><input type="submit" value="Search"/></span>
+  </form>
+
+  <p>365 coded patterns with Tidal in 365 days. <br />
+<br />
+Follow on Twitter at @365tidalpattrns.<br />
+<br />
+Contact me at @kindohm or www.kindohm.com</p>
+
+  
+
+  <ul class="pages meta">
+    
+    
+  </ul>
+
+  <ul class="meta">
+    <li><a href="/archive">Archive</a> <span class="dim">/</span> <a href="http://365tidalpatterns.tumblr.com/rss">RSS</a></li>
+    
+    
+  </ul>
+</div>
+
+<ul id="posts">
+  
+  <li class="post ">
+
+    
+    <h2 class="permalink">
+
+        
+          <a title="2 notes"
+            href="http://365tidalpatterns.tumblr.com/post/96674409530/pattern-330">2014-09-04</a>
+        
+
+        
+        
+          
+        
+        
+
+        
+
+        
+
+    </h2>
+    
+
+    
+    <div class="post-body text-post">
+      
+      <h3>Pattern 330</h3>
+      
+
+      <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/166302086&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+
+<pre><code>bps (130/120)
+
+d1 $ slowspread ($) [id, rev, (|+| speed "0.5 0.8 1 1.3"), id, 
+(|+| vowel "a o u i e o u o"), id, within (0.25, 0.75) ((|+| pan "0 1") . 
+rev), id] $ whenmod 8 6 (trunc 0.25) $ every 4 (0.25 &lt;~) $ 
+every 3 (0.25 &lt;~) $ stack [ jux (0.01 &lt;~) $ slowspread (slow) [3,2,4] 
+$ (striate' 1024 (1/100) $ sound "[fran nerd:3]/2") |+| speed 
+"[1 0.5, [1.5 ~ 2]/2]" |+| gain "0.9", density 2 $ sound (samples 
+"[kv untuned] [untuned k] [kh tite*2] [doru kh]" (run 42)), sound 
+"[cp]*2", sound (samples "~ [~ b] ~ ~ [~ b] ~ b ~" (run 27)) 
+|+| cut "1", sound "{hh*4 [hh*4 ~ ~]/3 [hh*4 ~]/2}%4" |+| gain "0.9", 
+whenmod 10 4 (const $ sound "~") $ sound 
+"[shard:17 [kh:51*2 ~]]*2" ]
+</code></pre>
+    </div>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+      
+    
+
+  </li>
+  
+  <li class="post ">
+
+    
+    <h2 class="permalink">
+
+        
+          <a title="0 notes"
+            href="http://365tidalpatterns.tumblr.com/post/96586066065/pattern-329">2014-09-03</a>
+        
+
+        
+        
+          
+        
+        
+
+        
+
+        
+
+    </h2>
+    
+
+    
+    <div class="post-body text-post">
+      
+      <h3>Pattern 329</h3>
+      
+
+      <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/166136533&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+
+<pre><code>cps 0.6
+
+d1 $ whenmod 10 8 (trunc 0.25) $ every 5 (0.25 &lt;~) $ every 4 
+(0.25 &lt;~) $ stack [ within (0.25, 0.75) (whenmod 5 3 (slow 2) . 
+whenmod 7 5 (rev)) $ jux (0.01 &lt;~) $ slow 2 $ (striate' 2048 (1/500) 
+$ sound "gnome:4") |+| speed "[1 2 0.75 1.5]/3" |+| shape "0.4", 
+slowspread ($) [stut 16 0.5 0.1, id, (|+| vowel 
+"a o u e i o u a u a o e u"), (|+| speed "0.75") . slow 1.5, id, 
+trunc 0.25, id, (|+| speed "2 3 5"), (|+| accelerate "0.5 -1 2 0"), 
+id, (|+| cutoff (scale 0.01 0.3 $ slow 1.19 sine1)) . 
+(|+| resonance "0.7") ] $ slow 2 $ sound (samples 
+"[tite*3 kv] [kh tite] [shard hh tite*2] [stite hh sv tite*2] [hh tite]*2 
+[cp tite*2] [shard tite*4] [cp kv kh kv]" (run 52))]
+</code></pre>
+    </div>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+      
+    
+
+  </li>
+  
+  <li class="post ">
+
+    
+    <h2 class="permalink">
+
+        
+
+        
+        
+          
+          <a title="0 notes"
+            href="http://365tidalpatterns.tumblr.com/post/96585985025/pattern-328">&rarr;</a>
+          
+        
+        
+
+        
+
+        
+
+    </h2>
+    
+
+    
+    <div class="post-body text-post">
+      
+      <h3>Pattern 328</h3>
+      
+
+      <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/166136497&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+
+<pre><code>cps 1
+
+d1 $ whenmod 8 6 (trunc 0.25) $ slowspread ($) [(|+| vowel "a o u"), 
+rev, id, stut 4 0.25 0.25 . slow 2, (|+| speed "0.5 0.8 0.6") . slow 2, 
+id, within (0.5, 1) ((|+| speed "2")), (0.25 &lt;~), id, (|+| delay "0.7")] 
+$ every 4 (within (0.25, 0.75) (slow 2 . rev . (|+| speed "0.7"))) $ 
+stack [ stack [slow 8 $ trunc 0.25 $ (striate 16 $ sound 
+"kv*8 sv*16 hv*32 tite*8") |+| speed (scale 1 3 $ slow 2.1 sine1), 
+whenmod 7 4 (degradeBy 0.5 . density 2) $ slow 4 $ sound (
+samples "[kv*2 kv sv]!!! kv*6" (run 11)) |+| speed "[3 2 5]/2" ], 
+jux (0.01 &lt;~) $ slowspread (slow) [6, 8, 12, 4, 16] $ trunc 0.5 
+$ (striate' 1024 (1/100) $ sound "[josie fran]/2") 
+|+| speed (whenmod 6 4 ((*0.8) &lt;$&gt;) "[1, [~ 0.5 ~ 1.5 ~ 2]/4]") 
+|+| delay "0.4", every 3 (0.25 &lt;~) $ slow 2 $ sound (samples 
+"kh [~ kh*2] shard [tite*8 kh] [tite hh]*2 [kh hh*3] [shard kh] [~ kh]" 
+(run 5)) |+| cut "3" ] |+| delayfeedback "0.4" |+| delaytime "0.4"
+</code></pre>
+    </div>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+      
+    
+
+  </li>
+  
+  <li class="post ">
+
+    
+    <h2 class="permalink">
+
+        
+
+        
+        
+          
+          <a title="0 notes"
+            href="http://365tidalpatterns.tumblr.com/post/96585883870/pattern-327">&rarr;</a>
+          
+        
+        
+
+        
+
+        
+
+    </h2>
+    
+
+    
+    <div class="post-body text-post">
+      
+      <h3>Pattern 327</h3>
+      
+
+      <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/166136502&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+
+<pre><code>cps (100/120)
+
+d1 $ every 4 (0.25 &lt;~) $ every 3 (0.25 &lt;~) $ whenmod 7 5 (iter 4) 
+$ whenmod 6 5 (stut 8 0.5 0.1) $ stack [ whenmod 5 4 (0.25 &lt;~) 
+$ slow 2 $ sound "[kv*2 kv kv*2 kv*2 [~ kv] [~ kv] ~ kv*2 ~]" 
+|+| speed "19", whenmod 4 3 (0.25 &lt;~) $ whenmod 5 3 
+(slow 4 . (|+| speed "2")) $ chop 128 $ sound "[~ [sv ~] sv ~ sv]" 
+|+| speed "5" |+| shape "0.3", every 5 (density 2) $ 
+whenmod 3 2 (0.25 &lt;~) $ within (0, 0.5) (every 3 (density 2)) $ 
+slow 2 $ sound (samples "kv*2 kv sv ~ sv ~ kv*2" (run 31)), 
+whenmod 8 5 (const $ slow 2 $ (chop 64 $ sound "pad:4 pad:6") 
+|+| speed (scale 0.5 1.5 $ slow 4.1 sine1)) $ slowspread (slow) 
+[3, 2, 4, 2.5] $ chop 128 $ sound "autobass" 
+|+| speed "[1 1.5 2]/3" ]
+</code></pre>
+    </div>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+      
+    
+
+  </li>
+  
+  <li class="post ">
+
+    
+    <h2 class="permalink">
+
+        
+          <a title="0 notes"
+            href="http://365tidalpatterns.tumblr.com/post/95956267170/pattern-326">2014-08-27</a>
+        
+
+        
+        
+          
+        
+        
+
+        
+
+        
+
+    </h2>
+    
+
+    
+    <div class="post-body text-post">
+      
+      <h3>Pattern 326</h3>
+      
+
+      <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/165082318&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+
+<pre><code>bps (180/120)
+
+d1 $ slowspread ($) [stut 12 0.5 0.1 . slow 2, id, rev, id, 
+(|+| speed "0.5 1.2 1.5"), (|+| accelerate "-0.5"), id, trunc 0.25, 
+trunc 0.25, id, within (0.25, 0.75) ((0.25 &lt;~))] $ every 4 (0.25 &lt;~) 
+$ every 3 (0.25 &lt;~) $ stack [ slow 4 $ striate 32 $ sound 
+"[blh4:16 blh4:17]/2", slow 4 $ striate 64 $ sound "insect", 
+sound (samples "tite*16" (run 32)), sound (samples 
+"~ shard ~ [~ shard]" (every 4 (slow 0.8) $ run 31)), 
+sound (samples "[~ ~ ~ kh] ~ [~ kh] ~" (run 24)) ]
+</code></pre>
+    </div>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+      
+    
+
+  </li>
+  
+  <li class="post ">
+
+    
+    <h2 class="permalink">
+
+        
+
+        
+        
+          
+          <a title="0 notes"
+            href="http://365tidalpatterns.tumblr.com/post/95956202205/pattern-325">&rarr;</a>
+          
+        
+        
+
+        
+
+        
+
+    </h2>
+    
+
+    
+    <div class="post-body text-post">
+      
+      <h3>Pattern 325</h3>
+      
+
+      <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/165082299&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+
+<pre><code>cps 0.5
+
+d1 $ slowspread ($) [stut 12 0.5 0.1 . slow 2, rev, slow 1.5 . 
+(|+| accelerate "-1 1"), id, (|+| speed "1.2 1.5"), jux (iter 8), id] 
+$ whenmod 8 6 (trunc 0.25) $ every 3 (0.25 &lt;~) $ 
+every 4 (0.25 &lt;~) $ stack [ stack [ sound (samples "keys2*8" (
+slow 0.73 $ run 21)), sound (samples "[~ 404]*8" 
+(slow 6.1 $ run 23)) |+| gain "0.7" |+| speed "0.5" ] 
+|+| cutoff (scale 0.01 0.2 $ slow 4.1 sine1) |+| resonance "0.7" 
+|+| delay "0.3" |+| shape "0.3" |+| delayfeedback "0.4" 
+|+| delaytime "0.5", jux ((|+| speed "1.1")) $ 
+sound (samples "kv*12 [[sv, cp] kv? kv? kv? kv? kv?]" 
+(slow 0.9 $ run 34)) |+| cutoff (scale 0.01 0.1 $ slow 2.9 sine1) 
+|+| resonance "0.1"]
+</code></pre>
+    </div>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+      
+    
+
+  </li>
+  
+  <li class="post ">
+
+    
+    <h2 class="permalink">
+
+        
+
+        
+        
+          
+          <a title="0 notes"
+            href="http://365tidalpatterns.tumblr.com/post/95956126950/pattern-324">&rarr;</a>
+          
+        
+        
+
+        
+
+        
+
+    </h2>
+    
+
+    
+    <div class="post-body text-post">
+      
+      <h3>Pattern 324</h3>
+      
+
+      <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/165082280&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+
+<pre><code>cps 0.4
+
+d1 $ whenmod 10 8 (trunc 0.33) $ within (0.25, 0.75) (
+whenmod 6 5 (jux (iter 6)) . whenmod 7 5 (slow 1.5) . 
+whenmod 5 3 (slow 2 . rev)) $ every 3 (0.25 &lt;~) $ every 4 (0.25 &lt;~) 
+$ stack [ (slowspread (chop) [32, 4, 64, 16] $ sound 
+"sea*4 sea*4 sea*4 sea*4 sea sea") |+| speed (
+whenmod 6 4 ((*0.9) &lt;$&gt;) $ whenmod 5 3 ((*0.9) &lt;$&gt;) 
+"[1 0.75 [0.5 0.25]/2]") |+| delay "0.5", slow 1 $ slowspread (chop) 
+[64, 128, 256] $ sound (samples 
+"tite*4 [~ tite*2] tite*4 tite*4 [doru*2 tite*2] tite*4" (run 42)) 
+|+| speed (scale 0.8 1.5 $ slow 2.81 sine1) |+| shape (
+scale 0.01 0.5 $ slow 2.1 sine1) |+| speed "0.1225", chop 512 $ 
+sound "doosh bosch" |+| shape "0.2" 
+|+| speed "[[1 0.5 0.25]/4], [3 0.1225 0.75]" |+| delay "0.2"] 
+|+| delayfeedback "0.4" |+| delaytime "0.6"
+</code></pre>
+    </div>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+      
+    
+
+  </li>
+  
+  <li class="post ">
+
+    
+    <h2 class="permalink">
+
+        
+          <a title="0 notes"
+            href="http://365tidalpatterns.tumblr.com/post/95696674350/pattern-323">2014-08-24</a>
+        
+
+        
+        
+          
+        
+        
+
+        
+
+        
+
+    </h2>
+    
+
+    
+    <div class="post-body text-post">
+      
+      <h3>Pattern 323</h3>
+      
+
+      <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/164639738&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+
+<pre><code>bps (130/120)
+
+d1 $ slowspread ($) [trunc 0.25, trunc 0.25, (|+| speed "0.9"), 
+slow 1, slow 2 . stut 4 0.5 0.25, slow 1, rev, (|+| speed "1 -1 1 -2"), 
+slow 1, slow 6 . stut 16 0.4 0.2 . rev] $ iter 4 $ stack [ 
+whenmod 4 3 (0.25 &lt;~) $ slow 4 $ (slowspread (chop) [512, 
+1024, 256, 2048] $ sound (samples "gab*8" (run 11))) 
+|+| cutoff (scale 0.01 0.1 $ slow 3.1 sine1) |+| resonance "0.5" 
+|+| speed (scale 0.5 2 $ slow 4.41 sine1) |+| shape "0.5", 
+whenmod 3 2 (0.25 &lt;~) $ slow 2 $ sound (samples 
+"ktite*4 [stite hh hh]!! ktite*3 [stite hh*4] ktite stite" (run 31)), 
+whenmod 5 4 (0.25 &lt;~) $ slow 2 $ sound (samples 
+"mel beeps*2 taste*2 [taste robo beeps mel]!!! mel mel mel" 
+(run 55)) |+| cut "3" ]
+</code></pre>
+    </div>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+      
+    
+
+  </li>
+  
+  <li class="post ">
+
+    
+    <h2 class="permalink">
+
+        
+
+        
+        
+          
+          <a title="0 notes"
+            href="http://365tidalpatterns.tumblr.com/post/95696578995/pattern-322">&rarr;</a>
+          
+        
+        
+
+        
+
+        
+
+    </h2>
+    
+
+    
+    <div class="post-body text-post">
+      
+      <h3>Pattern 322</h3>
+      
+
+      <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/164639680&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+
+<pre><code>bps (210/120)
+
+d1 $ whenmod 8 6 (slowspread ($) [trunc 0.25, trunc 0.25, slow 1, 
+jux ((|+| speed "0.8")), stut 8 0.6 0.1, rev, slow 1, (|+| speed "0.5") . 
+slow 2 . stut 4 0.25 0.25, (|+| speed "1 -1 1.25 1.5"), slow 1, 
+stut 8 0.5 0.2, slow 1]) $ every 3 (0.25 &lt;~) $ every 4 (0.25 &lt;~) $ 
+stack [ slow 2 $ slowspread (chop) [128, 64, 256, 32, 200] $ 
+sound (samples 
+"newnotes*4 [~ keys2*2 keys2*2 keys2*2] [keys1 keys1 
+newnotes newnotes] newnotes*4" (run 33)) |+| cutoff 
+(scale 0.03 0.3 $ slow 2.9 sine1) |+| resonance "0.7" |+| cut "1" 
+|+| speed "1, 1.5" |+| shape "0.3" |+| delay "0.4", slow 2 $ 
+sound (samples "kh*8 [shard kv ~ kv] [kv kl ~ kl] [shard laz:0 ~ gab:0]" 
+(whenmod 9 6 (slow 0.8) $ whenmod 7 5 (0.25 ~&gt;) $ run 43)), 
+slow 1.5 $ sound "fuckable" |+| speed "1.1" |+| delay "0.3" 
+|+| shape "0.5"] |+| delaytime "0.4" |+| delayfeedback "0.3"
+</code></pre>
+    </div>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+      
+    
+
+  </li>
+  
+  <li class="post ">
+
+    
+    <h2 class="permalink">
+
+        
+
+        
+        
+          
+          <a title="0 notes"
+            href="http://365tidalpatterns.tumblr.com/post/95696478580/pattern-321">&rarr;</a>
+          
+        
+        
+
+        
+
+        
+
+    </h2>
+    
+
+    
+    <div class="post-body text-post">
+      
+      <h3>Pattern 321</h3>
+      
+
+      <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/164639635&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+
+<pre><code>bps (200/120)
+
+d1 $ slowspread ($) [trunc 0.25, trunc 0.25, slow 1, 
+(|+| speed "0.7") . slow 2 . stut 8 0.5 0.25, slow 1, rev, slow 1, 
+(|+| accelerate "-1 1"), slow 1, (|+| speed "1 -1 1.5 2"), slow 1] $ 
+every 4 (0.25 &lt;~) $ every 3 (0.25 &lt;~) $ stack [chop 128 $ stack [
+slow 2 $ sound "autopad autopad:1", sound "~ keys2" ], slow 2 
+$ sound (samples "[kv k kh kv] [psh sn tite tite] tite*6 [psh drop/2 ~ ~]" 
+(run 31)), slow 2 $ sound "~ ~ ~ [~ ~ ~ [~ ~ ~ mint]/4]" 
+|+| delay "0.3", slow 2 $ sound (samples 
+"~ ~ ~ [~ b/3] ~ ~ b:1/2 [~ b:1/2]" "6") |+| cut "2"] |+| delaytime "0.5" 
+|+| delayfeedback "0.5"
+</code></pre>
+    </div>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+      
+    
+
+  </li>
+  
+</ul>
+
+<div id="footer">
+  
+  <a href="/page/2" title="Newer posts">&larr;</a>
+  
+  
+  <a href="/page/4" title="Older posts">&rarr;</a>
+  
+</div>
+
+      </div>
+    </div>
+
+    
+  <!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://365tidalpatterns.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/page/3?route=%2Fpage%2F%3Apage'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script>
+            var _qevents = _qevents || [];
+            (function() {
+                var s = document.createElement('script');
+                var el = document.getElementsByTagName('script')[0];
+                s.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+                el.parentNode.insertBefore(s, el);
+            })();
+        </script><script type="text/javascript">
+            _qevents.push( { qacct: 'p-19UtqE8ngoZbM' } );
+        </script><noscript><div style="display: none;"><img src="//pixel.quantserve.com/pixel/'p-19UtqE8ngoZbM'.gif" height="1" width="1" alt="Quantcast"/></div></noscript><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1410718359&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvMzY1dGlkYWxwYXR0ZXJucy50dW1ibHIuY29tXC9wYWdlXC8zIiwicmVxdHlwZSI6MCwicm91dGUiOiJcL3BhZ2VcLzpwYWdlIn0=&U=FHBLAHINFJ&K=1a3300e9203a4eeebf7a5c71efa08ccea2fe8ef2099b24218821a57a82e4dc55&R=http%3A%2F%2F365tidalpatterns.tumblr.com%2Fpage%2F2'.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1410718359&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvMzY1dGlkYWxwYXR0ZXJucy50dW1ibHIuY29tXC9wYWdlXC8zIiwicmVxdHlwZSI6MCwicm91dGUiOiJcL3BhZ2VcLzpwYWdlIiwibm9zY3JpcHQiOjF9&U=FHBLAHINFJ&K=663cfca7ef395c169440cc2f153f09b42170ff9f03b7a4cc52ffff9f9922dba7&R=http%3A%2F%2F365tidalpatterns.tumblr.com%2Fpage%2F2"></noscript><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1410718359&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cLzM2NXRpZGFscGF0dGVybnMudHVtYmxyLmNvbVwvcGFnZVwvMyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC9wYWdlXC86cGFnZSIsInBvc3RzIjpbeyJwb3N0aWQiOiI5NjY3NDQwOTUzMCIsImJsb2dpZCI6IjE2MjU3NDM1OSIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTY1ODYwNjYwNjUiLCJibG9naWQiOiIxNjI1NzQzNTkiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijk2NTg1OTg1MDI1IiwiYmxvZ2lkIjoiMTYyNTc0MzU5Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5NjU4NTg4Mzg3MCIsImJsb2dpZCI6IjE2MjU3NDM1OSIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTU5NTYyNjcxNzAiLCJibG9naWQiOiIxNjI1NzQzNTkiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijk1OTU2MjAyMjA1IiwiYmxvZ2lkIjoiMTYyNTc0MzU5Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5NTk1NjEyNjk1MCIsImJsb2dpZCI6IjE2MjU3NDM1OSIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTU2OTY2NzQzNTAiLCJibG9naWQiOiIxNjI1NzQzNTkiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijk1Njk2NTc4OTk1IiwiYmxvZ2lkIjoiMTYyNTc0MzU5Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5NTY5NjQ3ODU4MCIsImJsb2dpZCI6IjE2MjU3NDM1OSIsInNvdXJjZSI6MzN9XX0=&U=PGMOCPOKHI&K=c8a354b84ab5f617e419dce1543f5fbf39ee785243e3e2cc0c2cbf6af719f001&R=http%3A%2F%2F365tidalpatterns.tumblr.com%2Fpage%2F2'.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1410718359&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cLzM2NXRpZGFscGF0dGVybnMudHVtYmxyLmNvbVwvcGFnZVwvMyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC9wYWdlXC86cGFnZSIsInBvc3RzIjpbeyJwb3N0aWQiOiI5NjY3NDQwOTUzMCIsImJsb2dpZCI6IjE2MjU3NDM1OSIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTY1ODYwNjYwNjUiLCJibG9naWQiOiIxNjI1NzQzNTkiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijk2NTg1OTg1MDI1IiwiYmxvZ2lkIjoiMTYyNTc0MzU5Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5NjU4NTg4Mzg3MCIsImJsb2dpZCI6IjE2MjU3NDM1OSIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTU5NTYyNjcxNzAiLCJibG9naWQiOiIxNjI1NzQzNTkiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijk1OTU2MjAyMjA1IiwiYmxvZ2lkIjoiMTYyNTc0MzU5Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5NTk1NjEyNjk1MCIsImJsb2dpZCI6IjE2MjU3NDM1OSIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTU2OTY2NzQzNTAiLCJibG9naWQiOiIxNjI1NzQzNTkiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijk1Njk2NTc4OTk1IiwiYmxvZ2lkIjoiMTYyNTc0MzU5Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5NTY5NjQ3ODU4MCIsImJsb2dpZCI6IjE2MjU3NDM1OSIsInNvdXJjZSI6MzN9XSwibm9zY3JpcHQiOjF9&U=PGMOCPOKHI&K=9228e68480666985808ff1faac025059e51d82e5de807ccd970be88c961162d2&R=http%3A%2F%2F365tidalpatterns.tumblr.com%2Fpage%2F2"></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/page/:page',
+                                _li:0,
+                                b_id:162574359,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=ef8320bcb1752873c24ee270e75b8920#src=http%3A%2F%2F365tidalpatterns.tumblr.com%2Fpage%2F3&amp;lang=en_US&amp;name=365tidalpatterns&amp;avatar=http%3A%2F%2F38.media.tumblr.com%2Favatar_b6ca2252f94f_64.png&amp;title=365+Tidal+Patterns&amp;url=http%3A%2F%2F365tidalpatterns.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=06b6be53190fd4b95f40d3ff00a99c61#src=http%3A%2F%2F365tidalpatterns.tumblr.com%2Fpage%2F3&amp;lang=en_US&amp;name=365tidalpatterns&amp;avatar=http%3A%2F%2F38.media.tumblr.com%2Favatar_b6ca2252f94f_64.png&amp;title=365+Tidal+Patterns&amp;url=http%3A%2F%2F365tidalpatterns.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 3;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=442ffca554b663943803599bdf74e225");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body>
+</html>

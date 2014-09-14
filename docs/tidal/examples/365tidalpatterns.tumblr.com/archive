@@ -1,0 +1,1083 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><meta http-equiv="x-dns-prefetch-control" content="off"/><title>365 Tidal Patterns: Archive</title><link rel="icon" href="http://38.media.tumblr.com/avatar_b6ca2252f94f_128.png" type="image/png"/><link rel="stylesheet" media="screen" href="http://assets.tumblr.com/assets/styles/archive.css?_v=8be2069cdd70190a86ee3a56e9cb97b9"><script>require=function r(t,n,e){function o(i,f){if(!n[i]){if(!t[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);throw new Error("Cannot find module '"+i+"'")}var a=n[i]={exports:{}};t[i][0].call(a.exports,function(r){var n=t[i][1][r];return o(n?n:r)},a,a.exports,r,t,n,e)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<e.length;i++)o(e[i]);return o}({flags:[function(r,t){t.exports=r("WdD/PM")},{}],"WdD/PM":[function(r,t){"use strict";function n(r){return"function"==typeof r}function e(r){return"undefined"==typeof r}function o(r){var t,e;if(!n(r))throw new TypeError;return function(){return t?e:(t=!0,e=r.apply(this,arguments),r=null,e)}}function u(r){return!(!c||!c[r])}function i(r){var t=u(r);return t?function o(r){var u=n(r)?r.call(this,t):r;return e(u)?o:u}:function i(r,o){var u=n(o)?o.call(this,t):o;return e(u)?i:u}}function f(r){try{c=JSON.parse(p(r))}catch(t){c={}}}var c,a=Object.prototype,p=(a.toString,n(window.atob)?window.atob:function(r){var t,n,e,o,u={},i=0,f=0,c="",a=String.fromCharCode,p=r.length,s="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";for(t=0;64>t;t++)u[s.charAt(t)]=t;for(e=0;p>e;e++)for(n=u[r.charAt(e)],i=(i<<6)+n,f+=6;f>=8;)((o=i>>>(f-=8)&255)||p-2>e)&&(c+=a(o));return c});t.exports=i,t.exports.bool=u,t.exports.setup=o(f)},{}]},{},[]);</script><script>
+(function(exports, store) {
+    'use strict';
+    var flags = require('flags');
+    flags.setup(store);
+    exports.Flags = flags; // Legacy Tumblr.Flags
+})((this.Tumblr || (this.Tumblr = {})), "eyJmaWx0ZXJfbnNmdyI6dHJ1ZSwia2V5Y29tbWFuZF9hdXRvX3BhZ2luYXRlIjp0cnVlLCJsb2dnZWRfb3V0X3NlYXJjaCI6dHJ1ZSwic2VjdXJlX2Zvcm1fa2V5Ijp0cnVlLCJzZWN1cmVfZm9ybV9rZXlfZnVsbHlfb24iOnRydWUsInR1bWJsZWxvZ19wb3BvdmVyIjp0cnVlLCJlbmFibGVfY2FwdHVyZV9qcyI6dHJ1ZSwibmV3X3Bvc3RfZm9ybXMiOnRydWUsInRhYmxldF9iYW5uZXJfYWN0aXZlIjp0cnVlLCJtb2JpbGVfYmFubmVyX2FjdGl2ZSI6dHJ1ZSwidXNlcl9tZW50aW9ucyI6dHJ1ZSwiaHRtbDVfYXVkaW9fcGxheWVyIjp0cnVlLCJwb3BvdmVyX3JlY29tbWVuZGF0aW9ucyI6dHJ1ZSwicG9wdGljYV90dW1ibGVsb2dfcG9wb3ZlcnMiOnRydWUsInRhYl9zd2l0Y2hlciI6dHJ1ZSwiZmFzdF9jb21wb3NlIjp0cnVlLCJnbG9iYWxfcmVzZXRfYW5kX3N0eWxlcyI6dHJ1ZSwiZG9udF9jYXN0X2pzX2ZvbGxvd3MiOnRydWUsImtleWNvbW1hbmRfZ3VpZGUiOnRydWUsImd1bHBqc19hZG1pbiI6dHJ1ZSwiZW5hYmxlX2pzX2VwaGVtZXJhbF9sb2ciOnRydWUsImxvZ19sYWR5Ijp0cnVlLCJjc2xvZ2dlcl9qcyI6dHJ1ZX0=");
+</script>
+<script src="http://assets.tumblr.com/client/prod/scripts/vendor/index.js?_v=ecb9caf1ab144ad161dcefe7f2c92883"></script><script src="http://assets.tumblr.com/assets/scripts/polyfills.js?_v=cfe98c810e69c8c24ffa448c197f8723"></script><script src="http://assets.tumblr.com/assets/scripts/archive/archive.js?_v=2fc3b8e7bdebc86ebb4cfe20c60878e9"></script><script>
+            var l10n_str = l10n_str || {},
+            just_clicked_browse_months = false,
+            is_mobile = RegExp(" Mobile/").test(navigator.userAgent);
+        </script><!--[if lt IE 9]><script>
+              document.createElement('header');
+              document.createElement('nav');
+              document.createElement('section');
+              document.createElement('article');
+              document.createElement('aside');
+              document.createElement('footer');
+           </script><![endif]--></head><body id="body"><header id="nav_archive" class="blue_bar"><a href="/" class="title"><span id="back_to_blog"></span><img class="avatar" src="http://38.media.tumblr.com/avatar_b6ca2252f94f_40.png" alt="" /><h1 class="blog_title">365 Tidal Patterns</h1></a><div id="browse_months"><div id="jump_to_month"><span class="month">Month </span><span class="arrow"></span></div></div><nav id="register" class="nav_right"><iframe scrolling="no" frameborder="0" id="tumblr_controls" src="http://assets.tumblr.com/assets/html/archive_iframe.html?_v=1e0098ed8519c67fd8cb88b2fefd349e#src=http%3A%2F%2F365tidalpatterns.tumblr.com%2Farchive&amp;name=365tidalpatterns" width="400" height="28" style="border:0; background-color:transparent; overflow:hidden; "></iframe></nav></header><div class="l-content"><!-- START CONTENT --><header class="heading" style="display:none;"><h2 class="date">September 2014</h2><h3 class="post_count">24 posts</h3></header><section id="posts_201409" class="posts loading" style="display:none;"><div class="post post_micro is_regular post_tumblelog_c4ea9f2fbf633a20ea74c4654eb48a08 not_mine is_original with_permalink no_source no_notes has_hover" id="post_micro_97324631715"  data-id='97324631715' data-type='regular' data-root_id='97324631715' data-tumblelog='365tidalpatterns' data-tumblelog_key='YCGbdmhef' data-reblog_key='P6oJfdOW' data-is_mine='' data-accepts_answers='' data-following_tumblelog='' data-liked='' data-sponsored='' data-premium_tracked='' data-is_recommended='' data-placement_id='' data-featured_tags='Array' data-reblog_source='' data-post-id='97324631715' data-root-id='97324631715' data-tumblelog-name='365tidalpatterns' data-tumblelog-key='YCGbdmhef' data-reblog-key='P6oJfdOW' data-serve-id='0.11388900 14107183201350135954' data-json='{"id":"97324631715","type":"regular","root_id":"97324631715","tumblelog":"365tidalpatterns","tumblelog_key":"YCGbdmhef","reblog_key":"P6oJfdOW","is_mine":false,"accepts_answers":false,"following_tumblelog":false,"liked":false,"sponsored":false,"premium_tracked":false,"is_recommended":false,"placement_id":null,"featured_tags":[],"reblog_source":null,"post-id":"97324631715","root-id":"97324631715","tumblelog-name":"365tidalpatterns","tumblelog-key":"YCGbdmhef","reblog-key":"P6oJfdOW","serve-id":"0.11388900 14107183201350135954","json":"{\u0022id\u0022:\u002297324631715\u0022,\u0022type\u0022:\u0022regular\u0022,\u0022root_id\u0022:\u002297324631715\u0022,\u0022tumblelog\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog_key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog_key\u0022:\u0022P6oJfdOW\u0022,\u0022is_mine\u0022:false,\u0022accepts_answers\u0022:false,\u0022following_tumblelog\u0022:false,\u0022liked\u0022:false,\u0022sponsored\u0022:false,\u0022premium_tracked\u0022:false,\u0022is_recommended\u0022:false,\u0022placement_id\u0022:null,\u0022featured_tags\u0022:[],\u0022reblog_source\u0022:null,\u0022post-id\u0022:\u002297324631715\u0022,\u0022root-id\u0022:\u002297324631715\u0022,\u0022tumblelog-name\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog-key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog-key\u0022:\u0022P6oJfdOW\u0022,\u0022serve-id\u0022:\u00220.11388900 14107183201350135954\u0022}"}'><div class="post_content"><div class="post_content_inner"><div class="post_title">Pattern 350</div><p><a href="http://365tidalpatterns.tumblr.com/post/97324631715/pattern-350"><img src="http://assets.tumblr.com/images/inline_placeholder.png" width="18" height="14"/></a></p>
+
+<pre><code>bps (155/120)
+
+d1 $ iter 8 $ slowspread ($) [chop 4, rev, (|+| speed "0.5") . slow 2, 
+id, trunc 0.25, jux (|+| speed "1.1"), id] $ stack [ 
+within (0.25, 0.75) (every 3 (rev . slow 2 . stut 8 0.4 0.2)) $  
+whenmod 5 3 (degradeBy 0.6) $ sound (samples "grunt*16" 
+(run 11)) |+| end "0.05" |+| speed "2", sound "~ kv*2 ~ ~ ~ ~ ~ ~", 
+sound "~ ~ shard:16 ~", sound "~ ~ ~ sdeep*4" |+| speed (
+whenmod 6 5 ((*0.5) &lt;$&gt;) "5"), sound (samples 
+"~ ~ ~ b/2 ~ b/5 ~ b/3" (run 328)) |+| cut "3", density 2 $ 
+sound (samples "{hh*2 ~ [~ dup] [~ dup] ~}%4" "10") 
+|+| speed "2", slow 2 $ trunc 0.5 $ (striate 16 $ sound "fxlong:9") 
+|+| speed "[0.75 0.5 1]/4" |+| gain "0.85" ]
+</code></pre></div></div><div class="post_glass post_micro_glass" 
+     title=""><a target="_blank" class="hover"
+               title=""
+               href="http://365tidalpatterns.tumblr.com/post/97324631715/pattern-350"><div class="hover_inner"><span class="post_date">Sep 12, 2014</span></div>  
+
+            <div class="hover_tags"></div></a></div>
+</div><div class="post post_micro is_regular post_tumblelog_c4ea9f2fbf633a20ea74c4654eb48a08 not_mine is_original with_permalink no_source no_notes has_hover" id="post_micro_97324556670"  data-id='97324556670' data-type='regular' data-root_id='97324556670' data-tumblelog='365tidalpatterns' data-tumblelog_key='YCGbdmhef' data-reblog_key='4uwR9uDc' data-is_mine='' data-accepts_answers='' data-following_tumblelog='' data-liked='' data-sponsored='' data-premium_tracked='' data-is_recommended='' data-placement_id='' data-featured_tags='Array' data-reblog_source='' data-post-id='97324556670' data-root-id='97324556670' data-tumblelog-name='365tidalpatterns' data-tumblelog-key='YCGbdmhef' data-reblog-key='4uwR9uDc' data-serve-id='0.12028200 14107183201360652080' data-json='{"id":"97324556670","type":"regular","root_id":"97324556670","tumblelog":"365tidalpatterns","tumblelog_key":"YCGbdmhef","reblog_key":"4uwR9uDc","is_mine":false,"accepts_answers":false,"following_tumblelog":false,"liked":false,"sponsored":false,"premium_tracked":false,"is_recommended":false,"placement_id":null,"featured_tags":[],"reblog_source":null,"post-id":"97324556670","root-id":"97324556670","tumblelog-name":"365tidalpatterns","tumblelog-key":"YCGbdmhef","reblog-key":"4uwR9uDc","serve-id":"0.12028200 14107183201360652080","json":"{\u0022id\u0022:\u002297324556670\u0022,\u0022type\u0022:\u0022regular\u0022,\u0022root_id\u0022:\u002297324556670\u0022,\u0022tumblelog\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog_key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog_key\u0022:\u00224uwR9uDc\u0022,\u0022is_mine\u0022:false,\u0022accepts_answers\u0022:false,\u0022following_tumblelog\u0022:false,\u0022liked\u0022:false,\u0022sponsored\u0022:false,\u0022premium_tracked\u0022:false,\u0022is_recommended\u0022:false,\u0022placement_id\u0022:null,\u0022featured_tags\u0022:[],\u0022reblog_source\u0022:null,\u0022post-id\u0022:\u002297324556670\u0022,\u0022root-id\u0022:\u002297324556670\u0022,\u0022tumblelog-name\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog-key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog-key\u0022:\u00224uwR9uDc\u0022,\u0022serve-id\u0022:\u00220.12028200 14107183201360652080\u0022}"}'><div class="post_content"><div class="post_content_inner"><div class="post_title">Pattern 349</div><p><a href="http://365tidalpatterns.tumblr.com/post/97324556670/pattern-349"><img src="http://assets.tumblr.com/images/inline_placeholder.png" width="18" height="14"/></a></p>
+
+<pre><code>bps (140/120)
+
+d1 $ iter 4 $ within (0.25, 0.75) (every 3 (slow 2 . rev . 
+stut 12 0.25 0.25)) $ stack [ whenmod 7 6 ((|+| speed "-1") . 
+(|+| begin "0.25")) $ whenmod 6 5 (|+| speed "0.8") $ whenmod 5 4 
+(|+| speed "0.9") $ slow 2 $ degradeBy 0.5 $ sound "aqua*8" 
+|+| cut "1", whenmod 7 6 (slow 1.5) $ whenmod 8 7 (|+| delay "0.5") 
+$ slow 4 $ sound (samples 
+"flkick*8 [stite:0, cp:3] ~ ktite*6 ~ [~ ktite*4] [stite:0, cp:3] ~"
+(run 44)), slow 4 $ sound (samples 
+"~ ~ [~ sub/3] ~ ~ ~ ~ [[808cy [~ 808cy] ~ 808cy] ~]/2]" "1") 
+|+| cutoff "0.2" |+| resonance "0.01" |+| cut "2" |+| speed "0.25" 
+|+| delay "0.5"] |+| delaytime "0.7" |+| delayfeedback "0.5"
+</code></pre></div></div><div class="post_glass post_micro_glass" 
+     title=""><a target="_blank" class="hover"
+               title=""
+               href="http://365tidalpatterns.tumblr.com/post/97324556670/pattern-349"><div class="hover_inner"><span class="post_date">Sep 12, 2014</span></div>  
+
+            <div class="hover_tags"></div></a></div>
+</div><div class="post post_micro is_regular post_tumblelog_c4ea9f2fbf633a20ea74c4654eb48a08 not_mine is_original with_permalink no_source no_notes has_hover" id="post_micro_97324472065"  data-id='97324472065' data-type='regular' data-root_id='97324472065' data-tumblelog='365tidalpatterns' data-tumblelog_key='YCGbdmhef' data-reblog_key='AjZefvTN' data-is_mine='' data-accepts_answers='' data-following_tumblelog='' data-liked='' data-sponsored='' data-premium_tracked='' data-is_recommended='' data-placement_id='' data-featured_tags='Array' data-reblog_source='' data-post-id='97324472065' data-root-id='97324472065' data-tumblelog-name='365tidalpatterns' data-tumblelog-key='YCGbdmhef' data-reblog-key='AjZefvTN' data-serve-id='0.12635200 1410718320400562388' data-json='{"id":"97324472065","type":"regular","root_id":"97324472065","tumblelog":"365tidalpatterns","tumblelog_key":"YCGbdmhef","reblog_key":"AjZefvTN","is_mine":false,"accepts_answers":false,"following_tumblelog":false,"liked":false,"sponsored":false,"premium_tracked":false,"is_recommended":false,"placement_id":null,"featured_tags":[],"reblog_source":null,"post-id":"97324472065","root-id":"97324472065","tumblelog-name":"365tidalpatterns","tumblelog-key":"YCGbdmhef","reblog-key":"AjZefvTN","serve-id":"0.12635200 1410718320400562388","json":"{\u0022id\u0022:\u002297324472065\u0022,\u0022type\u0022:\u0022regular\u0022,\u0022root_id\u0022:\u002297324472065\u0022,\u0022tumblelog\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog_key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog_key\u0022:\u0022AjZefvTN\u0022,\u0022is_mine\u0022:false,\u0022accepts_answers\u0022:false,\u0022following_tumblelog\u0022:false,\u0022liked\u0022:false,\u0022sponsored\u0022:false,\u0022premium_tracked\u0022:false,\u0022is_recommended\u0022:false,\u0022placement_id\u0022:null,\u0022featured_tags\u0022:[],\u0022reblog_source\u0022:null,\u0022post-id\u0022:\u002297324472065\u0022,\u0022root-id\u0022:\u002297324472065\u0022,\u0022tumblelog-name\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog-key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog-key\u0022:\u0022AjZefvTN\u0022,\u0022serve-id\u0022:\u00220.12635200 1410718320400562388\u0022}"}'><div class="post_content"><div class="post_content_inner"><div class="post_title">Pattern 348</div><p><a href="http://365tidalpatterns.tumblr.com/post/97324472065/pattern-348"><img src="http://assets.tumblr.com/images/inline_placeholder.png" width="18" height="14"/></a></p>
+
+<pre><code>bps (180/120)
+
+d1 $ whenmod 40 35 (slow 2 . (|+| speed "0.75")) $ 
+whenmod 22 20 (density 2) $ whenmod 20 18 (density 2) $ 
+whenmod 32 16 (slow 1.5) $ slowspread ($) [(|+| speed "0.5") . 
+slow 2, within (0.25, 0.75) (rev . (|+| speed "1.2")), 
+(|+| accelerate "-0.5, 0.5"), id, trunc 0.25, trunc 0.25, chop 8 . rev, 
+(|+| accelerate "-1 1")] $ whenmod 14 12 (const $ stack [ 
+sound "kh:12*16" |+| gain "0.8", sound "slayer:8*4 slayer:9*4" 
+|+| cut "1"]) $ every 3 (0.25 &lt;~) $ every 4 (0.25 &lt;~) $ stack [ 
+degradeBy 0.4 $ sound (samples "slayer*8" "[7 9 10 11 6]/6") 
+|+| cut "1" |+| speed "[1 1 1 0.8]/5", whenmod 8 4 (degradeBy 0.5) 
+$ sound "kh:12*16" |+| gain "0.8", every 5 (density 2) $ every 4 (
+density 2) $ every 3 (density 2) $ every 2 (density 2) $ sound 
+"hh:26*4" ]
+</code></pre></div></div><div class="post_glass post_micro_glass" 
+     title=""><a target="_blank" class="hover"
+               title=""
+               href="http://365tidalpatterns.tumblr.com/post/97324472065/pattern-348"><div class="hover_inner"><span class="post_date">Sep 12, 2014</span></div>  
+
+            <div class="hover_tags"></div></a></div>
+</div><div class="post post_micro is_regular post_tumblelog_c4ea9f2fbf633a20ea74c4654eb48a08 not_mine is_original with_permalink no_source no_notes has_hover" id="post_micro_97324350120"  data-id='97324350120' data-type='regular' data-root_id='97324350120' data-tumblelog='365tidalpatterns' data-tumblelog_key='YCGbdmhef' data-reblog_key='CD2Sa98p' data-is_mine='' data-accepts_answers='' data-following_tumblelog='' data-liked='' data-sponsored='' data-premium_tracked='' data-is_recommended='' data-placement_id='' data-featured_tags='Array' data-reblog_source='' data-post-id='97324350120' data-root-id='97324350120' data-tumblelog-name='365tidalpatterns' data-tumblelog-key='YCGbdmhef' data-reblog-key='CD2Sa98p' data-serve-id='0.13210100 14107183201950197200' data-json='{"id":"97324350120","type":"regular","root_id":"97324350120","tumblelog":"365tidalpatterns","tumblelog_key":"YCGbdmhef","reblog_key":"CD2Sa98p","is_mine":false,"accepts_answers":false,"following_tumblelog":false,"liked":false,"sponsored":false,"premium_tracked":false,"is_recommended":false,"placement_id":null,"featured_tags":[],"reblog_source":null,"post-id":"97324350120","root-id":"97324350120","tumblelog-name":"365tidalpatterns","tumblelog-key":"YCGbdmhef","reblog-key":"CD2Sa98p","serve-id":"0.13210100 14107183201950197200","json":"{\u0022id\u0022:\u002297324350120\u0022,\u0022type\u0022:\u0022regular\u0022,\u0022root_id\u0022:\u002297324350120\u0022,\u0022tumblelog\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog_key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog_key\u0022:\u0022CD2Sa98p\u0022,\u0022is_mine\u0022:false,\u0022accepts_answers\u0022:false,\u0022following_tumblelog\u0022:false,\u0022liked\u0022:false,\u0022sponsored\u0022:false,\u0022premium_tracked\u0022:false,\u0022is_recommended\u0022:false,\u0022placement_id\u0022:null,\u0022featured_tags\u0022:[],\u0022reblog_source\u0022:null,\u0022post-id\u0022:\u002297324350120\u0022,\u0022root-id\u0022:\u002297324350120\u0022,\u0022tumblelog-name\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog-key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog-key\u0022:\u0022CD2Sa98p\u0022,\u0022serve-id\u0022:\u00220.13210100 14107183201950197200\u0022}"}'><div class="post_content"><div class="post_content_inner"><div class="post_title">Pattern 347</div><p><a href="http://365tidalpatterns.tumblr.com/post/97324350120/pattern-347"><img src="http://assets.tumblr.com/images/inline_placeholder.png" width="18" height="14"/></a></p>
+
+<pre><code>bps (200/120)
+
+d1 $ whenmod 16 8 (slowspread ($) [chop 8, (|+| speed 
+"-1 1.2 0.8 -1"), rev, trunc 0.25, trunc 0.25, jux ((|+| speed "0.9")), id]) 
+$ within (0.25, 0.75) (whenmod 5 4 (rev . stut 4 0.25 0.25)) $ 
+whenmod 12 8 ( every 4 (0.25 &lt;~) . every 3 (0.25 &lt;~)) $ stack [ 
+sound (samples "tite*8" (run 10)), slow 2 $ sound (samples 
+"~ [~ b:0] ~ ~ ~ ~ b b/2" (run 13)) |+| cut "1", sound "[~ hh]*2", 
+sound "[~ shard:1]", sound "[[kh/2 kh ~ ~] [~ kh ~ ~]]", slow 2 $ 
+sound (samples "~ ~ [kv*2] ~" (run 13)) ]
+</code></pre></div></div><div class="post_glass post_micro_glass" 
+     title=""><a target="_blank" class="hover"
+               title=""
+               href="http://365tidalpatterns.tumblr.com/post/97324350120/pattern-347"><div class="hover_inner"><span class="post_date">Sep 12, 2014</span></div>  
+
+            <div class="hover_tags"></div></a></div>
+</div><div class="post post_micro is_regular post_tumblelog_c4ea9f2fbf633a20ea74c4654eb48a08 not_mine is_original with_permalink no_source no_notes has_hover" id="post_micro_97108260740"  data-id='97108260740' data-type='regular' data-root_id='97108260740' data-tumblelog='365tidalpatterns' data-tumblelog_key='YCGbdmhef' data-reblog_key='L8RI9FdR' data-is_mine='' data-accepts_answers='' data-following_tumblelog='' data-liked='' data-sponsored='' data-premium_tracked='' data-is_recommended='' data-placement_id='' data-featured_tags='Array' data-reblog_source='' data-post-id='97108260740' data-root-id='97108260740' data-tumblelog-name='365tidalpatterns' data-tumblelog-key='YCGbdmhef' data-reblog-key='L8RI9FdR' data-serve-id='0.13780100 1410718320659118509' data-json='{"id":"97108260740","type":"regular","root_id":"97108260740","tumblelog":"365tidalpatterns","tumblelog_key":"YCGbdmhef","reblog_key":"L8RI9FdR","is_mine":false,"accepts_answers":false,"following_tumblelog":false,"liked":false,"sponsored":false,"premium_tracked":false,"is_recommended":false,"placement_id":null,"featured_tags":[],"reblog_source":null,"post-id":"97108260740","root-id":"97108260740","tumblelog-name":"365tidalpatterns","tumblelog-key":"YCGbdmhef","reblog-key":"L8RI9FdR","serve-id":"0.13780100 1410718320659118509","json":"{\u0022id\u0022:\u002297108260740\u0022,\u0022type\u0022:\u0022regular\u0022,\u0022root_id\u0022:\u002297108260740\u0022,\u0022tumblelog\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog_key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog_key\u0022:\u0022L8RI9FdR\u0022,\u0022is_mine\u0022:false,\u0022accepts_answers\u0022:false,\u0022following_tumblelog\u0022:false,\u0022liked\u0022:false,\u0022sponsored\u0022:false,\u0022premium_tracked\u0022:false,\u0022is_recommended\u0022:false,\u0022placement_id\u0022:null,\u0022featured_tags\u0022:[],\u0022reblog_source\u0022:null,\u0022post-id\u0022:\u002297108260740\u0022,\u0022root-id\u0022:\u002297108260740\u0022,\u0022tumblelog-name\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog-key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog-key\u0022:\u0022L8RI9FdR\u0022,\u0022serve-id\u0022:\u00220.13780100 1410718320659118509\u0022}"}'><div class="post_content"><div class="post_content_inner"><div class="post_title">Pattern 346</div><p><a href="http://365tidalpatterns.tumblr.com/post/97108260740/pattern-346"><img src="http://assets.tumblr.com/images/inline_placeholder.png" width="18" height="14"/></a></p>
+
+<pre><code>bps (165/120)
+
+d1 $ iter 4 $ stack [ slowspread ($) [chop 16, (|+| vowel "o u"), 
+stut 8 0.4 0.25, id, (|+| speed "-1"), (|+| accelerate "-1"), id] $ 
+sound "dorug dorug:1", whenmod 10 6 (const $ sound (
+samples "amencutup*16" (slow 0.8 $ run 22))) $ sound (
+samples "amencutup*16?" "[1 4 3 5]/4") |+| shape "0.2" 
+|+| speed "[1 1 0.8 1 1 [1 -1] 1.2 0.8 1]/5", slowspread (trunc) 
+[0.5, 0.25, 0.5, 0.75, 1] $ striate 32 $ sound "pad:9" |+| shape "0.5" 
+|+| cut "2"]
+</code></pre></div></div><div class="post_glass post_micro_glass" 
+     title=""><a target="_blank" class="hover"
+               title=""
+               href="http://365tidalpatterns.tumblr.com/post/97108260740/pattern-346"><div class="hover_inner"><span class="post_date">Sep 9, 2014</span></div>  
+
+            <div class="hover_tags"></div></a></div>
+</div><div class="post post_micro is_regular post_tumblelog_c4ea9f2fbf633a20ea74c4654eb48a08 not_mine is_original with_permalink no_source no_notes has_hover" id="post_micro_97107028175"  data-id='97107028175' data-type='regular' data-root_id='97107028175' data-tumblelog='365tidalpatterns' data-tumblelog_key='YCGbdmhef' data-reblog_key='ucDDpygo' data-is_mine='' data-accepts_answers='' data-following_tumblelog='' data-liked='' data-sponsored='' data-premium_tracked='' data-is_recommended='' data-placement_id='' data-featured_tags='Array' data-reblog_source='' data-post-id='97107028175' data-root-id='97107028175' data-tumblelog-name='365tidalpatterns' data-tumblelog-key='YCGbdmhef' data-reblog-key='ucDDpygo' data-serve-id='0.14355600 1410718320752601700' data-json='{"id":"97107028175","type":"regular","root_id":"97107028175","tumblelog":"365tidalpatterns","tumblelog_key":"YCGbdmhef","reblog_key":"ucDDpygo","is_mine":false,"accepts_answers":false,"following_tumblelog":false,"liked":false,"sponsored":false,"premium_tracked":false,"is_recommended":false,"placement_id":null,"featured_tags":[],"reblog_source":null,"post-id":"97107028175","root-id":"97107028175","tumblelog-name":"365tidalpatterns","tumblelog-key":"YCGbdmhef","reblog-key":"ucDDpygo","serve-id":"0.14355600 1410718320752601700","json":"{\u0022id\u0022:\u002297107028175\u0022,\u0022type\u0022:\u0022regular\u0022,\u0022root_id\u0022:\u002297107028175\u0022,\u0022tumblelog\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog_key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog_key\u0022:\u0022ucDDpygo\u0022,\u0022is_mine\u0022:false,\u0022accepts_answers\u0022:false,\u0022following_tumblelog\u0022:false,\u0022liked\u0022:false,\u0022sponsored\u0022:false,\u0022premium_tracked\u0022:false,\u0022is_recommended\u0022:false,\u0022placement_id\u0022:null,\u0022featured_tags\u0022:[],\u0022reblog_source\u0022:null,\u0022post-id\u0022:\u002297107028175\u0022,\u0022root-id\u0022:\u002297107028175\u0022,\u0022tumblelog-name\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog-key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog-key\u0022:\u0022ucDDpygo\u0022,\u0022serve-id\u0022:\u00220.14355600 1410718320752601700\u0022}"}'><div class="post_content"><div class="post_content_inner"><div class="post_title">Pattern 345</div><p><a href="http://365tidalpatterns.tumblr.com/post/97107028175/pattern-345"><img src="http://assets.tumblr.com/images/inline_placeholder.png" width="18" height="14"/></a></p>
+
+<pre><code>bps (140/120)
+
+d1 $ whenmod 20 12 (slowspread ($) [chop 128, chop 32, id, 
+trunc 0.5 . striate 2 . slow 2 , stut 3 0.4 0.33, id, trunc 0.25, 
+trunc 0.25])  $ whenmod 14 7 (slow 0.8) $ stack [ sound 
+"[rave:1*32? rave:8*32?]/8" |+| speed "[0.5 0.4 0.5 0.75 0.3 0.5]/4" 
+|+| gain "0.9" |+| cut "1" |+| end "0.2", whenmod 16 8 (const $ 
+sound "[sub*32? drop*32?]/8" |+| cut "2" |+| speed 
+"[1 2 1 1.5 3 1]/4") $ sound "[flkick:1*32? flkick:1*32?]/8", 
+stack [(0.025 &lt;~) $ sound "~ cp:4", (0.05 &lt;~) $ sound "~ cp:3", 
+sound "~ cp"], whenmod 6 5 (density 2) $ whenmod 5 4 (density 2) 
+$ whenmod 4 3 (density 2) $ whenmod 3 2 (density 2) $ 
+sound "hh:7*4" ]
+</code></pre></div></div><div class="post_glass post_micro_glass" 
+     title=""><a target="_blank" class="hover"
+               title=""
+               href="http://365tidalpatterns.tumblr.com/post/97107028175/pattern-345"><div class="hover_inner"><span class="post_date">Sep 9, 2014</span></div>  
+
+            <div class="hover_tags"></div></a></div>
+</div><div class="post post_micro is_regular post_tumblelog_c4ea9f2fbf633a20ea74c4654eb48a08 not_mine is_original with_permalink no_source no_notes has_hover" id="post_micro_97106949780"  data-id='97106949780' data-type='regular' data-root_id='97106949780' data-tumblelog='365tidalpatterns' data-tumblelog_key='YCGbdmhef' data-reblog_key='zMLhkrJJ' data-is_mine='' data-accepts_answers='' data-following_tumblelog='' data-liked='' data-sponsored='' data-premium_tracked='' data-is_recommended='' data-placement_id='' data-featured_tags='Array' data-reblog_source='' data-post-id='97106949780' data-root-id='97106949780' data-tumblelog-name='365tidalpatterns' data-tumblelog-key='YCGbdmhef' data-reblog-key='zMLhkrJJ' data-serve-id='0.14915800 1410718320877375633' data-json='{"id":"97106949780","type":"regular","root_id":"97106949780","tumblelog":"365tidalpatterns","tumblelog_key":"YCGbdmhef","reblog_key":"zMLhkrJJ","is_mine":false,"accepts_answers":false,"following_tumblelog":false,"liked":false,"sponsored":false,"premium_tracked":false,"is_recommended":false,"placement_id":null,"featured_tags":[],"reblog_source":null,"post-id":"97106949780","root-id":"97106949780","tumblelog-name":"365tidalpatterns","tumblelog-key":"YCGbdmhef","reblog-key":"zMLhkrJJ","serve-id":"0.14915800 1410718320877375633","json":"{\u0022id\u0022:\u002297106949780\u0022,\u0022type\u0022:\u0022regular\u0022,\u0022root_id\u0022:\u002297106949780\u0022,\u0022tumblelog\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog_key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog_key\u0022:\u0022zMLhkrJJ\u0022,\u0022is_mine\u0022:false,\u0022accepts_answers\u0022:false,\u0022following_tumblelog\u0022:false,\u0022liked\u0022:false,\u0022sponsored\u0022:false,\u0022premium_tracked\u0022:false,\u0022is_recommended\u0022:false,\u0022placement_id\u0022:null,\u0022featured_tags\u0022:[],\u0022reblog_source\u0022:null,\u0022post-id\u0022:\u002297106949780\u0022,\u0022root-id\u0022:\u002297106949780\u0022,\u0022tumblelog-name\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog-key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog-key\u0022:\u0022zMLhkrJJ\u0022,\u0022serve-id\u0022:\u00220.14915800 1410718320877375633\u0022}"}'><div class="post_content"><div class="post_content_inner"><div class="post_title">Pattern 344</div><p><a href="http://365tidalpatterns.tumblr.com/post/97106949780/pattern-344"><img src="http://assets.tumblr.com/images/inline_placeholder.png" width="18" height="14"/></a></p>
+
+<pre><code>bps (165/120)
+
+d1 $ stack [ degradeBy 0.5 $ sound "bl4:2*8" |+| cut "1" 
+|+| speed "[1 1.5 1 ~ 0.75 1.25 ~ 1 2]/3" |+| gain "0.9", 
+whenmod 10 8 (slow 2 . stut 16 0.6 0.1) $ 
+whenmod 15 10 (iter 4) $ every 2 (0.1225 &lt;~) $ 
+every 4 (0.25 &lt;~) $ every 5 (rev) $ every 3 (0.25 &lt;~) $ 
+within (0.25, 0.75) (whenmod 5 3 (0.1225 &lt;~)) $ 
+within (0, 0.5) (every 2 (0.1225 &lt;~) . whenmod 6 4 (0.1225 &lt;~)) 
+$ striate 16 $ sound "amen" |+| shape "0.2" 
+|+| speed "[1 0.9 1 [1.3 1.2] 0.75 1 1.1 1.1]/5" ]
+</code></pre></div></div><div class="post_glass post_micro_glass" 
+     title=""><a target="_blank" class="hover"
+               title=""
+               href="http://365tidalpatterns.tumblr.com/post/97106949780/pattern-344"><div class="hover_inner"><span class="post_date">Sep 9, 2014</span></div>  
+
+            <div class="hover_tags"></div></a></div>
+</div><div class="post post_micro is_regular post_tumblelog_c4ea9f2fbf633a20ea74c4654eb48a08 not_mine is_original with_permalink no_source no_notes has_hover" id="post_micro_97021664505"  data-id='97021664505' data-type='regular' data-root_id='97021664505' data-tumblelog='365tidalpatterns' data-tumblelog_key='YCGbdmhef' data-reblog_key='HeyIPt3p' data-is_mine='' data-accepts_answers='' data-following_tumblelog='' data-liked='' data-sponsored='' data-premium_tracked='' data-is_recommended='' data-placement_id='' data-featured_tags='Array' data-reblog_source='' data-post-id='97021664505' data-root-id='97021664505' data-tumblelog-name='365tidalpatterns' data-tumblelog-key='YCGbdmhef' data-reblog-key='HeyIPt3p' data-serve-id='0.15470600 1410718320622628058' data-json='{"id":"97021664505","type":"regular","root_id":"97021664505","tumblelog":"365tidalpatterns","tumblelog_key":"YCGbdmhef","reblog_key":"HeyIPt3p","is_mine":false,"accepts_answers":false,"following_tumblelog":false,"liked":false,"sponsored":false,"premium_tracked":false,"is_recommended":false,"placement_id":null,"featured_tags":[],"reblog_source":null,"post-id":"97021664505","root-id":"97021664505","tumblelog-name":"365tidalpatterns","tumblelog-key":"YCGbdmhef","reblog-key":"HeyIPt3p","serve-id":"0.15470600 1410718320622628058","json":"{\u0022id\u0022:\u002297021664505\u0022,\u0022type\u0022:\u0022regular\u0022,\u0022root_id\u0022:\u002297021664505\u0022,\u0022tumblelog\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog_key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog_key\u0022:\u0022HeyIPt3p\u0022,\u0022is_mine\u0022:false,\u0022accepts_answers\u0022:false,\u0022following_tumblelog\u0022:false,\u0022liked\u0022:false,\u0022sponsored\u0022:false,\u0022premium_tracked\u0022:false,\u0022is_recommended\u0022:false,\u0022placement_id\u0022:null,\u0022featured_tags\u0022:[],\u0022reblog_source\u0022:null,\u0022post-id\u0022:\u002297021664505\u0022,\u0022root-id\u0022:\u002297021664505\u0022,\u0022tumblelog-name\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog-key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog-key\u0022:\u0022HeyIPt3p\u0022,\u0022serve-id\u0022:\u00220.15470600 1410718320622628058\u0022}"}'><div class="post_content"><div class="post_content_inner"><div class="post_title">Pattern 343</div><p><a href="http://365tidalpatterns.tumblr.com/post/97021664505/pattern-343"><img src="http://assets.tumblr.com/images/inline_placeholder.png" width="18" height="14"/></a></p>
+
+<pre><code>bps (160/120)
+
+d1 $ whenmod 20 12 (every 3 (0.25 &lt;~) . every 4 (0.25 &lt;~)) $ 
+stack [ sound "[~ ~ ~ flkick] [cp, stite:12]", sound "[~ ~ ~ fran] ~" 
+|+| cut "1", whenmod 8 4 (const $ stack [sound "sub*8?" |+| cut "3" 
+|+| speed "[1 2 1.5 3]/5", sound "nerd:14*2" |+| cut "1"]) $ sound 
+"~ [control]" |+| cut "1" |+| end "0.23" |+| speed "0.75", 
+whenmod 8 7 (density 2) $ whenmod 5 3 (density 2) $ sound 
+"hh:2*8" |+| gain "0.6", whenmod 16 12 (const $ sound "808sd*16?" 
+|+| speed (scale 1.5 2.5 $ slow 4.1 sine1)) $ sound "~", density 2 
+$ sound "~ salsa:1" |+| speed (whenmod 9 4 ((*0) &lt;$&gt;) "2") 
+|+| begin "0.1" |+| gain "0.7"]
+</code></pre></div></div><div class="post_glass post_micro_glass" 
+     title=""><a target="_blank" class="hover"
+               title=""
+               href="http://365tidalpatterns.tumblr.com/post/97021664505/pattern-343"><div class="hover_inner"><span class="post_date">Sep 8, 2014</span></div>  
+
+            <div class="hover_tags"></div></a></div>
+</div><div class="post post_micro is_regular post_tumblelog_c4ea9f2fbf633a20ea74c4654eb48a08 not_mine is_original with_permalink no_source no_notes has_hover" id="post_micro_97021599075"  data-id='97021599075' data-type='regular' data-root_id='97021599075' data-tumblelog='365tidalpatterns' data-tumblelog_key='YCGbdmhef' data-reblog_key='U0Gj6TBp' data-is_mine='' data-accepts_answers='' data-following_tumblelog='' data-liked='' data-sponsored='' data-premium_tracked='' data-is_recommended='' data-placement_id='' data-featured_tags='Array' data-reblog_source='' data-post-id='97021599075' data-root-id='97021599075' data-tumblelog-name='365tidalpatterns' data-tumblelog-key='YCGbdmhef' data-reblog-key='U0Gj6TBp' data-serve-id='0.16021500 14107183201585133668' data-json='{"id":"97021599075","type":"regular","root_id":"97021599075","tumblelog":"365tidalpatterns","tumblelog_key":"YCGbdmhef","reblog_key":"U0Gj6TBp","is_mine":false,"accepts_answers":false,"following_tumblelog":false,"liked":false,"sponsored":false,"premium_tracked":false,"is_recommended":false,"placement_id":null,"featured_tags":[],"reblog_source":null,"post-id":"97021599075","root-id":"97021599075","tumblelog-name":"365tidalpatterns","tumblelog-key":"YCGbdmhef","reblog-key":"U0Gj6TBp","serve-id":"0.16021500 14107183201585133668","json":"{\u0022id\u0022:\u002297021599075\u0022,\u0022type\u0022:\u0022regular\u0022,\u0022root_id\u0022:\u002297021599075\u0022,\u0022tumblelog\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog_key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog_key\u0022:\u0022U0Gj6TBp\u0022,\u0022is_mine\u0022:false,\u0022accepts_answers\u0022:false,\u0022following_tumblelog\u0022:false,\u0022liked\u0022:false,\u0022sponsored\u0022:false,\u0022premium_tracked\u0022:false,\u0022is_recommended\u0022:false,\u0022placement_id\u0022:null,\u0022featured_tags\u0022:[],\u0022reblog_source\u0022:null,\u0022post-id\u0022:\u002297021599075\u0022,\u0022root-id\u0022:\u002297021599075\u0022,\u0022tumblelog-name\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog-key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog-key\u0022:\u0022U0Gj6TBp\u0022,\u0022serve-id\u0022:\u00220.16021500 14107183201585133668\u0022}"}'><div class="post_content"><div class="post_content_inner"><div class="post_title">Pattern 342</div><p><a href="http://365tidalpatterns.tumblr.com/post/97021599075/pattern-342"><img src="http://assets.tumblr.com/images/inline_placeholder.png" width="18" height="14"/></a></p>
+
+<pre><code>bps (150/120)
+
+d1 $ whenmod 20 5 (slowspread ($) [id, density 2, rev, stut 8 0.5 0.1, 
+id, (|+| speed "-1 1 0.75 1.5"), id (|+| accelerate "1 -1"), striate 4 . 
+slow 2, chop 16, id, (|+| delay "0.4")]) $ whenmod 8 6 (trunc 0.25) 
+$ whenmod 17 7 (every 4 (0.25 &lt;~) . every 3 (0.25 &lt;~)) $ 
+stack [whenmod 20 13 (|+| gain "0") $ whenmod 11 7 (const $ 
+sound "nerd*4" |+| cut "3") $ sound "[~ nerd]*2" |+| begin "0.05" 
+|+| speed "[1 1.5]/4", sound "~ [stite:3, cp:4]" |+| shape "0.5", 
+whenmod 8 4 (const $ stack [ sound "sub*8?" |+| cut "2", 
+sound "llama*8?" |+| cut "1" |+| end "0.25"]) $ sound "blue:1*8?" 
+|+| shape "0.5" |+| begin "0.1" |+| end "0.2", whenmod 8 4 (const 
+$ sound "flkick*8?") $ sound "kh:10*8?" ] |+| delaytime "0.5" 
+|+| delayfeedback "0.3"
+</code></pre></div></div><div class="post_glass post_micro_glass" 
+     title=""><a target="_blank" class="hover"
+               title=""
+               href="http://365tidalpatterns.tumblr.com/post/97021599075/pattern-342"><div class="hover_inner"><span class="post_date">Sep 8, 2014</span></div>  
+
+            <div class="hover_tags"></div></a></div>
+</div><div class="post post_micro is_regular post_tumblelog_c4ea9f2fbf633a20ea74c4654eb48a08 not_mine is_original with_permalink no_source no_notes has_hover" id="post_micro_97011686345"  data-id='97011686345' data-type='regular' data-root_id='97011686345' data-tumblelog='365tidalpatterns' data-tumblelog_key='YCGbdmhef' data-reblog_key='SmPTfmcU' data-is_mine='' data-accepts_answers='' data-following_tumblelog='' data-liked='' data-sponsored='' data-premium_tracked='' data-is_recommended='' data-placement_id='' data-featured_tags='Array' data-reblog_source='' data-post-id='97011686345' data-root-id='97011686345' data-tumblelog-name='365tidalpatterns' data-tumblelog-key='YCGbdmhef' data-reblog-key='SmPTfmcU' data-serve-id='0.16531500 1410718320508380609' data-json='{"id":"97011686345","type":"regular","root_id":"97011686345","tumblelog":"365tidalpatterns","tumblelog_key":"YCGbdmhef","reblog_key":"SmPTfmcU","is_mine":false,"accepts_answers":false,"following_tumblelog":false,"liked":false,"sponsored":false,"premium_tracked":false,"is_recommended":false,"placement_id":null,"featured_tags":[],"reblog_source":null,"post-id":"97011686345","root-id":"97011686345","tumblelog-name":"365tidalpatterns","tumblelog-key":"YCGbdmhef","reblog-key":"SmPTfmcU","serve-id":"0.16531500 1410718320508380609","json":"{\u0022id\u0022:\u002297011686345\u0022,\u0022type\u0022:\u0022regular\u0022,\u0022root_id\u0022:\u002297011686345\u0022,\u0022tumblelog\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog_key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog_key\u0022:\u0022SmPTfmcU\u0022,\u0022is_mine\u0022:false,\u0022accepts_answers\u0022:false,\u0022following_tumblelog\u0022:false,\u0022liked\u0022:false,\u0022sponsored\u0022:false,\u0022premium_tracked\u0022:false,\u0022is_recommended\u0022:false,\u0022placement_id\u0022:null,\u0022featured_tags\u0022:[],\u0022reblog_source\u0022:null,\u0022post-id\u0022:\u002297011686345\u0022,\u0022root-id\u0022:\u002297011686345\u0022,\u0022tumblelog-name\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog-key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog-key\u0022:\u0022SmPTfmcU\u0022,\u0022serve-id\u0022:\u00220.16531500 1410718320508380609\u0022}"}'><div class="post_content"><div class="post_content_inner"><div class="post_title">Pattern 341</div><p><a href="http://365tidalpatterns.tumblr.com/post/97011686345/pattern-341"><img src="http://assets.tumblr.com/images/inline_placeholder.png" width="18" height="14"/></a></p>
+
+<pre><code>bps (175/120)
+
+d1 $ whenmod 8 6 (trunc 0.25) $ whenmod 12 7 (every 3 (0.25 &lt;~) . 
+every 4 (0.25 &lt;~)) $ stack [ whenmod 11 10 (const $ slow 4 $ 
+striate 16 $ sound "[blh4 blh4:6]/2") $ slow 4 $ striate 16 $ 
+sound "[bl4:4 bl4:5]/2", sound (samples 
+"{kit1*4 kit1*2 kit1*4 shard:13 kit5*2}%4" (run 13)), whenmod 10 6 
+(|+| gain "0") $ sound "ride*2" |+| speed "1.5", whenmod 11 6 
+((|+| speed "1.3") . stut 4 0.25 0.25) $ sound "~ [cp:4, cp:3]"]
+</code></pre></div></div><div class="post_glass post_micro_glass" 
+     title=""><a target="_blank" class="hover"
+               title=""
+               href="http://365tidalpatterns.tumblr.com/post/97011686345/pattern-341"><div class="hover_inner"><span class="post_date">Sep 8, 2014</span></div>  
+
+            <div class="hover_tags"></div></a></div>
+</div><div class="post post_micro is_regular post_tumblelog_c4ea9f2fbf633a20ea74c4654eb48a08 not_mine is_original with_permalink no_source no_notes has_hover" id="post_micro_97011591715"  data-id='97011591715' data-type='regular' data-root_id='97011591715' data-tumblelog='365tidalpatterns' data-tumblelog_key='YCGbdmhef' data-reblog_key='LsZVvjWA' data-is_mine='' data-accepts_answers='' data-following_tumblelog='' data-liked='' data-sponsored='' data-premium_tracked='' data-is_recommended='' data-placement_id='' data-featured_tags='Array' data-reblog_source='' data-post-id='97011591715' data-root-id='97011591715' data-tumblelog-name='365tidalpatterns' data-tumblelog-key='YCGbdmhef' data-reblog-key='LsZVvjWA' data-serve-id='0.17073200 14107183201950977194' data-json='{"id":"97011591715","type":"regular","root_id":"97011591715","tumblelog":"365tidalpatterns","tumblelog_key":"YCGbdmhef","reblog_key":"LsZVvjWA","is_mine":false,"accepts_answers":false,"following_tumblelog":false,"liked":false,"sponsored":false,"premium_tracked":false,"is_recommended":false,"placement_id":null,"featured_tags":[],"reblog_source":null,"post-id":"97011591715","root-id":"97011591715","tumblelog-name":"365tidalpatterns","tumblelog-key":"YCGbdmhef","reblog-key":"LsZVvjWA","serve-id":"0.17073200 14107183201950977194","json":"{\u0022id\u0022:\u002297011591715\u0022,\u0022type\u0022:\u0022regular\u0022,\u0022root_id\u0022:\u002297011591715\u0022,\u0022tumblelog\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog_key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog_key\u0022:\u0022LsZVvjWA\u0022,\u0022is_mine\u0022:false,\u0022accepts_answers\u0022:false,\u0022following_tumblelog\u0022:false,\u0022liked\u0022:false,\u0022sponsored\u0022:false,\u0022premium_tracked\u0022:false,\u0022is_recommended\u0022:false,\u0022placement_id\u0022:null,\u0022featured_tags\u0022:[],\u0022reblog_source\u0022:null,\u0022post-id\u0022:\u002297011591715\u0022,\u0022root-id\u0022:\u002297011591715\u0022,\u0022tumblelog-name\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog-key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog-key\u0022:\u0022LsZVvjWA\u0022,\u0022serve-id\u0022:\u00220.17073200 14107183201950977194\u0022}"}'><div class="post_content"><div class="post_content_inner"><div class="post_title">Pattern 340</div><p><a href="http://365tidalpatterns.tumblr.com/post/97011591715/pattern-340"><img src="http://assets.tumblr.com/images/inline_placeholder.png" width="18" height="14"/></a></p>
+
+<pre><code>bps (170/120)
+
+d1 $ slowspread ($) [(|+| accelerate "1 -1"), id, rev, (0.25 &lt;~), 
+trunc 0.25, trunc 0.25, id, (|+| speed "1"), id, const $ chop 8 $ 
+sound (samples "[[alphabet numbers]/2 [dup*3 808cb*3]/2]*2" 
+(run 7)) |+| speed "[0.9 1.2]" |+| gain "0.9", slow 0.8, id, chop 16, 
+const $ sound "pluck [pluck:2 sub]", within (0.25, 0.75) (density 2)] 
+$ iter 8 $ stack [ every 4 (trunc 0.5) $ trunc 0.25 $ slow 4 
+$ (striate 8 $ sound "harp") |+| shape "0.3" 
+|+| speed "[0.5, [~ 1 ~]/2]", slow 2 $ sound (samples 
+"{tite*4 [s hh*2] [peri*2 s] [hh*6] [shard kh] [hh*2 shard] ride ride 
+[~ flkick] [~ flkick] [k*4]}%8" (run 14)), whenmod 14 7 (|+| gain "0") 
+$ sound "ride*2" |+| speed "1.1" |+| gain "0.9" ]
+</code></pre></div></div><div class="post_glass post_micro_glass" 
+     title=""><a target="_blank" class="hover"
+               title=""
+               href="http://365tidalpatterns.tumblr.com/post/97011591715/pattern-340"><div class="hover_inner"><span class="post_date">Sep 8, 2014</span></div>  
+
+            <div class="hover_tags"></div></a></div>
+</div><div class="post post_micro is_regular post_tumblelog_c4ea9f2fbf633a20ea74c4654eb48a08 not_mine is_original with_permalink no_source no_notes has_hover" id="post_micro_97011531060"  data-id='97011531060' data-type='regular' data-root_id='97011531060' data-tumblelog='365tidalpatterns' data-tumblelog_key='YCGbdmhef' data-reblog_key='EM4asswI' data-is_mine='' data-accepts_answers='' data-following_tumblelog='' data-liked='' data-sponsored='' data-premium_tracked='' data-is_recommended='' data-placement_id='' data-featured_tags='Array' data-reblog_source='' data-post-id='97011531060' data-root-id='97011531060' data-tumblelog-name='365tidalpatterns' data-tumblelog-key='YCGbdmhef' data-reblog-key='EM4asswI' data-serve-id='0.17634800 1410718320281493198' data-json='{"id":"97011531060","type":"regular","root_id":"97011531060","tumblelog":"365tidalpatterns","tumblelog_key":"YCGbdmhef","reblog_key":"EM4asswI","is_mine":false,"accepts_answers":false,"following_tumblelog":false,"liked":false,"sponsored":false,"premium_tracked":false,"is_recommended":false,"placement_id":null,"featured_tags":[],"reblog_source":null,"post-id":"97011531060","root-id":"97011531060","tumblelog-name":"365tidalpatterns","tumblelog-key":"YCGbdmhef","reblog-key":"EM4asswI","serve-id":"0.17634800 1410718320281493198","json":"{\u0022id\u0022:\u002297011531060\u0022,\u0022type\u0022:\u0022regular\u0022,\u0022root_id\u0022:\u002297011531060\u0022,\u0022tumblelog\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog_key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog_key\u0022:\u0022EM4asswI\u0022,\u0022is_mine\u0022:false,\u0022accepts_answers\u0022:false,\u0022following_tumblelog\u0022:false,\u0022liked\u0022:false,\u0022sponsored\u0022:false,\u0022premium_tracked\u0022:false,\u0022is_recommended\u0022:false,\u0022placement_id\u0022:null,\u0022featured_tags\u0022:[],\u0022reblog_source\u0022:null,\u0022post-id\u0022:\u002297011531060\u0022,\u0022root-id\u0022:\u002297011531060\u0022,\u0022tumblelog-name\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog-key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog-key\u0022:\u0022EM4asswI\u0022,\u0022serve-id\u0022:\u00220.17634800 1410718320281493198\u0022}"}'><div class="post_content"><div class="post_content_inner"><div class="post_title">Pattern 339</div><p><a href="http://365tidalpatterns.tumblr.com/post/97011531060/pattern-339"><img src="http://assets.tumblr.com/images/inline_placeholder.png" width="18" height="14"/></a></p>
+
+<pre><code>bps (160/120)
+
+d1 $ whenmod 20 12 (slow 0.8) $  whenmod 8 6 (trunc 0.25) 
+$ whenmod 13 8 (every 3 (0.25 &lt;~) . every 4 (0.25 &lt;~)) $ 
+stack [whenmod 12 8 (const $ sound "llama:6*8?" 
+|+| speed (whenmod 7 5 ((*0.75) &lt;$&gt;) "1") |+| end "0.1" |+| cut "2") 
+$ sound "blue:1*8?" |+| shape "0.2" |+| begin "0.09" |+| end "0.2", 
+whenmod 10 6 (|+| gain "0") $ sound "flkick:309*8?" |+| speed "0.75", 
+whenmod 10 6 (|+| gain "0") $ sound (samples "[~ ~ ~ [kh kh?]] 
+shard:20" (run 22)), sound "~ ~ ~ sub/3", whenmod 6 4 (slow 2) 
+$ slow 4 $ (striate 16 $ sound "ping") |+| speed "[0.5 0.25, 
+[~ ~ ~ 0.75]]/3"]
+</code></pre></div></div><div class="post_glass post_micro_glass" 
+     title=""><a target="_blank" class="hover"
+               title=""
+               href="http://365tidalpatterns.tumblr.com/post/97011531060/pattern-339"><div class="hover_inner"><span class="post_date">Sep 8, 2014</span></div>  
+
+            <div class="hover_tags"></div></a></div>
+</div><div class="post post_micro is_regular post_tumblelog_c4ea9f2fbf633a20ea74c4654eb48a08 not_mine is_original with_permalink no_source no_notes has_hover" id="post_micro_97011474895"  data-id='97011474895' data-type='regular' data-root_id='97011474895' data-tumblelog='365tidalpatterns' data-tumblelog_key='YCGbdmhef' data-reblog_key='CLj3sRPH' data-is_mine='' data-accepts_answers='' data-following_tumblelog='' data-liked='' data-sponsored='' data-premium_tracked='' data-is_recommended='' data-placement_id='' data-featured_tags='Array' data-reblog_source='' data-post-id='97011474895' data-root-id='97011474895' data-tumblelog-name='365tidalpatterns' data-tumblelog-key='YCGbdmhef' data-reblog-key='CLj3sRPH' data-serve-id='0.18165000 14107183201581196352' data-json='{"id":"97011474895","type":"regular","root_id":"97011474895","tumblelog":"365tidalpatterns","tumblelog_key":"YCGbdmhef","reblog_key":"CLj3sRPH","is_mine":false,"accepts_answers":false,"following_tumblelog":false,"liked":false,"sponsored":false,"premium_tracked":false,"is_recommended":false,"placement_id":null,"featured_tags":[],"reblog_source":null,"post-id":"97011474895","root-id":"97011474895","tumblelog-name":"365tidalpatterns","tumblelog-key":"YCGbdmhef","reblog-key":"CLj3sRPH","serve-id":"0.18165000 14107183201581196352","json":"{\u0022id\u0022:\u002297011474895\u0022,\u0022type\u0022:\u0022regular\u0022,\u0022root_id\u0022:\u002297011474895\u0022,\u0022tumblelog\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog_key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog_key\u0022:\u0022CLj3sRPH\u0022,\u0022is_mine\u0022:false,\u0022accepts_answers\u0022:false,\u0022following_tumblelog\u0022:false,\u0022liked\u0022:false,\u0022sponsored\u0022:false,\u0022premium_tracked\u0022:false,\u0022is_recommended\u0022:false,\u0022placement_id\u0022:null,\u0022featured_tags\u0022:[],\u0022reblog_source\u0022:null,\u0022post-id\u0022:\u002297011474895\u0022,\u0022root-id\u0022:\u002297011474895\u0022,\u0022tumblelog-name\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog-key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog-key\u0022:\u0022CLj3sRPH\u0022,\u0022serve-id\u0022:\u00220.18165000 14107183201581196352\u0022}"}'><div class="post_content"><div class="post_content_inner"><div class="post_title">Pattern 338</div><p><a href="http://365tidalpatterns.tumblr.com/post/97011474895/pattern-338"><img src="http://assets.tumblr.com/images/inline_placeholder.png" width="18" height="14"/></a></p>
+
+<pre><code>bps (130/120)
+
+d1 $ slowspread ($) [striate 3, id, rev, (|+| speed "0.9 -0.9"), id, 
+slow 2 . (|+| speed "0.75 -0.8 0.5"), id, chop 4, id]$ whenmod 8 6 
+(trunc 0.25) $ slowspread (density) [1,2,1,3,1,2,1] $ 
+whenmod 6 4 (const $ slow 2 $ sound (samples 
+"kh*16 [shard laz:3] [~ laz:1 ~ laz:2] [~ laz:2 ~ laz:0]" (run 33)) 
+|+| speed "0.8 0.5") $ stack [ sound "flkick:52*8?", 
+sound "electrowave*8?" |+| cut "1", sound "laz:1*8?" |+| cut "2" 
+|+| speed "0.8" |+| gain "0.9"]
+</code></pre></div></div><div class="post_glass post_micro_glass" 
+     title=""><a target="_blank" class="hover"
+               title=""
+               href="http://365tidalpatterns.tumblr.com/post/97011474895/pattern-338"><div class="hover_inner"><span class="post_date">Sep 8, 2014</span></div>  
+
+            <div class="hover_tags"></div></a></div>
+</div><div class="post post_micro is_regular post_tumblelog_c4ea9f2fbf633a20ea74c4654eb48a08 not_mine is_original with_permalink no_source no_notes has_hover" id="post_micro_97011413800"  data-id='97011413800' data-type='regular' data-root_id='97011413800' data-tumblelog='365tidalpatterns' data-tumblelog_key='YCGbdmhef' data-reblog_key='8LftICKR' data-is_mine='' data-accepts_answers='' data-following_tumblelog='' data-liked='' data-sponsored='' data-premium_tracked='' data-is_recommended='' data-placement_id='' data-featured_tags='Array' data-reblog_source='' data-post-id='97011413800' data-root-id='97011413800' data-tumblelog-name='365tidalpatterns' data-tumblelog-key='YCGbdmhef' data-reblog-key='8LftICKR' data-serve-id='0.18678100 14107183201395845728' data-json='{"id":"97011413800","type":"regular","root_id":"97011413800","tumblelog":"365tidalpatterns","tumblelog_key":"YCGbdmhef","reblog_key":"8LftICKR","is_mine":false,"accepts_answers":false,"following_tumblelog":false,"liked":false,"sponsored":false,"premium_tracked":false,"is_recommended":false,"placement_id":null,"featured_tags":[],"reblog_source":null,"post-id":"97011413800","root-id":"97011413800","tumblelog-name":"365tidalpatterns","tumblelog-key":"YCGbdmhef","reblog-key":"8LftICKR","serve-id":"0.18678100 14107183201395845728","json":"{\u0022id\u0022:\u002297011413800\u0022,\u0022type\u0022:\u0022regular\u0022,\u0022root_id\u0022:\u002297011413800\u0022,\u0022tumblelog\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog_key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog_key\u0022:\u00228LftICKR\u0022,\u0022is_mine\u0022:false,\u0022accepts_answers\u0022:false,\u0022following_tumblelog\u0022:false,\u0022liked\u0022:false,\u0022sponsored\u0022:false,\u0022premium_tracked\u0022:false,\u0022is_recommended\u0022:false,\u0022placement_id\u0022:null,\u0022featured_tags\u0022:[],\u0022reblog_source\u0022:null,\u0022post-id\u0022:\u002297011413800\u0022,\u0022root-id\u0022:\u002297011413800\u0022,\u0022tumblelog-name\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog-key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog-key\u0022:\u00228LftICKR\u0022,\u0022serve-id\u0022:\u00220.18678100 14107183201395845728\u0022}"}'><div class="post_content"><div class="post_content_inner"><div class="post_title">Pattern 337</div><p><a href="http://365tidalpatterns.tumblr.com/post/97011413800/pattern-337"><img src="http://assets.tumblr.com/images/inline_placeholder.png" width="18" height="14"/></a></p>
+
+<pre><code>bps (100/120)
+
+d1 $ whenmod 8 6 (trunc 0.25) $ slowspread ($) [striate 4 . 
+trunc 0.5 . slow 2, rev, id, stut 3 0.5 0.33, id, (|+| speed "-1"), id, 
+chop 8 . within (0.25, 0.75) (density 2), id] $ whenmod 14 7 (
+every 4 (0.25 &lt;~) . every 3 (0.25 &lt;~)) $ stack [ sound (samples 
+"beeps*16" (run 31)) |+| speed "[1 0.5]/4", every 5 
+((|+| speed "2") . density 2) $ density 2 $ sound "~ lesss", sound 
+"~ [~ lessb] ~ ~ ~ ~ ~ [~ drop/2]" |+| cut "1" ]
+</code></pre></div></div><div class="post_glass post_micro_glass" 
+     title=""><a target="_blank" class="hover"
+               title=""
+               href="http://365tidalpatterns.tumblr.com/post/97011413800/pattern-337"><div class="hover_inner"><span class="post_date">Sep 8, 2014</span></div>  
+
+            <div class="hover_tags"></div></a></div>
+</div><div class="post post_micro is_regular post_tumblelog_c4ea9f2fbf633a20ea74c4654eb48a08 not_mine is_original with_permalink no_source no_notes has_hover" id="post_micro_97011364610"  data-id='97011364610' data-type='regular' data-root_id='97011364610' data-tumblelog='365tidalpatterns' data-tumblelog_key='YCGbdmhef' data-reblog_key='Z25amUvS' data-is_mine='' data-accepts_answers='' data-following_tumblelog='' data-liked='' data-sponsored='' data-premium_tracked='' data-is_recommended='' data-placement_id='' data-featured_tags='Array' data-reblog_source='' data-post-id='97011364610' data-root-id='97011364610' data-tumblelog-name='365tidalpatterns' data-tumblelog-key='YCGbdmhef' data-reblog-key='Z25amUvS' data-serve-id='0.19183200 1410718320160892810' data-json='{"id":"97011364610","type":"regular","root_id":"97011364610","tumblelog":"365tidalpatterns","tumblelog_key":"YCGbdmhef","reblog_key":"Z25amUvS","is_mine":false,"accepts_answers":false,"following_tumblelog":false,"liked":false,"sponsored":false,"premium_tracked":false,"is_recommended":false,"placement_id":null,"featured_tags":[],"reblog_source":null,"post-id":"97011364610","root-id":"97011364610","tumblelog-name":"365tidalpatterns","tumblelog-key":"YCGbdmhef","reblog-key":"Z25amUvS","serve-id":"0.19183200 1410718320160892810","json":"{\u0022id\u0022:\u002297011364610\u0022,\u0022type\u0022:\u0022regular\u0022,\u0022root_id\u0022:\u002297011364610\u0022,\u0022tumblelog\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog_key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog_key\u0022:\u0022Z25amUvS\u0022,\u0022is_mine\u0022:false,\u0022accepts_answers\u0022:false,\u0022following_tumblelog\u0022:false,\u0022liked\u0022:false,\u0022sponsored\u0022:false,\u0022premium_tracked\u0022:false,\u0022is_recommended\u0022:false,\u0022placement_id\u0022:null,\u0022featured_tags\u0022:[],\u0022reblog_source\u0022:null,\u0022post-id\u0022:\u002297011364610\u0022,\u0022root-id\u0022:\u002297011364610\u0022,\u0022tumblelog-name\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog-key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog-key\u0022:\u0022Z25amUvS\u0022,\u0022serve-id\u0022:\u00220.19183200 1410718320160892810\u0022}"}'><div class="post_content"><div class="post_content_inner"><div class="post_title">Pattern 336</div><p><a href="http://365tidalpatterns.tumblr.com/post/97011364610/pattern-336"><img src="http://assets.tumblr.com/images/inline_placeholder.png" width="18" height="14"/></a></p>
+
+<pre><code>bps (150/120)
+
+d1 $ whenmod 6 5 (|+| speed "-1") $ whenmod 8 6 (trunc 0.25) $ 
+iter 8 $ stack [  iter 4 $ whenmod 3 2 (degradeBy 0.6) $ 
+whenmod 4 3 (degradeBy 0.4) $ whenmod 5 4 (degradeBy 0.2) 
+$ sound (samples "[kit5 kit2]*8" (slow 0.8 $ run 16)), slow 3 $ (
+striate 4 $ sound "[bl4 bl4:3]/2") |+| speed "[1 1 -1, 2 -2 2]", 
+sound "~ psh" |+| speed "0.5"]
+</code></pre></div></div><div class="post_glass post_micro_glass" 
+     title=""><a target="_blank" class="hover"
+               title=""
+               href="http://365tidalpatterns.tumblr.com/post/97011364610/pattern-336"><div class="hover_inner"><span class="post_date">Sep 8, 2014</span></div>  
+
+            <div class="hover_tags"></div></a></div>
+</div><div class="post post_micro is_regular post_tumblelog_c4ea9f2fbf633a20ea74c4654eb48a08 not_mine is_original with_permalink no_source no_notes has_hover" id="post_micro_97011321005"  data-id='97011321005' data-type='regular' data-root_id='97011321005' data-tumblelog='365tidalpatterns' data-tumblelog_key='YCGbdmhef' data-reblog_key='GSdTcMBZ' data-is_mine='' data-accepts_answers='' data-following_tumblelog='' data-liked='' data-sponsored='' data-premium_tracked='' data-is_recommended='' data-placement_id='' data-featured_tags='Array' data-reblog_source='' data-post-id='97011321005' data-root-id='97011321005' data-tumblelog-name='365tidalpatterns' data-tumblelog-key='YCGbdmhef' data-reblog-key='GSdTcMBZ' data-serve-id='0.19741700 14107183202027648741' data-json='{"id":"97011321005","type":"regular","root_id":"97011321005","tumblelog":"365tidalpatterns","tumblelog_key":"YCGbdmhef","reblog_key":"GSdTcMBZ","is_mine":false,"accepts_answers":false,"following_tumblelog":false,"liked":false,"sponsored":false,"premium_tracked":false,"is_recommended":false,"placement_id":null,"featured_tags":[],"reblog_source":null,"post-id":"97011321005","root-id":"97011321005","tumblelog-name":"365tidalpatterns","tumblelog-key":"YCGbdmhef","reblog-key":"GSdTcMBZ","serve-id":"0.19741700 14107183202027648741","json":"{\u0022id\u0022:\u002297011321005\u0022,\u0022type\u0022:\u0022regular\u0022,\u0022root_id\u0022:\u002297011321005\u0022,\u0022tumblelog\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog_key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog_key\u0022:\u0022GSdTcMBZ\u0022,\u0022is_mine\u0022:false,\u0022accepts_answers\u0022:false,\u0022following_tumblelog\u0022:false,\u0022liked\u0022:false,\u0022sponsored\u0022:false,\u0022premium_tracked\u0022:false,\u0022is_recommended\u0022:false,\u0022placement_id\u0022:null,\u0022featured_tags\u0022:[],\u0022reblog_source\u0022:null,\u0022post-id\u0022:\u002297011321005\u0022,\u0022root-id\u0022:\u002297011321005\u0022,\u0022tumblelog-name\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog-key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog-key\u0022:\u0022GSdTcMBZ\u0022,\u0022serve-id\u0022:\u00220.19741700 14107183202027648741\u0022}"}'><div class="post_content"><div class="post_content_inner"><div class="post_title">Pattern 335</div><p><a href="http://365tidalpatterns.tumblr.com/post/97011321005/pattern-335"><img src="http://assets.tumblr.com/images/inline_placeholder.png" width="18" height="14"/></a></p>
+
+<pre><code>bps (190/120)
+
+d1 $ slowspread ($) [slow 1.5, id, slow 0.75, rev, within 
+(0.25, 0.75) (density 2), id, trunc 0.25, id] $ stack [ slow 16 $ (
+striate 64 $ sound "padloop16") |+| speed "[[1 0.5 0.25], [~ 0.75]]", 
+whenmod 13 11 (const $ slow 2 $ sound (samples "kh*16 shard" 
+(run 20))) $ whenmod 10 5 (slow 1.5) $ slow 2 $ sound (samples 
+"[k ktite] kh [k ktite] kh [s ktite] s [s ktite] s hh*8 kv*4 [sv hv]*2 
+[kv kh] sea/2 sub:0/3" (every 4 (slow 0.7) $ run 42)) |+| cutoff (
+scale 0.05 0.2 $ slow 2.1 sine1) |+| resonance (scale 0.1 0.6 $ 
+slow 2.7 sine1), slow 6 $ trunc 0.5 $ striate' 2048 (1/1000) $ 
+sound "salsa:1" |+| speed "0.7" |+| delay "0.5" ] |+| delaytime "0.7" 
+|+| delayfeedback "0.6"
+</code></pre></div></div><div class="post_glass post_micro_glass" 
+     title=""><a target="_blank" class="hover"
+               title=""
+               href="http://365tidalpatterns.tumblr.com/post/97011321005/pattern-335"><div class="hover_inner"><span class="post_date">Sep 8, 2014</span></div>  
+
+            <div class="hover_tags"></div></a></div>
+</div><div class="post post_micro is_regular post_tumblelog_c4ea9f2fbf633a20ea74c4654eb48a08 not_mine is_original with_permalink no_source no_notes has_hover" id="post_micro_97011262960"  data-id='97011262960' data-type='regular' data-root_id='97011262960' data-tumblelog='365tidalpatterns' data-tumblelog_key='YCGbdmhef' data-reblog_key='Q69dvrvi' data-is_mine='' data-accepts_answers='' data-following_tumblelog='' data-liked='' data-sponsored='' data-premium_tracked='' data-is_recommended='' data-placement_id='' data-featured_tags='Array' data-reblog_source='' data-post-id='97011262960' data-root-id='97011262960' data-tumblelog-name='365tidalpatterns' data-tumblelog-key='YCGbdmhef' data-reblog-key='Q69dvrvi' data-serve-id='0.20317700 14107183202022959357' data-json='{"id":"97011262960","type":"regular","root_id":"97011262960","tumblelog":"365tidalpatterns","tumblelog_key":"YCGbdmhef","reblog_key":"Q69dvrvi","is_mine":false,"accepts_answers":false,"following_tumblelog":false,"liked":false,"sponsored":false,"premium_tracked":false,"is_recommended":false,"placement_id":null,"featured_tags":[],"reblog_source":null,"post-id":"97011262960","root-id":"97011262960","tumblelog-name":"365tidalpatterns","tumblelog-key":"YCGbdmhef","reblog-key":"Q69dvrvi","serve-id":"0.20317700 14107183202022959357","json":"{\u0022id\u0022:\u002297011262960\u0022,\u0022type\u0022:\u0022regular\u0022,\u0022root_id\u0022:\u002297011262960\u0022,\u0022tumblelog\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog_key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog_key\u0022:\u0022Q69dvrvi\u0022,\u0022is_mine\u0022:false,\u0022accepts_answers\u0022:false,\u0022following_tumblelog\u0022:false,\u0022liked\u0022:false,\u0022sponsored\u0022:false,\u0022premium_tracked\u0022:false,\u0022is_recommended\u0022:false,\u0022placement_id\u0022:null,\u0022featured_tags\u0022:[],\u0022reblog_source\u0022:null,\u0022post-id\u0022:\u002297011262960\u0022,\u0022root-id\u0022:\u002297011262960\u0022,\u0022tumblelog-name\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog-key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog-key\u0022:\u0022Q69dvrvi\u0022,\u0022serve-id\u0022:\u00220.20317700 14107183202022959357\u0022}"}'><div class="post_content"><div class="post_content_inner"><div class="post_title">Pattern 334</div><p><a href="http://365tidalpatterns.tumblr.com/post/97011262960/pattern-334"><img src="http://assets.tumblr.com/images/inline_placeholder.png" width="18" height="14"/></a></p>
+
+<pre><code>bps (175/120)
+
+d1 $ whenmod 8 6 (trunc 0.25) $ every 3 (0.25 &lt;~) $ every 4 
+(0.25 &lt;~) $ stack [ slow 4 $ striate 16 $ sound "[blh4:3 bl4:7]/2", 
+whenmod 7 5 (|+| speed "1.5") $ whenmod 5 3 (0.25 &lt;~) $  
+whenmod 9 8 (stut 16 0.3 0.2 . whenmod 8 5 (slow 2.5)) $ slow 2 
+$ sound "~ sna [~ sna] ~ sna [~ sna] ~ sna", slow 2 $ sound (
+samples "kh*2 kh ~ kh*2 kh ~ [~ kh] [~ kh]" "10"), sound (
+samples "hh*16?" (run 20)) |+| speed "1.5", whenmod 11 9 
+(|+| speed "0.8") $ every 5 (|+| delay "0.7") $ whenmod 8 6 (
+density 8 . (|+| speed "1.5")) $ slow 3 $ sound "salsa:1"] 
+|+| delaytime "0.7" |+| delayfeedback "0.7"
+</code></pre></div></div><div class="post_glass post_micro_glass" 
+     title=""><a target="_blank" class="hover"
+               title=""
+               href="http://365tidalpatterns.tumblr.com/post/97011262960/pattern-334"><div class="hover_inner"><span class="post_date">Sep 8, 2014</span></div>  
+
+            <div class="hover_tags"></div></a></div>
+</div><div class="post post_micro is_regular post_tumblelog_c4ea9f2fbf633a20ea74c4654eb48a08 not_mine is_original with_permalink no_source has_hover" id="post_micro_96674631840"  data-id='96674631840' data-type='regular' data-root_id='96674631840' data-tumblelog='365tidalpatterns' data-tumblelog_key='YCGbdmhef' data-reblog_key='Vf0r3jO5' data-is_mine='' data-accepts_answers='' data-following_tumblelog='' data-liked='' data-sponsored='' data-premium_tracked='' data-is_recommended='' data-placement_id='' data-featured_tags='Array' data-reblog_source='' data-post-id='96674631840' data-root-id='96674631840' data-tumblelog-name='365tidalpatterns' data-tumblelog-key='YCGbdmhef' data-reblog-key='Vf0r3jO5' data-serve-id='0.20847200 14107183201848854012' data-json='{"id":"96674631840","type":"regular","root_id":"96674631840","tumblelog":"365tidalpatterns","tumblelog_key":"YCGbdmhef","reblog_key":"Vf0r3jO5","is_mine":false,"accepts_answers":false,"following_tumblelog":false,"liked":false,"sponsored":false,"premium_tracked":false,"is_recommended":false,"placement_id":null,"featured_tags":[],"reblog_source":null,"post-id":"96674631840","root-id":"96674631840","tumblelog-name":"365tidalpatterns","tumblelog-key":"YCGbdmhef","reblog-key":"Vf0r3jO5","serve-id":"0.20847200 14107183201848854012","json":"{\u0022id\u0022:\u002296674631840\u0022,\u0022type\u0022:\u0022regular\u0022,\u0022root_id\u0022:\u002296674631840\u0022,\u0022tumblelog\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog_key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog_key\u0022:\u0022Vf0r3jO5\u0022,\u0022is_mine\u0022:false,\u0022accepts_answers\u0022:false,\u0022following_tumblelog\u0022:false,\u0022liked\u0022:false,\u0022sponsored\u0022:false,\u0022premium_tracked\u0022:false,\u0022is_recommended\u0022:false,\u0022placement_id\u0022:null,\u0022featured_tags\u0022:[],\u0022reblog_source\u0022:null,\u0022post-id\u0022:\u002296674631840\u0022,\u0022root-id\u0022:\u002296674631840\u0022,\u0022tumblelog-name\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog-key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog-key\u0022:\u0022Vf0r3jO5\u0022,\u0022serve-id\u0022:\u00220.20847200 14107183201848854012\u0022}"}'><div class="post_content"><div class="post_content_inner"><div class="post_title">Pattern 333</div><p><a href="http://365tidalpatterns.tumblr.com/post/96674631840/pattern-333"><img src="http://assets.tumblr.com/images/inline_placeholder.png" width="18" height="14"/></a></p>
+
+<pre><code>bps (140/120)
+
+d1 $ iter 8 $ whenmod 5 4 (degradeBy 0.8) $ 
+whenmod 4 3 (degradeBy 0.4) $ whenmod 3 2 (degradeBy 0.2) 
+$ whenmod 2 1 (degradeBy 0.1) $ sound (samples "half*16" 
+(irand 33))
+</code></pre></div></div><div class="post_glass post_micro_glass" 
+     title=""><a target="_blank" class="hover"
+               title=""
+               href="http://365tidalpatterns.tumblr.com/post/96674631840/pattern-333"><div class="hover_inner"><span class="post_date">Sep 4, 2014</span><span class="post_notes"
+                        data-notes="2">2 notes</span></div>  
+
+            <div class="hover_tags"></div></a></div>
+</div><div class="post post_micro is_regular post_tumblelog_c4ea9f2fbf633a20ea74c4654eb48a08 not_mine is_original with_permalink no_source has_hover" id="post_micro_96674548730"  data-id='96674548730' data-type='regular' data-root_id='96674548730' data-tumblelog='365tidalpatterns' data-tumblelog_key='YCGbdmhef' data-reblog_key='fMiRt4lD' data-is_mine='' data-accepts_answers='' data-following_tumblelog='' data-liked='' data-sponsored='' data-premium_tracked='' data-is_recommended='' data-placement_id='' data-featured_tags='Array' data-reblog_source='' data-post-id='96674548730' data-root-id='96674548730' data-tumblelog-name='365tidalpatterns' data-tumblelog-key='YCGbdmhef' data-reblog-key='fMiRt4lD' data-serve-id='0.21429800 14107183201109998695' data-json='{"id":"96674548730","type":"regular","root_id":"96674548730","tumblelog":"365tidalpatterns","tumblelog_key":"YCGbdmhef","reblog_key":"fMiRt4lD","is_mine":false,"accepts_answers":false,"following_tumblelog":false,"liked":false,"sponsored":false,"premium_tracked":false,"is_recommended":false,"placement_id":null,"featured_tags":[],"reblog_source":null,"post-id":"96674548730","root-id":"96674548730","tumblelog-name":"365tidalpatterns","tumblelog-key":"YCGbdmhef","reblog-key":"fMiRt4lD","serve-id":"0.21429800 14107183201109998695","json":"{\u0022id\u0022:\u002296674548730\u0022,\u0022type\u0022:\u0022regular\u0022,\u0022root_id\u0022:\u002296674548730\u0022,\u0022tumblelog\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog_key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog_key\u0022:\u0022fMiRt4lD\u0022,\u0022is_mine\u0022:false,\u0022accepts_answers\u0022:false,\u0022following_tumblelog\u0022:false,\u0022liked\u0022:false,\u0022sponsored\u0022:false,\u0022premium_tracked\u0022:false,\u0022is_recommended\u0022:false,\u0022placement_id\u0022:null,\u0022featured_tags\u0022:[],\u0022reblog_source\u0022:null,\u0022post-id\u0022:\u002296674548730\u0022,\u0022root-id\u0022:\u002296674548730\u0022,\u0022tumblelog-name\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog-key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog-key\u0022:\u0022fMiRt4lD\u0022,\u0022serve-id\u0022:\u00220.21429800 14107183201109998695\u0022}"}'><div class="post_content"><div class="post_content_inner"><div class="post_title">Pattern 332</div><p><a href="http://365tidalpatterns.tumblr.com/post/96674548730/pattern-332"><img src="http://assets.tumblr.com/images/inline_placeholder.png" width="18" height="14"/></a></p>
+
+<pre><code>bps (250/120)
+
+d1 $ whenmod 12 10 ((|+| speed "1 0.95 0.9 0.85") . trunc 0.25) 
+$ whenmod 8 6 (trunc 0.25) $ every 3 (0.25 &lt;~) $ every 4 (0.25 &lt;~) 
+$ stack [ whenmod 20 10 (const $ sound "~") $ whenmod 7 5 
+(density 2) $ whenmod 6 4 (density 2) $ sound "josie:2*2" 
+|+| speed (every 3 ((*1.2) &lt;$&gt;) $ every 4 ((*2) &lt;$&gt;) $ every 5 
+((*0.7) &lt;$&gt;) "0.7") |+| cut "1", slow 4 $ sound (samples 
+"kh*8 shard:3 [~ kh]*4 shard:3" (run 32)), whenmod 7 4 
+(stut 2 0.5 0.25) $ sound "xh*4" |+| gain "0.8", sound 
+"~ [~ mel*8]/2 pad:4 [pad:4 mel:2*8 ~ ~]/4" |+| cut "2" ]
+</code></pre></div></div><div class="post_glass post_micro_glass" 
+     title=""><a target="_blank" class="hover"
+               title=""
+               href="http://365tidalpatterns.tumblr.com/post/96674548730/pattern-332"><div class="hover_inner"><span class="post_date">Sep 4, 2014</span><span class="post_notes"
+                        data-notes="2">2 notes</span></div>  
+
+            <div class="hover_tags"></div></a></div>
+</div><div class="post post_micro is_regular post_tumblelog_c4ea9f2fbf633a20ea74c4654eb48a08 not_mine is_original with_permalink no_source has_hover" id="post_micro_96674476290"  data-id='96674476290' data-type='regular' data-root_id='96674476290' data-tumblelog='365tidalpatterns' data-tumblelog_key='YCGbdmhef' data-reblog_key='oSjGZ2wo' data-is_mine='' data-accepts_answers='' data-following_tumblelog='' data-liked='' data-sponsored='' data-premium_tracked='' data-is_recommended='' data-placement_id='' data-featured_tags='Array' data-reblog_source='' data-post-id='96674476290' data-root-id='96674476290' data-tumblelog-name='365tidalpatterns' data-tumblelog-key='YCGbdmhef' data-reblog-key='oSjGZ2wo' data-serve-id='0.22084200 1410718320937350893' data-json='{"id":"96674476290","type":"regular","root_id":"96674476290","tumblelog":"365tidalpatterns","tumblelog_key":"YCGbdmhef","reblog_key":"oSjGZ2wo","is_mine":false,"accepts_answers":false,"following_tumblelog":false,"liked":false,"sponsored":false,"premium_tracked":false,"is_recommended":false,"placement_id":null,"featured_tags":[],"reblog_source":null,"post-id":"96674476290","root-id":"96674476290","tumblelog-name":"365tidalpatterns","tumblelog-key":"YCGbdmhef","reblog-key":"oSjGZ2wo","serve-id":"0.22084200 1410718320937350893","json":"{\u0022id\u0022:\u002296674476290\u0022,\u0022type\u0022:\u0022regular\u0022,\u0022root_id\u0022:\u002296674476290\u0022,\u0022tumblelog\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog_key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog_key\u0022:\u0022oSjGZ2wo\u0022,\u0022is_mine\u0022:false,\u0022accepts_answers\u0022:false,\u0022following_tumblelog\u0022:false,\u0022liked\u0022:false,\u0022sponsored\u0022:false,\u0022premium_tracked\u0022:false,\u0022is_recommended\u0022:false,\u0022placement_id\u0022:null,\u0022featured_tags\u0022:[],\u0022reblog_source\u0022:null,\u0022post-id\u0022:\u002296674476290\u0022,\u0022root-id\u0022:\u002296674476290\u0022,\u0022tumblelog-name\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog-key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog-key\u0022:\u0022oSjGZ2wo\u0022,\u0022serve-id\u0022:\u00220.22084200 1410718320937350893\u0022}"}'><div class="post_content"><div class="post_content_inner"><div class="post_title">Pattern 331</div><p><a href="http://365tidalpatterns.tumblr.com/post/96674476290/pattern-331"><img src="http://assets.tumblr.com/images/inline_placeholder.png" width="18" height="14"/></a></p>
+
+<pre><code>bps (150/120)
+
+d1 $ whenmod 18 9 (slow 1.5) $ whenmod 12 9 (slow 4 . 
+stut 8 0.5 0.1 . trunc 0.25) $ whenmod 8 5 (within (0.25, 0.75) 
+(slow 4 . stut 4 0.25 0.25 . (|+| speed "0.75"))) $ slowspread (chop) 
+[2,8,64,32,16] $ stack [slow 2 $ sound (samples 
+"{[tite xh]*2 tite*4 [hh tite]*2 tite*4 [hh*2 tite*2] tite*4}%8" (run 53)) 
+|+| speed "1", slow 5 $ sound "fxlong:7 fxlong:9", sound 
+"~ xs [~ stite] [~ xs]", sound (samples 
+"[xk kv]*2 ~ [xk*2 ~] [~ flkick ~ k]" (run 11)), slow 2 $ sound (
+samples "{numbers nerd ~}%4" (run 11)) |+| speed "0.75"]
+</code></pre></div></div><div class="post_glass post_micro_glass" 
+     title=""><a target="_blank" class="hover"
+               title=""
+               href="http://365tidalpatterns.tumblr.com/post/96674476290/pattern-331"><div class="hover_inner"><span class="post_date">Sep 4, 2014</span><span class="post_notes"
+                        data-notes="2">2 notes</span></div>  
+
+            <div class="hover_tags"></div></a></div>
+</div><div class="post post_micro is_regular post_tumblelog_c4ea9f2fbf633a20ea74c4654eb48a08 not_mine is_original with_permalink no_source has_hover" id="post_micro_96674409530"  data-id='96674409530' data-type='regular' data-root_id='96674409530' data-tumblelog='365tidalpatterns' data-tumblelog_key='YCGbdmhef' data-reblog_key='6CwtJB8G' data-is_mine='' data-accepts_answers='' data-following_tumblelog='' data-liked='' data-sponsored='' data-premium_tracked='' data-is_recommended='' data-placement_id='' data-featured_tags='Array' data-reblog_source='' data-post-id='96674409530' data-root-id='96674409530' data-tumblelog-name='365tidalpatterns' data-tumblelog-key='YCGbdmhef' data-reblog-key='6CwtJB8G' data-serve-id='0.22711900 14107183201096564269' data-json='{"id":"96674409530","type":"regular","root_id":"96674409530","tumblelog":"365tidalpatterns","tumblelog_key":"YCGbdmhef","reblog_key":"6CwtJB8G","is_mine":false,"accepts_answers":false,"following_tumblelog":false,"liked":false,"sponsored":false,"premium_tracked":false,"is_recommended":false,"placement_id":null,"featured_tags":[],"reblog_source":null,"post-id":"96674409530","root-id":"96674409530","tumblelog-name":"365tidalpatterns","tumblelog-key":"YCGbdmhef","reblog-key":"6CwtJB8G","serve-id":"0.22711900 14107183201096564269","json":"{\u0022id\u0022:\u002296674409530\u0022,\u0022type\u0022:\u0022regular\u0022,\u0022root_id\u0022:\u002296674409530\u0022,\u0022tumblelog\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog_key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog_key\u0022:\u00226CwtJB8G\u0022,\u0022is_mine\u0022:false,\u0022accepts_answers\u0022:false,\u0022following_tumblelog\u0022:false,\u0022liked\u0022:false,\u0022sponsored\u0022:false,\u0022premium_tracked\u0022:false,\u0022is_recommended\u0022:false,\u0022placement_id\u0022:null,\u0022featured_tags\u0022:[],\u0022reblog_source\u0022:null,\u0022post-id\u0022:\u002296674409530\u0022,\u0022root-id\u0022:\u002296674409530\u0022,\u0022tumblelog-name\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog-key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog-key\u0022:\u00226CwtJB8G\u0022,\u0022serve-id\u0022:\u00220.22711900 14107183201096564269\u0022}"}'><div class="post_content"><div class="post_content_inner"><div class="post_title">Pattern 330</div><p><a href="http://365tidalpatterns.tumblr.com/post/96674409530/pattern-330"><img src="http://assets.tumblr.com/images/inline_placeholder.png" width="18" height="14"/></a></p>
+
+<pre><code>bps (130/120)
+
+d1 $ slowspread ($) [id, rev, (|+| speed "0.5 0.8 1 1.3"), id, 
+(|+| vowel "a o u i e o u o"), id, within (0.25, 0.75) ((|+| pan "0 1") . 
+rev), id] $ whenmod 8 6 (trunc 0.25) $ every 4 (0.25 &lt;~) $ 
+every 3 (0.25 &lt;~) $ stack [ jux (0.01 &lt;~) $ slowspread (slow) [3,2,4] 
+$ (striate' 1024 (1/100) $ sound "[fran nerd:3]/2") |+| speed 
+"[1 0.5, [1.5 ~ 2]/2]" |+| gain "0.9", density 2 $ sound (samples 
+"[kv untuned] [untuned k] [kh tite*2] [doru kh]" (run 42)), sound 
+"[cp]*2", sound (samples "~ [~ b] ~ ~ [~ b] ~ b ~" (run 27)) 
+|+| cut "1", sound "{hh*4 [hh*4 ~ ~]/3 [hh*4 ~]/2}%4" |+| gain "0.9", 
+whenmod 10 4 (const $ sound "~") $ sound 
+"[shard:17 [kh:51*2 ~]]*2" ]
+</code></pre></div></div><div class="post_glass post_micro_glass" 
+     title=""><a target="_blank" class="hover"
+               title=""
+               href="http://365tidalpatterns.tumblr.com/post/96674409530/pattern-330"><div class="hover_inner"><span class="post_date">Sep 4, 2014</span><span class="post_notes"
+                        data-notes="2">2 notes</span></div>  
+
+            <div class="hover_tags"></div></a></div>
+</div><div class="post post_micro is_regular post_tumblelog_c4ea9f2fbf633a20ea74c4654eb48a08 not_mine is_original with_permalink no_source no_notes has_hover" id="post_micro_96586066065"  data-id='96586066065' data-type='regular' data-root_id='96586066065' data-tumblelog='365tidalpatterns' data-tumblelog_key='YCGbdmhef' data-reblog_key='vUDb41Yo' data-is_mine='' data-accepts_answers='' data-following_tumblelog='' data-liked='' data-sponsored='' data-premium_tracked='' data-is_recommended='' data-placement_id='' data-featured_tags='Array' data-reblog_source='' data-post-id='96586066065' data-root-id='96586066065' data-tumblelog-name='365tidalpatterns' data-tumblelog-key='YCGbdmhef' data-reblog-key='vUDb41Yo' data-serve-id='0.23331800 14107183201837338230' data-json='{"id":"96586066065","type":"regular","root_id":"96586066065","tumblelog":"365tidalpatterns","tumblelog_key":"YCGbdmhef","reblog_key":"vUDb41Yo","is_mine":false,"accepts_answers":false,"following_tumblelog":false,"liked":false,"sponsored":false,"premium_tracked":false,"is_recommended":false,"placement_id":null,"featured_tags":[],"reblog_source":null,"post-id":"96586066065","root-id":"96586066065","tumblelog-name":"365tidalpatterns","tumblelog-key":"YCGbdmhef","reblog-key":"vUDb41Yo","serve-id":"0.23331800 14107183201837338230","json":"{\u0022id\u0022:\u002296586066065\u0022,\u0022type\u0022:\u0022regular\u0022,\u0022root_id\u0022:\u002296586066065\u0022,\u0022tumblelog\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog_key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog_key\u0022:\u0022vUDb41Yo\u0022,\u0022is_mine\u0022:false,\u0022accepts_answers\u0022:false,\u0022following_tumblelog\u0022:false,\u0022liked\u0022:false,\u0022sponsored\u0022:false,\u0022premium_tracked\u0022:false,\u0022is_recommended\u0022:false,\u0022placement_id\u0022:null,\u0022featured_tags\u0022:[],\u0022reblog_source\u0022:null,\u0022post-id\u0022:\u002296586066065\u0022,\u0022root-id\u0022:\u002296586066065\u0022,\u0022tumblelog-name\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog-key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog-key\u0022:\u0022vUDb41Yo\u0022,\u0022serve-id\u0022:\u00220.23331800 14107183201837338230\u0022}"}'><div class="post_content"><div class="post_content_inner"><div class="post_title">Pattern 329</div><p><a href="http://365tidalpatterns.tumblr.com/post/96586066065/pattern-329"><img src="http://assets.tumblr.com/images/inline_placeholder.png" width="18" height="14"/></a></p>
+
+<pre><code>cps 0.6
+
+d1 $ whenmod 10 8 (trunc 0.25) $ every 5 (0.25 &lt;~) $ every 4 
+(0.25 &lt;~) $ stack [ within (0.25, 0.75) (whenmod 5 3 (slow 2) . 
+whenmod 7 5 (rev)) $ jux (0.01 &lt;~) $ slow 2 $ (striate' 2048 (1/500) 
+$ sound "gnome:4") |+| speed "[1 2 0.75 1.5]/3" |+| shape "0.4", 
+slowspread ($) [stut 16 0.5 0.1, id, (|+| vowel 
+"a o u e i o u a u a o e u"), (|+| speed "0.75") . slow 1.5, id, 
+trunc 0.25, id, (|+| speed "2 3 5"), (|+| accelerate "0.5 -1 2 0"), 
+id, (|+| cutoff (scale 0.01 0.3 $ slow 1.19 sine1)) . 
+(|+| resonance "0.7") ] $ slow 2 $ sound (samples 
+"[tite*3 kv] [kh tite] [shard hh tite*2] [stite hh sv tite*2] [hh tite]*2 
+[cp tite*2] [shard tite*4] [cp kv kh kv]" (run 52))]
+</code></pre></div></div><div class="post_glass post_micro_glass" 
+     title=""><a target="_blank" class="hover"
+               title=""
+               href="http://365tidalpatterns.tumblr.com/post/96586066065/pattern-329"><div class="hover_inner"><span class="post_date">Sep 3, 2014</span></div>  
+
+            <div class="hover_tags"></div></a></div>
+</div><div class="post post_micro is_regular post_tumblelog_c4ea9f2fbf633a20ea74c4654eb48a08 not_mine is_original with_permalink no_source no_notes has_hover" id="post_micro_96585985025"  data-id='96585985025' data-type='regular' data-root_id='96585985025' data-tumblelog='365tidalpatterns' data-tumblelog_key='YCGbdmhef' data-reblog_key='Cx8peFAK' data-is_mine='' data-accepts_answers='' data-following_tumblelog='' data-liked='' data-sponsored='' data-premium_tracked='' data-is_recommended='' data-placement_id='' data-featured_tags='Array' data-reblog_source='' data-post-id='96585985025' data-root-id='96585985025' data-tumblelog-name='365tidalpatterns' data-tumblelog-key='YCGbdmhef' data-reblog-key='Cx8peFAK' data-serve-id='0.23977100 1410718320230682474' data-json='{"id":"96585985025","type":"regular","root_id":"96585985025","tumblelog":"365tidalpatterns","tumblelog_key":"YCGbdmhef","reblog_key":"Cx8peFAK","is_mine":false,"accepts_answers":false,"following_tumblelog":false,"liked":false,"sponsored":false,"premium_tracked":false,"is_recommended":false,"placement_id":null,"featured_tags":[],"reblog_source":null,"post-id":"96585985025","root-id":"96585985025","tumblelog-name":"365tidalpatterns","tumblelog-key":"YCGbdmhef","reblog-key":"Cx8peFAK","serve-id":"0.23977100 1410718320230682474","json":"{\u0022id\u0022:\u002296585985025\u0022,\u0022type\u0022:\u0022regular\u0022,\u0022root_id\u0022:\u002296585985025\u0022,\u0022tumblelog\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog_key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog_key\u0022:\u0022Cx8peFAK\u0022,\u0022is_mine\u0022:false,\u0022accepts_answers\u0022:false,\u0022following_tumblelog\u0022:false,\u0022liked\u0022:false,\u0022sponsored\u0022:false,\u0022premium_tracked\u0022:false,\u0022is_recommended\u0022:false,\u0022placement_id\u0022:null,\u0022featured_tags\u0022:[],\u0022reblog_source\u0022:null,\u0022post-id\u0022:\u002296585985025\u0022,\u0022root-id\u0022:\u002296585985025\u0022,\u0022tumblelog-name\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog-key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog-key\u0022:\u0022Cx8peFAK\u0022,\u0022serve-id\u0022:\u00220.23977100 1410718320230682474\u0022}"}'><div class="post_content"><div class="post_content_inner"><div class="post_title">Pattern 328</div><p><a href="http://365tidalpatterns.tumblr.com/post/96585985025/pattern-328"><img src="http://assets.tumblr.com/images/inline_placeholder.png" width="18" height="14"/></a></p>
+
+<pre><code>cps 1
+
+d1 $ whenmod 8 6 (trunc 0.25) $ slowspread ($) [(|+| vowel "a o u"), 
+rev, id, stut 4 0.25 0.25 . slow 2, (|+| speed "0.5 0.8 0.6") . slow 2, 
+id, within (0.5, 1) ((|+| speed "2")), (0.25 &lt;~), id, (|+| delay "0.7")] 
+$ every 4 (within (0.25, 0.75) (slow 2 . rev . (|+| speed "0.7"))) $ 
+stack [ stack [slow 8 $ trunc 0.25 $ (striate 16 $ sound 
+"kv*8 sv*16 hv*32 tite*8") |+| speed (scale 1 3 $ slow 2.1 sine1), 
+whenmod 7 4 (degradeBy 0.5 . density 2) $ slow 4 $ sound (
+samples "[kv*2 kv sv]!!! kv*6" (run 11)) |+| speed "[3 2 5]/2" ], 
+jux (0.01 &lt;~) $ slowspread (slow) [6, 8, 12, 4, 16] $ trunc 0.5 
+$ (striate' 1024 (1/100) $ sound "[josie fran]/2") 
+|+| speed (whenmod 6 4 ((*0.8) &lt;$&gt;) "[1, [~ 0.5 ~ 1.5 ~ 2]/4]") 
+|+| delay "0.4", every 3 (0.25 &lt;~) $ slow 2 $ sound (samples 
+"kh [~ kh*2] shard [tite*8 kh] [tite hh]*2 [kh hh*3] [shard kh] [~ kh]" 
+(run 5)) |+| cut "3" ] |+| delayfeedback "0.4" |+| delaytime "0.4"
+</code></pre></div></div><div class="post_glass post_micro_glass" 
+     title=""><a target="_blank" class="hover"
+               title=""
+               href="http://365tidalpatterns.tumblr.com/post/96585985025/pattern-328"><div class="hover_inner"><span class="post_date">Sep 3, 2014</span></div>  
+
+            <div class="hover_tags"></div></a></div>
+</div><div class="post post_micro is_regular post_tumblelog_c4ea9f2fbf633a20ea74c4654eb48a08 not_mine is_original with_permalink no_source no_notes has_hover" id="post_micro_96585883870"  data-id='96585883870' data-type='regular' data-root_id='96585883870' data-tumblelog='365tidalpatterns' data-tumblelog_key='YCGbdmhef' data-reblog_key='QMTMDV66' data-is_mine='' data-accepts_answers='' data-following_tumblelog='' data-liked='' data-sponsored='' data-premium_tracked='' data-is_recommended='' data-placement_id='' data-featured_tags='Array' data-reblog_source='' data-post-id='96585883870' data-root-id='96585883870' data-tumblelog-name='365tidalpatterns' data-tumblelog-key='YCGbdmhef' data-reblog-key='QMTMDV66' data-serve-id='0.24586000 14107183201115867962' data-json='{"id":"96585883870","type":"regular","root_id":"96585883870","tumblelog":"365tidalpatterns","tumblelog_key":"YCGbdmhef","reblog_key":"QMTMDV66","is_mine":false,"accepts_answers":false,"following_tumblelog":false,"liked":false,"sponsored":false,"premium_tracked":false,"is_recommended":false,"placement_id":null,"featured_tags":[],"reblog_source":null,"post-id":"96585883870","root-id":"96585883870","tumblelog-name":"365tidalpatterns","tumblelog-key":"YCGbdmhef","reblog-key":"QMTMDV66","serve-id":"0.24586000 14107183201115867962","json":"{\u0022id\u0022:\u002296585883870\u0022,\u0022type\u0022:\u0022regular\u0022,\u0022root_id\u0022:\u002296585883870\u0022,\u0022tumblelog\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog_key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog_key\u0022:\u0022QMTMDV66\u0022,\u0022is_mine\u0022:false,\u0022accepts_answers\u0022:false,\u0022following_tumblelog\u0022:false,\u0022liked\u0022:false,\u0022sponsored\u0022:false,\u0022premium_tracked\u0022:false,\u0022is_recommended\u0022:false,\u0022placement_id\u0022:null,\u0022featured_tags\u0022:[],\u0022reblog_source\u0022:null,\u0022post-id\u0022:\u002296585883870\u0022,\u0022root-id\u0022:\u002296585883870\u0022,\u0022tumblelog-name\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog-key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog-key\u0022:\u0022QMTMDV66\u0022,\u0022serve-id\u0022:\u00220.24586000 14107183201115867962\u0022}"}'><div class="post_content"><div class="post_content_inner"><div class="post_title">Pattern 327</div><p><a href="http://365tidalpatterns.tumblr.com/post/96585883870/pattern-327"><img src="http://assets.tumblr.com/images/inline_placeholder.png" width="18" height="14"/></a></p>
+
+<pre><code>cps (100/120)
+
+d1 $ every 4 (0.25 &lt;~) $ every 3 (0.25 &lt;~) $ whenmod 7 5 (iter 4) 
+$ whenmod 6 5 (stut 8 0.5 0.1) $ stack [ whenmod 5 4 (0.25 &lt;~) 
+$ slow 2 $ sound "[kv*2 kv kv*2 kv*2 [~ kv] [~ kv] ~ kv*2 ~]" 
+|+| speed "19", whenmod 4 3 (0.25 &lt;~) $ whenmod 5 3 
+(slow 4 . (|+| speed "2")) $ chop 128 $ sound "[~ [sv ~] sv ~ sv]" 
+|+| speed "5" |+| shape "0.3", every 5 (density 2) $ 
+whenmod 3 2 (0.25 &lt;~) $ within (0, 0.5) (every 3 (density 2)) $ 
+slow 2 $ sound (samples "kv*2 kv sv ~ sv ~ kv*2" (run 31)), 
+whenmod 8 5 (const $ slow 2 $ (chop 64 $ sound "pad:4 pad:6") 
+|+| speed (scale 0.5 1.5 $ slow 4.1 sine1)) $ slowspread (slow) 
+[3, 2, 4, 2.5] $ chop 128 $ sound "autobass" 
+|+| speed "[1 1.5 2]/3" ]
+</code></pre></div></div><div class="post_glass post_micro_glass" 
+     title=""><a target="_blank" class="hover"
+               title=""
+               href="http://365tidalpatterns.tumblr.com/post/96585883870/pattern-327"><div class="hover_inner"><span class="post_date">Sep 3, 2014</span></div>  
+
+            <div class="hover_tags"></div></a></div>
+</div></section><header class="heading" style="display:none;"><h2 class="date">August 2014</h2><h3 class="post_count">31 posts</h3></header><section id="posts_201408" class="posts loading" style="display:none;"><div class="post post_micro is_regular post_tumblelog_c4ea9f2fbf633a20ea74c4654eb48a08 not_mine is_original with_permalink no_source no_notes has_hover" id="post_micro_95956267170"  data-id='95956267170' data-type='regular' data-root_id='95956267170' data-tumblelog='365tidalpatterns' data-tumblelog_key='YCGbdmhef' data-reblog_key='k1L8hZfP' data-is_mine='' data-accepts_answers='' data-following_tumblelog='' data-liked='' data-sponsored='' data-premium_tracked='' data-is_recommended='' data-placement_id='' data-featured_tags='Array' data-reblog_source='' data-post-id='95956267170' data-root-id='95956267170' data-tumblelog-name='365tidalpatterns' data-tumblelog-key='YCGbdmhef' data-reblog-key='k1L8hZfP' data-serve-id='0.25175700 14107183201355465142' data-json='{"id":"95956267170","type":"regular","root_id":"95956267170","tumblelog":"365tidalpatterns","tumblelog_key":"YCGbdmhef","reblog_key":"k1L8hZfP","is_mine":false,"accepts_answers":false,"following_tumblelog":false,"liked":false,"sponsored":false,"premium_tracked":false,"is_recommended":false,"placement_id":null,"featured_tags":[],"reblog_source":null,"post-id":"95956267170","root-id":"95956267170","tumblelog-name":"365tidalpatterns","tumblelog-key":"YCGbdmhef","reblog-key":"k1L8hZfP","serve-id":"0.25175700 14107183201355465142","json":"{\u0022id\u0022:\u002295956267170\u0022,\u0022type\u0022:\u0022regular\u0022,\u0022root_id\u0022:\u002295956267170\u0022,\u0022tumblelog\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog_key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog_key\u0022:\u0022k1L8hZfP\u0022,\u0022is_mine\u0022:false,\u0022accepts_answers\u0022:false,\u0022following_tumblelog\u0022:false,\u0022liked\u0022:false,\u0022sponsored\u0022:false,\u0022premium_tracked\u0022:false,\u0022is_recommended\u0022:false,\u0022placement_id\u0022:null,\u0022featured_tags\u0022:[],\u0022reblog_source\u0022:null,\u0022post-id\u0022:\u002295956267170\u0022,\u0022root-id\u0022:\u002295956267170\u0022,\u0022tumblelog-name\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog-key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog-key\u0022:\u0022k1L8hZfP\u0022,\u0022serve-id\u0022:\u00220.25175700 14107183201355465142\u0022}"}'><div class="post_content"><div class="post_content_inner"><div class="post_title">Pattern 326</div><p><a href="http://365tidalpatterns.tumblr.com/post/95956267170/pattern-326"><img src="http://assets.tumblr.com/images/inline_placeholder.png" width="18" height="14"/></a></p>
+
+<pre><code>bps (180/120)
+
+d1 $ slowspread ($) [stut 12 0.5 0.1 . slow 2, id, rev, id, 
+(|+| speed "0.5 1.2 1.5"), (|+| accelerate "-0.5"), id, trunc 0.25, 
+trunc 0.25, id, within (0.25, 0.75) ((0.25 &lt;~))] $ every 4 (0.25 &lt;~) 
+$ every 3 (0.25 &lt;~) $ stack [ slow 4 $ striate 32 $ sound 
+"[blh4:16 blh4:17]/2", slow 4 $ striate 64 $ sound "insect", 
+sound (samples "tite*16" (run 32)), sound (samples 
+"~ shard ~ [~ shard]" (every 4 (slow 0.8) $ run 31)), 
+sound (samples "[~ ~ ~ kh] ~ [~ kh] ~" (run 24)) ]
+</code></pre></div></div><div class="post_glass post_micro_glass" 
+     title=""><a target="_blank" class="hover"
+               title=""
+               href="http://365tidalpatterns.tumblr.com/post/95956267170/pattern-326"><div class="hover_inner"><span class="post_date">Aug 27, 2014</span></div>  
+
+            <div class="hover_tags"></div></a></div>
+</div><div class="post post_micro is_regular post_tumblelog_c4ea9f2fbf633a20ea74c4654eb48a08 not_mine is_original with_permalink no_source no_notes has_hover" id="post_micro_95956202205"  data-id='95956202205' data-type='regular' data-root_id='95956202205' data-tumblelog='365tidalpatterns' data-tumblelog_key='YCGbdmhef' data-reblog_key='eqorx45Z' data-is_mine='' data-accepts_answers='' data-following_tumblelog='' data-liked='' data-sponsored='' data-premium_tracked='' data-is_recommended='' data-placement_id='' data-featured_tags='Array' data-reblog_source='' data-post-id='95956202205' data-root-id='95956202205' data-tumblelog-name='365tidalpatterns' data-tumblelog-key='YCGbdmhef' data-reblog-key='eqorx45Z' data-serve-id='0.25764500 14107183202010201509' data-json='{"id":"95956202205","type":"regular","root_id":"95956202205","tumblelog":"365tidalpatterns","tumblelog_key":"YCGbdmhef","reblog_key":"eqorx45Z","is_mine":false,"accepts_answers":false,"following_tumblelog":false,"liked":false,"sponsored":false,"premium_tracked":false,"is_recommended":false,"placement_id":null,"featured_tags":[],"reblog_source":null,"post-id":"95956202205","root-id":"95956202205","tumblelog-name":"365tidalpatterns","tumblelog-key":"YCGbdmhef","reblog-key":"eqorx45Z","serve-id":"0.25764500 14107183202010201509","json":"{\u0022id\u0022:\u002295956202205\u0022,\u0022type\u0022:\u0022regular\u0022,\u0022root_id\u0022:\u002295956202205\u0022,\u0022tumblelog\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog_key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog_key\u0022:\u0022eqorx45Z\u0022,\u0022is_mine\u0022:false,\u0022accepts_answers\u0022:false,\u0022following_tumblelog\u0022:false,\u0022liked\u0022:false,\u0022sponsored\u0022:false,\u0022premium_tracked\u0022:false,\u0022is_recommended\u0022:false,\u0022placement_id\u0022:null,\u0022featured_tags\u0022:[],\u0022reblog_source\u0022:null,\u0022post-id\u0022:\u002295956202205\u0022,\u0022root-id\u0022:\u002295956202205\u0022,\u0022tumblelog-name\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog-key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog-key\u0022:\u0022eqorx45Z\u0022,\u0022serve-id\u0022:\u00220.25764500 14107183202010201509\u0022}"}'><div class="post_content"><div class="post_content_inner"><div class="post_title">Pattern 325</div><p><a href="http://365tidalpatterns.tumblr.com/post/95956202205/pattern-325"><img src="http://assets.tumblr.com/images/inline_placeholder.png" width="18" height="14"/></a></p>
+
+<pre><code>cps 0.5
+
+d1 $ slowspread ($) [stut 12 0.5 0.1 . slow 2, rev, slow 1.5 . 
+(|+| accelerate "-1 1"), id, (|+| speed "1.2 1.5"), jux (iter 8), id] 
+$ whenmod 8 6 (trunc 0.25) $ every 3 (0.25 &lt;~) $ 
+every 4 (0.25 &lt;~) $ stack [ stack [ sound (samples "keys2*8" (
+slow 0.73 $ run 21)), sound (samples "[~ 404]*8" 
+(slow 6.1 $ run 23)) |+| gain "0.7" |+| speed "0.5" ] 
+|+| cutoff (scale 0.01 0.2 $ slow 4.1 sine1) |+| resonance "0.7" 
+|+| delay "0.3" |+| shape "0.3" |+| delayfeedback "0.4" 
+|+| delaytime "0.5", jux ((|+| speed "1.1")) $ 
+sound (samples "kv*12 [[sv, cp] kv? kv? kv? kv? kv?]" 
+(slow 0.9 $ run 34)) |+| cutoff (scale 0.01 0.1 $ slow 2.9 sine1) 
+|+| resonance "0.1"]
+</code></pre></div></div><div class="post_glass post_micro_glass" 
+     title=""><a target="_blank" class="hover"
+               title=""
+               href="http://365tidalpatterns.tumblr.com/post/95956202205/pattern-325"><div class="hover_inner"><span class="post_date">Aug 27, 2014</span></div>  
+
+            <div class="hover_tags"></div></a></div>
+</div><div class="post post_micro is_regular post_tumblelog_c4ea9f2fbf633a20ea74c4654eb48a08 not_mine is_original with_permalink no_source no_notes has_hover" id="post_micro_95956126950"  data-id='95956126950' data-type='regular' data-root_id='95956126950' data-tumblelog='365tidalpatterns' data-tumblelog_key='YCGbdmhef' data-reblog_key='Pdv5mkBG' data-is_mine='' data-accepts_answers='' data-following_tumblelog='' data-liked='' data-sponsored='' data-premium_tracked='' data-is_recommended='' data-placement_id='' data-featured_tags='Array' data-reblog_source='' data-post-id='95956126950' data-root-id='95956126950' data-tumblelog-name='365tidalpatterns' data-tumblelog-key='YCGbdmhef' data-reblog-key='Pdv5mkBG' data-serve-id='0.26397800 14107183201803043717' data-json='{"id":"95956126950","type":"regular","root_id":"95956126950","tumblelog":"365tidalpatterns","tumblelog_key":"YCGbdmhef","reblog_key":"Pdv5mkBG","is_mine":false,"accepts_answers":false,"following_tumblelog":false,"liked":false,"sponsored":false,"premium_tracked":false,"is_recommended":false,"placement_id":null,"featured_tags":[],"reblog_source":null,"post-id":"95956126950","root-id":"95956126950","tumblelog-name":"365tidalpatterns","tumblelog-key":"YCGbdmhef","reblog-key":"Pdv5mkBG","serve-id":"0.26397800 14107183201803043717","json":"{\u0022id\u0022:\u002295956126950\u0022,\u0022type\u0022:\u0022regular\u0022,\u0022root_id\u0022:\u002295956126950\u0022,\u0022tumblelog\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog_key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog_key\u0022:\u0022Pdv5mkBG\u0022,\u0022is_mine\u0022:false,\u0022accepts_answers\u0022:false,\u0022following_tumblelog\u0022:false,\u0022liked\u0022:false,\u0022sponsored\u0022:false,\u0022premium_tracked\u0022:false,\u0022is_recommended\u0022:false,\u0022placement_id\u0022:null,\u0022featured_tags\u0022:[],\u0022reblog_source\u0022:null,\u0022post-id\u0022:\u002295956126950\u0022,\u0022root-id\u0022:\u002295956126950\u0022,\u0022tumblelog-name\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog-key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog-key\u0022:\u0022Pdv5mkBG\u0022,\u0022serve-id\u0022:\u00220.26397800 14107183201803043717\u0022}"}'><div class="post_content"><div class="post_content_inner"><div class="post_title">Pattern 324</div><p><a href="http://365tidalpatterns.tumblr.com/post/95956126950/pattern-324"><img src="http://assets.tumblr.com/images/inline_placeholder.png" width="18" height="14"/></a></p>
+
+<pre><code>cps 0.4
+
+d1 $ whenmod 10 8 (trunc 0.33) $ within (0.25, 0.75) (
+whenmod 6 5 (jux (iter 6)) . whenmod 7 5 (slow 1.5) . 
+whenmod 5 3 (slow 2 . rev)) $ every 3 (0.25 &lt;~) $ every 4 (0.25 &lt;~) 
+$ stack [ (slowspread (chop) [32, 4, 64, 16] $ sound 
+"sea*4 sea*4 sea*4 sea*4 sea sea") |+| speed (
+whenmod 6 4 ((*0.9) &lt;$&gt;) $ whenmod 5 3 ((*0.9) &lt;$&gt;) 
+"[1 0.75 [0.5 0.25]/2]") |+| delay "0.5", slow 1 $ slowspread (chop) 
+[64, 128, 256] $ sound (samples 
+"tite*4 [~ tite*2] tite*4 tite*4 [doru*2 tite*2] tite*4" (run 42)) 
+|+| speed (scale 0.8 1.5 $ slow 2.81 sine1) |+| shape (
+scale 0.01 0.5 $ slow 2.1 sine1) |+| speed "0.1225", chop 512 $ 
+sound "doosh bosch" |+| shape "0.2" 
+|+| speed "[[1 0.5 0.25]/4], [3 0.1225 0.75]" |+| delay "0.2"] 
+|+| delayfeedback "0.4" |+| delaytime "0.6"
+</code></pre></div></div><div class="post_glass post_micro_glass" 
+     title=""><a target="_blank" class="hover"
+               title=""
+               href="http://365tidalpatterns.tumblr.com/post/95956126950/pattern-324"><div class="hover_inner"><span class="post_date">Aug 27, 2014</span></div>  
+
+            <div class="hover_tags"></div></a></div>
+</div><div class="post post_micro is_regular post_tumblelog_c4ea9f2fbf633a20ea74c4654eb48a08 not_mine is_original with_permalink no_source no_notes has_hover" id="post_micro_95696674350"  data-id='95696674350' data-type='regular' data-root_id='95696674350' data-tumblelog='365tidalpatterns' data-tumblelog_key='YCGbdmhef' data-reblog_key='y4uvVD9V' data-is_mine='' data-accepts_answers='' data-following_tumblelog='' data-liked='' data-sponsored='' data-premium_tracked='' data-is_recommended='' data-placement_id='' data-featured_tags='Array' data-reblog_source='' data-post-id='95696674350' data-root-id='95696674350' data-tumblelog-name='365tidalpatterns' data-tumblelog-key='YCGbdmhef' data-reblog-key='y4uvVD9V' data-serve-id='0.26973300 14107183201108996674' data-json='{"id":"95696674350","type":"regular","root_id":"95696674350","tumblelog":"365tidalpatterns","tumblelog_key":"YCGbdmhef","reblog_key":"y4uvVD9V","is_mine":false,"accepts_answers":false,"following_tumblelog":false,"liked":false,"sponsored":false,"premium_tracked":false,"is_recommended":false,"placement_id":null,"featured_tags":[],"reblog_source":null,"post-id":"95696674350","root-id":"95696674350","tumblelog-name":"365tidalpatterns","tumblelog-key":"YCGbdmhef","reblog-key":"y4uvVD9V","serve-id":"0.26973300 14107183201108996674","json":"{\u0022id\u0022:\u002295696674350\u0022,\u0022type\u0022:\u0022regular\u0022,\u0022root_id\u0022:\u002295696674350\u0022,\u0022tumblelog\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog_key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog_key\u0022:\u0022y4uvVD9V\u0022,\u0022is_mine\u0022:false,\u0022accepts_answers\u0022:false,\u0022following_tumblelog\u0022:false,\u0022liked\u0022:false,\u0022sponsored\u0022:false,\u0022premium_tracked\u0022:false,\u0022is_recommended\u0022:false,\u0022placement_id\u0022:null,\u0022featured_tags\u0022:[],\u0022reblog_source\u0022:null,\u0022post-id\u0022:\u002295696674350\u0022,\u0022root-id\u0022:\u002295696674350\u0022,\u0022tumblelog-name\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog-key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog-key\u0022:\u0022y4uvVD9V\u0022,\u0022serve-id\u0022:\u00220.26973300 14107183201108996674\u0022}"}'><div class="post_content"><div class="post_content_inner"><div class="post_title">Pattern 323</div><p><a href="http://365tidalpatterns.tumblr.com/post/95696674350/pattern-323"><img src="http://assets.tumblr.com/images/inline_placeholder.png" width="18" height="14"/></a></p>
+
+<pre><code>bps (130/120)
+
+d1 $ slowspread ($) [trunc 0.25, trunc 0.25, (|+| speed "0.9"), 
+slow 1, slow 2 . stut 4 0.5 0.25, slow 1, rev, (|+| speed "1 -1 1 -2"), 
+slow 1, slow 6 . stut 16 0.4 0.2 . rev] $ iter 4 $ stack [ 
+whenmod 4 3 (0.25 &lt;~) $ slow 4 $ (slowspread (chop) [512, 
+1024, 256, 2048] $ sound (samples "gab*8" (run 11))) 
+|+| cutoff (scale 0.01 0.1 $ slow 3.1 sine1) |+| resonance "0.5" 
+|+| speed (scale 0.5 2 $ slow 4.41 sine1) |+| shape "0.5", 
+whenmod 3 2 (0.25 &lt;~) $ slow 2 $ sound (samples 
+"ktite*4 [stite hh hh]!! ktite*3 [stite hh*4] ktite stite" (run 31)), 
+whenmod 5 4 (0.25 &lt;~) $ slow 2 $ sound (samples 
+"mel beeps*2 taste*2 [taste robo beeps mel]!!! mel mel mel" 
+(run 55)) |+| cut "3" ]
+</code></pre></div></div><div class="post_glass post_micro_glass" 
+     title=""><a target="_blank" class="hover"
+               title=""
+               href="http://365tidalpatterns.tumblr.com/post/95696674350/pattern-323"><div class="hover_inner"><span class="post_date">Aug 24, 2014</span></div>  
+
+            <div class="hover_tags"></div></a></div>
+</div><div class="post post_micro is_regular post_tumblelog_c4ea9f2fbf633a20ea74c4654eb48a08 not_mine is_original with_permalink no_source no_notes has_hover" id="post_micro_95696578995"  data-id='95696578995' data-type='regular' data-root_id='95696578995' data-tumblelog='365tidalpatterns' data-tumblelog_key='YCGbdmhef' data-reblog_key='xQHSt3om' data-is_mine='' data-accepts_answers='' data-following_tumblelog='' data-liked='' data-sponsored='' data-premium_tracked='' data-is_recommended='' data-placement_id='' data-featured_tags='Array' data-reblog_source='' data-post-id='95696578995' data-root-id='95696578995' data-tumblelog-name='365tidalpatterns' data-tumblelog-key='YCGbdmhef' data-reblog-key='xQHSt3om' data-serve-id='0.27566500 14107183201977032001' data-json='{"id":"95696578995","type":"regular","root_id":"95696578995","tumblelog":"365tidalpatterns","tumblelog_key":"YCGbdmhef","reblog_key":"xQHSt3om","is_mine":false,"accepts_answers":false,"following_tumblelog":false,"liked":false,"sponsored":false,"premium_tracked":false,"is_recommended":false,"placement_id":null,"featured_tags":[],"reblog_source":null,"post-id":"95696578995","root-id":"95696578995","tumblelog-name":"365tidalpatterns","tumblelog-key":"YCGbdmhef","reblog-key":"xQHSt3om","serve-id":"0.27566500 14107183201977032001","json":"{\u0022id\u0022:\u002295696578995\u0022,\u0022type\u0022:\u0022regular\u0022,\u0022root_id\u0022:\u002295696578995\u0022,\u0022tumblelog\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog_key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog_key\u0022:\u0022xQHSt3om\u0022,\u0022is_mine\u0022:false,\u0022accepts_answers\u0022:false,\u0022following_tumblelog\u0022:false,\u0022liked\u0022:false,\u0022sponsored\u0022:false,\u0022premium_tracked\u0022:false,\u0022is_recommended\u0022:false,\u0022placement_id\u0022:null,\u0022featured_tags\u0022:[],\u0022reblog_source\u0022:null,\u0022post-id\u0022:\u002295696578995\u0022,\u0022root-id\u0022:\u002295696578995\u0022,\u0022tumblelog-name\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog-key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog-key\u0022:\u0022xQHSt3om\u0022,\u0022serve-id\u0022:\u00220.27566500 14107183201977032001\u0022}"}'><div class="post_content"><div class="post_content_inner"><div class="post_title">Pattern 322</div><p><a href="http://365tidalpatterns.tumblr.com/post/95696578995/pattern-322"><img src="http://assets.tumblr.com/images/inline_placeholder.png" width="18" height="14"/></a></p>
+
+<pre><code>bps (210/120)
+
+d1 $ whenmod 8 6 (slowspread ($) [trunc 0.25, trunc 0.25, slow 1, 
+jux ((|+| speed "0.8")), stut 8 0.6 0.1, rev, slow 1, (|+| speed "0.5") . 
+slow 2 . stut 4 0.25 0.25, (|+| speed "1 -1 1.25 1.5"), slow 1, 
+stut 8 0.5 0.2, slow 1]) $ every 3 (0.25 &lt;~) $ every 4 (0.25 &lt;~) $ 
+stack [ slow 2 $ slowspread (chop) [128, 64, 256, 32, 200] $ 
+sound (samples 
+"newnotes*4 [~ keys2*2 keys2*2 keys2*2] [keys1 keys1 
+newnotes newnotes] newnotes*4" (run 33)) |+| cutoff 
+(scale 0.03 0.3 $ slow 2.9 sine1) |+| resonance "0.7" |+| cut "1" 
+|+| speed "1, 1.5" |+| shape "0.3" |+| delay "0.4", slow 2 $ 
+sound (samples "kh*8 [shard kv ~ kv] [kv kl ~ kl] [shard laz:0 ~ gab:0]" 
+(whenmod 9 6 (slow 0.8) $ whenmod 7 5 (0.25 ~&gt;) $ run 43)), 
+slow 1.5 $ sound "fuckable" |+| speed "1.1" |+| delay "0.3" 
+|+| shape "0.5"] |+| delaytime "0.4" |+| delayfeedback "0.3"
+</code></pre></div></div><div class="post_glass post_micro_glass" 
+     title=""><a target="_blank" class="hover"
+               title=""
+               href="http://365tidalpatterns.tumblr.com/post/95696578995/pattern-322"><div class="hover_inner"><span class="post_date">Aug 24, 2014</span></div>  
+
+            <div class="hover_tags"></div></a></div>
+</div><div class="post post_micro is_regular post_tumblelog_c4ea9f2fbf633a20ea74c4654eb48a08 not_mine is_original with_permalink no_source no_notes has_hover" id="post_micro_95696478580"  data-id='95696478580' data-type='regular' data-root_id='95696478580' data-tumblelog='365tidalpatterns' data-tumblelog_key='YCGbdmhef' data-reblog_key='vJEzFaWY' data-is_mine='' data-accepts_answers='' data-following_tumblelog='' data-liked='' data-sponsored='' data-premium_tracked='' data-is_recommended='' data-placement_id='' data-featured_tags='Array' data-reblog_source='' data-post-id='95696478580' data-root-id='95696478580' data-tumblelog-name='365tidalpatterns' data-tumblelog-key='YCGbdmhef' data-reblog-key='vJEzFaWY' data-serve-id='0.28101900 14107183201906879160' data-json='{"id":"95696478580","type":"regular","root_id":"95696478580","tumblelog":"365tidalpatterns","tumblelog_key":"YCGbdmhef","reblog_key":"vJEzFaWY","is_mine":false,"accepts_answers":false,"following_tumblelog":false,"liked":false,"sponsored":false,"premium_tracked":false,"is_recommended":false,"placement_id":null,"featured_tags":[],"reblog_source":null,"post-id":"95696478580","root-id":"95696478580","tumblelog-name":"365tidalpatterns","tumblelog-key":"YCGbdmhef","reblog-key":"vJEzFaWY","serve-id":"0.28101900 14107183201906879160","json":"{\u0022id\u0022:\u002295696478580\u0022,\u0022type\u0022:\u0022regular\u0022,\u0022root_id\u0022:\u002295696478580\u0022,\u0022tumblelog\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog_key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog_key\u0022:\u0022vJEzFaWY\u0022,\u0022is_mine\u0022:false,\u0022accepts_answers\u0022:false,\u0022following_tumblelog\u0022:false,\u0022liked\u0022:false,\u0022sponsored\u0022:false,\u0022premium_tracked\u0022:false,\u0022is_recommended\u0022:false,\u0022placement_id\u0022:null,\u0022featured_tags\u0022:[],\u0022reblog_source\u0022:null,\u0022post-id\u0022:\u002295696478580\u0022,\u0022root-id\u0022:\u002295696478580\u0022,\u0022tumblelog-name\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog-key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog-key\u0022:\u0022vJEzFaWY\u0022,\u0022serve-id\u0022:\u00220.28101900 14107183201906879160\u0022}"}'><div class="post_content"><div class="post_content_inner"><div class="post_title">Pattern 321</div><p><a href="http://365tidalpatterns.tumblr.com/post/95696478580/pattern-321"><img src="http://assets.tumblr.com/images/inline_placeholder.png" width="18" height="14"/></a></p>
+
+<pre><code>bps (200/120)
+
+d1 $ slowspread ($) [trunc 0.25, trunc 0.25, slow 1, 
+(|+| speed "0.7") . slow 2 . stut 8 0.5 0.25, slow 1, rev, slow 1, 
+(|+| accelerate "-1 1"), slow 1, (|+| speed "1 -1 1.5 2"), slow 1] $ 
+every 4 (0.25 &lt;~) $ every 3 (0.25 &lt;~) $ stack [chop 128 $ stack [
+slow 2 $ sound "autopad autopad:1", sound "~ keys2" ], slow 2 
+$ sound (samples "[kv k kh kv] [psh sn tite tite] tite*6 [psh drop/2 ~ ~]" 
+(run 31)), slow 2 $ sound "~ ~ ~ [~ ~ ~ [~ ~ ~ mint]/4]" 
+|+| delay "0.3", slow 2 $ sound (samples 
+"~ ~ ~ [~ b/3] ~ ~ b:1/2 [~ b:1/2]" "6") |+| cut "2"] |+| delaytime "0.5" 
+|+| delayfeedback "0.5"
+</code></pre></div></div><div class="post_glass post_micro_glass" 
+     title=""><a target="_blank" class="hover"
+               title=""
+               href="http://365tidalpatterns.tumblr.com/post/95696478580/pattern-321"><div class="hover_inner"><span class="post_date">Aug 24, 2014</span></div>  
+
+            <div class="hover_tags"></div></a></div>
+</div><div class="post post_micro is_regular post_tumblelog_c4ea9f2fbf633a20ea74c4654eb48a08 not_mine is_original with_permalink no_source no_notes has_hover" id="post_micro_95696391075"  data-id='95696391075' data-type='regular' data-root_id='95696391075' data-tumblelog='365tidalpatterns' data-tumblelog_key='YCGbdmhef' data-reblog_key='sGYTLbDU' data-is_mine='' data-accepts_answers='' data-following_tumblelog='' data-liked='' data-sponsored='' data-premium_tracked='' data-is_recommended='' data-placement_id='' data-featured_tags='Array' data-reblog_source='' data-post-id='95696391075' data-root-id='95696391075' data-tumblelog-name='365tidalpatterns' data-tumblelog-key='YCGbdmhef' data-reblog-key='sGYTLbDU' data-serve-id='0.28644400 14107183202145462008' data-json='{"id":"95696391075","type":"regular","root_id":"95696391075","tumblelog":"365tidalpatterns","tumblelog_key":"YCGbdmhef","reblog_key":"sGYTLbDU","is_mine":false,"accepts_answers":false,"following_tumblelog":false,"liked":false,"sponsored":false,"premium_tracked":false,"is_recommended":false,"placement_id":null,"featured_tags":[],"reblog_source":null,"post-id":"95696391075","root-id":"95696391075","tumblelog-name":"365tidalpatterns","tumblelog-key":"YCGbdmhef","reblog-key":"sGYTLbDU","serve-id":"0.28644400 14107183202145462008","json":"{\u0022id\u0022:\u002295696391075\u0022,\u0022type\u0022:\u0022regular\u0022,\u0022root_id\u0022:\u002295696391075\u0022,\u0022tumblelog\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog_key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog_key\u0022:\u0022sGYTLbDU\u0022,\u0022is_mine\u0022:false,\u0022accepts_answers\u0022:false,\u0022following_tumblelog\u0022:false,\u0022liked\u0022:false,\u0022sponsored\u0022:false,\u0022premium_tracked\u0022:false,\u0022is_recommended\u0022:false,\u0022placement_id\u0022:null,\u0022featured_tags\u0022:[],\u0022reblog_source\u0022:null,\u0022post-id\u0022:\u002295696391075\u0022,\u0022root-id\u0022:\u002295696391075\u0022,\u0022tumblelog-name\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog-key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog-key\u0022:\u0022sGYTLbDU\u0022,\u0022serve-id\u0022:\u00220.28644400 14107183202145462008\u0022}"}'><div class="post_content"><div class="post_content_inner"><div class="post_title">Pattern 320</div><p><a href="http://365tidalpatterns.tumblr.com/post/95696391075/pattern-320"><img src="http://assets.tumblr.com/images/inline_placeholder.png" width="18" height="14"/></a></p>
+
+<pre><code>bps (160/120)
+
+d1 $ slowspread ($) [slow 2, slow 1, slow 1.5 . stut 3 0.25 0.25, 
+(|+| speed "0.5") . stut 4 0.25 0.25 . slow 3, slow 1, rev, 
+(|+| vowel "o"), slow 1, slow 4 . jux (0.01 &lt;~) . rev, slow 1, 
+trunc 0.25, trunc 0.25] $ every 3 (0.25 &lt;~) $ every 4 (0.25 &lt;~) 
+$ chop 128 $ stack [sound "[kv ~]/2 [sv]", sound (samples 
+"~ hv ~ hv*2" (run 7)), sound "[~ [~ dup]/2] ~ [dup*2 dup] ~", 
+every 3 (density 2) $ every 4 (density 2) $ density 2 $ (0.5 &lt;~) 
+$ sound "808sd", every 3 (0.25 &lt;~) $ every 4 (0.25 &lt;~) $ slow 2 
+$ sound "cave sea alone frolic scrape padloop8:5 pad" 
+|+| gain "0.9" |+| speed (scale 0.8 1 $ slow 5.1 sine1)]
+</code></pre></div></div><div class="post_glass post_micro_glass" 
+     title=""><a target="_blank" class="hover"
+               title=""
+               href="http://365tidalpatterns.tumblr.com/post/95696391075/pattern-320"><div class="hover_inner"><span class="post_date">Aug 24, 2014</span></div>  
+
+            <div class="hover_tags"></div></a></div>
+</div><div class="post post_micro is_regular post_tumblelog_c4ea9f2fbf633a20ea74c4654eb48a08 not_mine is_original with_permalink no_source no_notes has_hover" id="post_micro_95696288605"  data-id='95696288605' data-type='regular' data-root_id='95696288605' data-tumblelog='365tidalpatterns' data-tumblelog_key='YCGbdmhef' data-reblog_key='yRCfSIdw' data-is_mine='' data-accepts_answers='' data-following_tumblelog='' data-liked='' data-sponsored='' data-premium_tracked='' data-is_recommended='' data-placement_id='' data-featured_tags='Array' data-reblog_source='' data-post-id='95696288605' data-root-id='95696288605' data-tumblelog-name='365tidalpatterns' data-tumblelog-key='YCGbdmhef' data-reblog-key='yRCfSIdw' data-serve-id='0.29217400 14107183201501469929' data-json='{"id":"95696288605","type":"regular","root_id":"95696288605","tumblelog":"365tidalpatterns","tumblelog_key":"YCGbdmhef","reblog_key":"yRCfSIdw","is_mine":false,"accepts_answers":false,"following_tumblelog":false,"liked":false,"sponsored":false,"premium_tracked":false,"is_recommended":false,"placement_id":null,"featured_tags":[],"reblog_source":null,"post-id":"95696288605","root-id":"95696288605","tumblelog-name":"365tidalpatterns","tumblelog-key":"YCGbdmhef","reblog-key":"yRCfSIdw","serve-id":"0.29217400 14107183201501469929","json":"{\u0022id\u0022:\u002295696288605\u0022,\u0022type\u0022:\u0022regular\u0022,\u0022root_id\u0022:\u002295696288605\u0022,\u0022tumblelog\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog_key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog_key\u0022:\u0022yRCfSIdw\u0022,\u0022is_mine\u0022:false,\u0022accepts_answers\u0022:false,\u0022following_tumblelog\u0022:false,\u0022liked\u0022:false,\u0022sponsored\u0022:false,\u0022premium_tracked\u0022:false,\u0022is_recommended\u0022:false,\u0022placement_id\u0022:null,\u0022featured_tags\u0022:[],\u0022reblog_source\u0022:null,\u0022post-id\u0022:\u002295696288605\u0022,\u0022root-id\u0022:\u002295696288605\u0022,\u0022tumblelog-name\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog-key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog-key\u0022:\u0022yRCfSIdw\u0022,\u0022serve-id\u0022:\u00220.29217400 14107183201501469929\u0022}"}'><div class="post_content"><div class="post_content_inner"><div class="post_title">Pattern 319</div><p><a href="http://365tidalpatterns.tumblr.com/post/95696288605/pattern-319"><img src="http://assets.tumblr.com/images/inline_placeholder.png" width="18" height="14"/></a></p>
+
+<pre><code>bps (160/120)
+
+d1 $ whenmod 8 6 (trunc 0.25) $ stack [ slowspread ($) 
+[stut 4 0.25 0.25, rev, (|+| speed "-1 1 1.5"), stut 8 0.5 0.5, 
+(|+| vowel "a o u") . (|+| delay "0.4"), slow 1, slow 2 . 
+stut 6 0.25 0.33 . (|+| speed "0.8")] $ every 4 (0.25 &lt;~) $ every 3 
+(0.25 &lt;~) $ sound (samples "kv sv kl [hv sv]" (run 14)), 
+sound (samples "{keys2*4 ~ ~}%4" (whenmod 5 3 (slow 0.5) $ 
+run 33)) |+| speed (whenmod 4 2 ((*0.9) &lt;$&gt;) "[1, 1.5]") 
+|+| delay "0.5" |+| cutoff (scale 0.01 0.2 $ slow 4.1 sine1) 
+|+| resonance "0.7" ]  |+| delayfeedback "0.4" |+| delaytime "0.5"
+</code></pre></div></div><div class="post_glass post_micro_glass" 
+     title=""><a target="_blank" class="hover"
+               title=""
+               href="http://365tidalpatterns.tumblr.com/post/95696288605/pattern-319"><div class="hover_inner"><span class="post_date">Aug 24, 2014</span></div>  
+
+            <div class="hover_tags"></div></a></div>
+</div><div class="post post_micro is_regular post_tumblelog_c4ea9f2fbf633a20ea74c4654eb48a08 not_mine is_original with_permalink no_source no_notes has_hover" id="post_micro_95696165800"  data-id='95696165800' data-type='regular' data-root_id='95696165800' data-tumblelog='365tidalpatterns' data-tumblelog_key='YCGbdmhef' data-reblog_key='TjDTvVd6' data-is_mine='' data-accepts_answers='' data-following_tumblelog='' data-liked='' data-sponsored='' data-premium_tracked='' data-is_recommended='' data-placement_id='' data-featured_tags='Array' data-reblog_source='' data-post-id='95696165800' data-root-id='95696165800' data-tumblelog-name='365tidalpatterns' data-tumblelog-key='YCGbdmhef' data-reblog-key='TjDTvVd6' data-serve-id='0.29781000 1410718320880377780' data-json='{"id":"95696165800","type":"regular","root_id":"95696165800","tumblelog":"365tidalpatterns","tumblelog_key":"YCGbdmhef","reblog_key":"TjDTvVd6","is_mine":false,"accepts_answers":false,"following_tumblelog":false,"liked":false,"sponsored":false,"premium_tracked":false,"is_recommended":false,"placement_id":null,"featured_tags":[],"reblog_source":null,"post-id":"95696165800","root-id":"95696165800","tumblelog-name":"365tidalpatterns","tumblelog-key":"YCGbdmhef","reblog-key":"TjDTvVd6","serve-id":"0.29781000 1410718320880377780","json":"{\u0022id\u0022:\u002295696165800\u0022,\u0022type\u0022:\u0022regular\u0022,\u0022root_id\u0022:\u002295696165800\u0022,\u0022tumblelog\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog_key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog_key\u0022:\u0022TjDTvVd6\u0022,\u0022is_mine\u0022:false,\u0022accepts_answers\u0022:false,\u0022following_tumblelog\u0022:false,\u0022liked\u0022:false,\u0022sponsored\u0022:false,\u0022premium_tracked\u0022:false,\u0022is_recommended\u0022:false,\u0022placement_id\u0022:null,\u0022featured_tags\u0022:[],\u0022reblog_source\u0022:null,\u0022post-id\u0022:\u002295696165800\u0022,\u0022root-id\u0022:\u002295696165800\u0022,\u0022tumblelog-name\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog-key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog-key\u0022:\u0022TjDTvVd6\u0022,\u0022serve-id\u0022:\u00220.29781000 1410718320880377780\u0022}"}'><div class="post_content"><div class="post_content_inner"><div class="post_title">Pattern 318</div><p><a href="http://365tidalpatterns.tumblr.com/post/95696165800/pattern-318"><img src="http://assets.tumblr.com/images/inline_placeholder.png" width="18" height="14"/></a></p>
+
+<pre><code>bps (150/120)
+
+d1 $ slowspread ($) [(|+| speed "0.9"), stut 8 0.5 0.1, slow 1, rev, 
+slow 2 . stut 3 0.25 0.25, (|+| speed "1 -1 1.2 1.3"), 
+(|+| speed "1 0.9 0.8 0.7"), slow 1, (|+| speed "1 1 2 0.5")] $ 
+whenmod 8 6 (trunc 0.25) $ every 3 (0.25 &lt;~) $ every 4 (0.25 &lt;~) 
+$ stack [ slowspread (chop) [4,12,8,24,16] $ sound 
+"mel:2 mel:4 [~ mel:2] mel:5", sound (samples "tite*16" (run 43)), 
+slow 2 $ sound (samples "~ ~ s ~ ~ s ~ ~ s ~ ~ s ~ ~ s ~" "5"), 
+sound (samples "{~ [k*2 ~] ~}%4" (run 43)), sound "~ [~ drop/2] ~ ~", 
+slow 4 $ chop 32 $ sound "{mint coin ~}%4", sound 
+"~ gab kl [hv*2 gab]" |+| cut "3" ]
+</code></pre></div></div><div class="post_glass post_micro_glass" 
+     title=""><a target="_blank" class="hover"
+               title=""
+               href="http://365tidalpatterns.tumblr.com/post/95696165800/pattern-318"><div class="hover_inner"><span class="post_date">Aug 24, 2014</span></div>  
+
+            <div class="hover_tags"></div></a></div>
+</div><div class="post post_micro is_regular post_tumblelog_c4ea9f2fbf633a20ea74c4654eb48a08 not_mine is_original with_permalink no_source no_notes has_hover" id="post_micro_95696074445"  data-id='95696074445' data-type='regular' data-root_id='95696074445' data-tumblelog='365tidalpatterns' data-tumblelog_key='YCGbdmhef' data-reblog_key='x4w9ulx6' data-is_mine='' data-accepts_answers='' data-following_tumblelog='' data-liked='' data-sponsored='' data-premium_tracked='' data-is_recommended='' data-placement_id='' data-featured_tags='Array' data-reblog_source='' data-post-id='95696074445' data-root-id='95696074445' data-tumblelog-name='365tidalpatterns' data-tumblelog-key='YCGbdmhef' data-reblog-key='x4w9ulx6' data-serve-id='0.30347100 1410718320149492166' data-json='{"id":"95696074445","type":"regular","root_id":"95696074445","tumblelog":"365tidalpatterns","tumblelog_key":"YCGbdmhef","reblog_key":"x4w9ulx6","is_mine":false,"accepts_answers":false,"following_tumblelog":false,"liked":false,"sponsored":false,"premium_tracked":false,"is_recommended":false,"placement_id":null,"featured_tags":[],"reblog_source":null,"post-id":"95696074445","root-id":"95696074445","tumblelog-name":"365tidalpatterns","tumblelog-key":"YCGbdmhef","reblog-key":"x4w9ulx6","serve-id":"0.30347100 1410718320149492166","json":"{\u0022id\u0022:\u002295696074445\u0022,\u0022type\u0022:\u0022regular\u0022,\u0022root_id\u0022:\u002295696074445\u0022,\u0022tumblelog\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog_key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog_key\u0022:\u0022x4w9ulx6\u0022,\u0022is_mine\u0022:false,\u0022accepts_answers\u0022:false,\u0022following_tumblelog\u0022:false,\u0022liked\u0022:false,\u0022sponsored\u0022:false,\u0022premium_tracked\u0022:false,\u0022is_recommended\u0022:false,\u0022placement_id\u0022:null,\u0022featured_tags\u0022:[],\u0022reblog_source\u0022:null,\u0022post-id\u0022:\u002295696074445\u0022,\u0022root-id\u0022:\u002295696074445\u0022,\u0022tumblelog-name\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog-key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog-key\u0022:\u0022x4w9ulx6\u0022,\u0022serve-id\u0022:\u00220.30347100 1410718320149492166\u0022}"}'><div class="post_content"><div class="post_content_inner"><div class="post_title">Pattern 317</div><p><a href="http://365tidalpatterns.tumblr.com/post/95696074445/pattern-317"><img src="http://assets.tumblr.com/images/inline_placeholder.png" width="18" height="14"/></a></p>
+
+<pre><code>d1 $ whenmod 8 5 (|+| speed (whenmod 7 4 ((*0.9) &lt;$&gt;) "0.9")) 
+$ whenmod 9 7 (trunc 0.25) $ stack [ whenmod 5 4 (0.25 &lt;~) $ 
+slow 2 $ sound 
+"~ mach b ~ mach b ~ ~ ~ ~ mach b ~ mach b mach b" 
+|+| cut "1", stack [slow 2 $ sound "~ cp:3", slow 2 $ (0.025 &lt;~) $ 
+sound "~ cp:4"], whenmod 7 5 (0.25 &lt;~) $ slow 2 $ degradeBy 0.3 
+$ sound (samples "kh*2 ~ ~ ~ ~ ~ [~ kh] [~ kh]" "13") 
+|+| gain "0.9", whenmod 5 4 (density 2) $ whenmod 4 3 (density 2) 
+$ sound (samples "hh*4" "7") |+| gain "0.9" ]
+</code></pre></div></div><div class="post_glass post_micro_glass" 
+     title=""><a target="_blank" class="hover"
+               title=""
+               href="http://365tidalpatterns.tumblr.com/post/95696074445/pattern-317"><div class="hover_inner"><span class="post_date">Aug 24, 2014</span></div>  
+
+            <div class="hover_tags"></div></a></div>
+</div><div class="post post_micro is_regular post_tumblelog_c4ea9f2fbf633a20ea74c4654eb48a08 not_mine is_original with_permalink no_source no_notes has_hover" id="post_micro_94867264140"  data-id='94867264140' data-type='regular' data-root_id='94867264140' data-tumblelog='365tidalpatterns' data-tumblelog_key='YCGbdmhef' data-reblog_key='VwifX5p5' data-is_mine='' data-accepts_answers='' data-following_tumblelog='' data-liked='' data-sponsored='' data-premium_tracked='' data-is_recommended='' data-placement_id='' data-featured_tags='Array' data-reblog_source='' data-post-id='94867264140' data-root-id='94867264140' data-tumblelog-name='365tidalpatterns' data-tumblelog-key='YCGbdmhef' data-reblog-key='VwifX5p5' data-serve-id='0.30952100 1410718320706924210' data-json='{"id":"94867264140","type":"regular","root_id":"94867264140","tumblelog":"365tidalpatterns","tumblelog_key":"YCGbdmhef","reblog_key":"VwifX5p5","is_mine":false,"accepts_answers":false,"following_tumblelog":false,"liked":false,"sponsored":false,"premium_tracked":false,"is_recommended":false,"placement_id":null,"featured_tags":[],"reblog_source":null,"post-id":"94867264140","root-id":"94867264140","tumblelog-name":"365tidalpatterns","tumblelog-key":"YCGbdmhef","reblog-key":"VwifX5p5","serve-id":"0.30952100 1410718320706924210","json":"{\u0022id\u0022:\u002294867264140\u0022,\u0022type\u0022:\u0022regular\u0022,\u0022root_id\u0022:\u002294867264140\u0022,\u0022tumblelog\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog_key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog_key\u0022:\u0022VwifX5p5\u0022,\u0022is_mine\u0022:false,\u0022accepts_answers\u0022:false,\u0022following_tumblelog\u0022:false,\u0022liked\u0022:false,\u0022sponsored\u0022:false,\u0022premium_tracked\u0022:false,\u0022is_recommended\u0022:false,\u0022placement_id\u0022:null,\u0022featured_tags\u0022:[],\u0022reblog_source\u0022:null,\u0022post-id\u0022:\u002294867264140\u0022,\u0022root-id\u0022:\u002294867264140\u0022,\u0022tumblelog-name\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog-key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog-key\u0022:\u0022VwifX5p5\u0022,\u0022serve-id\u0022:\u00220.30952100 1410718320706924210\u0022}"}'><div class="post_content"><div class="post_content_inner"><div class="post_title">Pattern 316</div><p><a href="http://365tidalpatterns.tumblr.com/post/94867264140/pattern-316"><img src="http://assets.tumblr.com/images/inline_placeholder.png" width="18" height="14"/></a></p>
+
+<pre><code>bps (160/120)
+
+d1 $ every 5 (0.25 &lt;~) $ every 4 (0.25 &lt;~) $ every 3 (0.25 &lt;~) $ 
+stack [jux (0.01 &lt;~) $ whenmod 7 6 (trunc 0.25) $ every 3 
+(0.1225 &lt;~) $ every 4 (0.1225 &lt;~) $ chop 64 $ sound 
+"bass3 ~ pada bass1" |+| shape "0.5" |+| speed (whenmod 6 4 
+((*0.8) &lt;$&gt;) "3"),  sound (samples "tite*16" (slow 0.74 $ run 33)),
+whenmod 5 4 (trunc 0.75) $ chop 16 $ sound "alone" 
+|+| speed (whenmod 9 7 ((*0.8) &lt;$&gt;) $ whenmod 7 5 ((*0.8) &lt;$&gt;) 
+$ whenmod 5 3 ((*0.9) &lt;$&gt;) "0.5"), sound 
+"[ktite stite:7 [~ ktite] stite:7]" |+| shape "0.2"]
+</code></pre></div></div><div class="post_glass post_micro_glass" 
+     title=""><a target="_blank" class="hover"
+               title=""
+               href="http://365tidalpatterns.tumblr.com/post/94867264140/pattern-316"><div class="hover_inner"><span class="post_date">Aug 15, 2014</span></div>  
+
+            <div class="hover_tags"></div></a></div>
+</div><div class="post post_micro is_regular post_tumblelog_c4ea9f2fbf633a20ea74c4654eb48a08 not_mine is_original with_permalink no_source no_notes has_hover" id="post_micro_94867199920"  data-id='94867199920' data-type='regular' data-root_id='94867199920' data-tumblelog='365tidalpatterns' data-tumblelog_key='YCGbdmhef' data-reblog_key='Sq96chK0' data-is_mine='' data-accepts_answers='' data-following_tumblelog='' data-liked='' data-sponsored='' data-premium_tracked='' data-is_recommended='' data-placement_id='' data-featured_tags='Array' data-reblog_source='' data-post-id='94867199920' data-root-id='94867199920' data-tumblelog-name='365tidalpatterns' data-tumblelog-key='YCGbdmhef' data-reblog-key='Sq96chK0' data-serve-id='0.31492700 14107183201612010032' data-json='{"id":"94867199920","type":"regular","root_id":"94867199920","tumblelog":"365tidalpatterns","tumblelog_key":"YCGbdmhef","reblog_key":"Sq96chK0","is_mine":false,"accepts_answers":false,"following_tumblelog":false,"liked":false,"sponsored":false,"premium_tracked":false,"is_recommended":false,"placement_id":null,"featured_tags":[],"reblog_source":null,"post-id":"94867199920","root-id":"94867199920","tumblelog-name":"365tidalpatterns","tumblelog-key":"YCGbdmhef","reblog-key":"Sq96chK0","serve-id":"0.31492700 14107183201612010032","json":"{\u0022id\u0022:\u002294867199920\u0022,\u0022type\u0022:\u0022regular\u0022,\u0022root_id\u0022:\u002294867199920\u0022,\u0022tumblelog\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog_key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog_key\u0022:\u0022Sq96chK0\u0022,\u0022is_mine\u0022:false,\u0022accepts_answers\u0022:false,\u0022following_tumblelog\u0022:false,\u0022liked\u0022:false,\u0022sponsored\u0022:false,\u0022premium_tracked\u0022:false,\u0022is_recommended\u0022:false,\u0022placement_id\u0022:null,\u0022featured_tags\u0022:[],\u0022reblog_source\u0022:null,\u0022post-id\u0022:\u002294867199920\u0022,\u0022root-id\u0022:\u002294867199920\u0022,\u0022tumblelog-name\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog-key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog-key\u0022:\u0022Sq96chK0\u0022,\u0022serve-id\u0022:\u00220.31492700 14107183201612010032\u0022}"}'><div class="post_content"><div class="post_content_inner"><div class="post_title">Pattern 315</div><p><a href="http://365tidalpatterns.tumblr.com/post/94867199920/pattern-315"><img src="http://assets.tumblr.com/images/inline_placeholder.png" width="18" height="14"/></a></p>
+
+<pre><code>bps (150/120)
+
+d1 $ whenmod 8 6 (trunc 0.25) $ whenmod 5 4 (iter 4) $ 
+whenmod 6 5 (|+| speed "1.5 0.8 2 0.5") $ stack [ slow 2 $ 
+chop 32 $ sound (samples "judah nerd bock*2 newnotes*8" 
+(slow 0.8 $ run 116)), slow 2 $ sound (samples 
+"[k*2 [~ k] [~ k] k*2] [[stite,s] ktite*6] k*6 [[stite,s] k*2 k*2 k*2]" 
+(run 24)), every 4 (density 2) $ every 3 (density 2) $ sound 
+"hh:3*8", chop 24 $ sound (samples "keys2*4 ~ ~ ~" (run 73)) 
+|+| delay "0.7" ] |+| shape "0.2" |+| delaytime "0.3" 
+|+| delayfeedback "0.4"
+</code></pre></div></div><div class="post_glass post_micro_glass" 
+     title=""><a target="_blank" class="hover"
+               title=""
+               href="http://365tidalpatterns.tumblr.com/post/94867199920/pattern-315"><div class="hover_inner"><span class="post_date">Aug 15, 2014</span></div>  
+
+            <div class="hover_tags"></div></a></div>
+</div><div class="post post_micro is_regular post_tumblelog_c4ea9f2fbf633a20ea74c4654eb48a08 not_mine is_original with_permalink no_source no_notes has_hover" id="post_micro_94867137110"  data-id='94867137110' data-type='regular' data-root_id='94867137110' data-tumblelog='365tidalpatterns' data-tumblelog_key='YCGbdmhef' data-reblog_key='mtYrgBW0' data-is_mine='' data-accepts_answers='' data-following_tumblelog='' data-liked='' data-sponsored='' data-premium_tracked='' data-is_recommended='' data-placement_id='' data-featured_tags='Array' data-reblog_source='' data-post-id='94867137110' data-root-id='94867137110' data-tumblelog-name='365tidalpatterns' data-tumblelog-key='YCGbdmhef' data-reblog-key='mtYrgBW0' data-serve-id='0.32018600 1410718320629312005' data-json='{"id":"94867137110","type":"regular","root_id":"94867137110","tumblelog":"365tidalpatterns","tumblelog_key":"YCGbdmhef","reblog_key":"mtYrgBW0","is_mine":false,"accepts_answers":false,"following_tumblelog":false,"liked":false,"sponsored":false,"premium_tracked":false,"is_recommended":false,"placement_id":null,"featured_tags":[],"reblog_source":null,"post-id":"94867137110","root-id":"94867137110","tumblelog-name":"365tidalpatterns","tumblelog-key":"YCGbdmhef","reblog-key":"mtYrgBW0","serve-id":"0.32018600 1410718320629312005","json":"{\u0022id\u0022:\u002294867137110\u0022,\u0022type\u0022:\u0022regular\u0022,\u0022root_id\u0022:\u002294867137110\u0022,\u0022tumblelog\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog_key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog_key\u0022:\u0022mtYrgBW0\u0022,\u0022is_mine\u0022:false,\u0022accepts_answers\u0022:false,\u0022following_tumblelog\u0022:false,\u0022liked\u0022:false,\u0022sponsored\u0022:false,\u0022premium_tracked\u0022:false,\u0022is_recommended\u0022:false,\u0022placement_id\u0022:null,\u0022featured_tags\u0022:[],\u0022reblog_source\u0022:null,\u0022post-id\u0022:\u002294867137110\u0022,\u0022root-id\u0022:\u002294867137110\u0022,\u0022tumblelog-name\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog-key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog-key\u0022:\u0022mtYrgBW0\u0022,\u0022serve-id\u0022:\u00220.32018600 1410718320629312005\u0022}"}'><div class="post_content"><div class="post_content_inner"><div class="post_title">Pattern 314</div><p><a href="http://365tidalpatterns.tumblr.com/post/94867137110/pattern-314"><img src="http://assets.tumblr.com/images/inline_placeholder.png" width="18" height="14"/></a></p>
+
+<pre><code>bps (120/120)
+
+d1 $ slowspread ($) [(|+| speed "2 0.8"), stut 4 0.5 0.2, slow 1, 
+(|+| speed "1 -1 1 -1"), (|+| accelerate "-1 1"), slow 1, trunc 0.25, 
+trunc 0.25] $  stack [ whenmod 16 8 (const $ slowcat [
+sound "gnome:1*8", sound "gnome:1*4"] |+| cut "1" 
+|+| begin "0.05") $ slowcat [sound "nerd:5*8", sound "nerd:5*4"] 
+|+| cut "1", slowcat [sound (samples "k*4 [s k*2] [k*2 s] [k hh]*4" 
+(run 44)), sound (samples 
+"[s hh]*4 [cp 808cb bass1 kh s bass2 ~ bass2]" (run 22)), 
+sound (samples "kh*8 [s kh hh hh k hh ~ hh]" (run 33)), 
+sound (samples "[kh tite]*4 [sv hv kv hv] kv*4 [sv kv*2]" (run 44))] ]
+</code></pre></div></div><div class="post_glass post_micro_glass" 
+     title=""><a target="_blank" class="hover"
+               title=""
+               href="http://365tidalpatterns.tumblr.com/post/94867137110/pattern-314"><div class="hover_inner"><span class="post_date">Aug 15, 2014</span></div>  
+
+            <div class="hover_tags"></div></a></div>
+</div><div class="post post_micro is_regular post_tumblelog_c4ea9f2fbf633a20ea74c4654eb48a08 not_mine is_original with_permalink no_source no_notes has_hover" id="post_micro_94788067330"  data-id='94788067330' data-type='regular' data-root_id='94788067330' data-tumblelog='365tidalpatterns' data-tumblelog_key='YCGbdmhef' data-reblog_key='itU3HYWI' data-is_mine='' data-accepts_answers='' data-following_tumblelog='' data-liked='' data-sponsored='' data-premium_tracked='' data-is_recommended='' data-placement_id='' data-featured_tags='Array' data-reblog_source='' data-post-id='94788067330' data-root-id='94788067330' data-tumblelog-name='365tidalpatterns' data-tumblelog-key='YCGbdmhef' data-reblog-key='itU3HYWI' data-serve-id='0.32518700 14107183201629944733' data-json='{"id":"94788067330","type":"regular","root_id":"94788067330","tumblelog":"365tidalpatterns","tumblelog_key":"YCGbdmhef","reblog_key":"itU3HYWI","is_mine":false,"accepts_answers":false,"following_tumblelog":false,"liked":false,"sponsored":false,"premium_tracked":false,"is_recommended":false,"placement_id":null,"featured_tags":[],"reblog_source":null,"post-id":"94788067330","root-id":"94788067330","tumblelog-name":"365tidalpatterns","tumblelog-key":"YCGbdmhef","reblog-key":"itU3HYWI","serve-id":"0.32518700 14107183201629944733","json":"{\u0022id\u0022:\u002294788067330\u0022,\u0022type\u0022:\u0022regular\u0022,\u0022root_id\u0022:\u002294788067330\u0022,\u0022tumblelog\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog_key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog_key\u0022:\u0022itU3HYWI\u0022,\u0022is_mine\u0022:false,\u0022accepts_answers\u0022:false,\u0022following_tumblelog\u0022:false,\u0022liked\u0022:false,\u0022sponsored\u0022:false,\u0022premium_tracked\u0022:false,\u0022is_recommended\u0022:false,\u0022placement_id\u0022:null,\u0022featured_tags\u0022:[],\u0022reblog_source\u0022:null,\u0022post-id\u0022:\u002294788067330\u0022,\u0022root-id\u0022:\u002294788067330\u0022,\u0022tumblelog-name\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog-key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog-key\u0022:\u0022itU3HYWI\u0022,\u0022serve-id\u0022:\u00220.32518700 14107183201629944733\u0022}"}'><div class="post_content"><div class="post_content_inner"><div class="post_title">Pattern 313</div><p><a href="http://365tidalpatterns.tumblr.com/post/94788067330/pattern-313"><img src="http://assets.tumblr.com/images/inline_placeholder.png" width="18" height="14"/></a></p>
+
+<pre><code>bps (180/120)
+
+d1 $ whenmod 5 3 ((|+| speed "0.5") . slow 3 . jux (iter 4)) $ 
+whenmod 7 5 (degradeBy 0.7 . (|+| delay "0.5")) $ (slow 2 $ 
+stut 64 0.25 0.75 $ sound (samples "kv [sv kv]" (irand 9))) 
+|+| delaytime "0.2" |+| delayfeedback "0.5"
+</code></pre></div></div><div class="post_glass post_micro_glass" 
+     title=""><a target="_blank" class="hover"
+               title=""
+               href="http://365tidalpatterns.tumblr.com/post/94788067330/pattern-313"><div class="hover_inner"><span class="post_date">Aug 14, 2014</span></div>  
+
+            <div class="hover_tags"></div></a></div>
+</div><div class="post post_micro is_regular post_tumblelog_c4ea9f2fbf633a20ea74c4654eb48a08 not_mine is_original with_permalink no_source no_notes has_hover" id="post_micro_94787994310"  data-id='94787994310' data-type='regular' data-root_id='94787994310' data-tumblelog='365tidalpatterns' data-tumblelog_key='YCGbdmhef' data-reblog_key='WeBPKkP2' data-is_mine='' data-accepts_answers='' data-following_tumblelog='' data-liked='' data-sponsored='' data-premium_tracked='' data-is_recommended='' data-placement_id='' data-featured_tags='Array' data-reblog_source='' data-post-id='94787994310' data-root-id='94787994310' data-tumblelog-name='365tidalpatterns' data-tumblelog-key='YCGbdmhef' data-reblog-key='WeBPKkP2' data-serve-id='0.33024100 14107183201614347254' data-json='{"id":"94787994310","type":"regular","root_id":"94787994310","tumblelog":"365tidalpatterns","tumblelog_key":"YCGbdmhef","reblog_key":"WeBPKkP2","is_mine":false,"accepts_answers":false,"following_tumblelog":false,"liked":false,"sponsored":false,"premium_tracked":false,"is_recommended":false,"placement_id":null,"featured_tags":[],"reblog_source":null,"post-id":"94787994310","root-id":"94787994310","tumblelog-name":"365tidalpatterns","tumblelog-key":"YCGbdmhef","reblog-key":"WeBPKkP2","serve-id":"0.33024100 14107183201614347254","json":"{\u0022id\u0022:\u002294787994310\u0022,\u0022type\u0022:\u0022regular\u0022,\u0022root_id\u0022:\u002294787994310\u0022,\u0022tumblelog\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog_key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog_key\u0022:\u0022WeBPKkP2\u0022,\u0022is_mine\u0022:false,\u0022accepts_answers\u0022:false,\u0022following_tumblelog\u0022:false,\u0022liked\u0022:false,\u0022sponsored\u0022:false,\u0022premium_tracked\u0022:false,\u0022is_recommended\u0022:false,\u0022placement_id\u0022:null,\u0022featured_tags\u0022:[],\u0022reblog_source\u0022:null,\u0022post-id\u0022:\u002294787994310\u0022,\u0022root-id\u0022:\u002294787994310\u0022,\u0022tumblelog-name\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog-key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog-key\u0022:\u0022WeBPKkP2\u0022,\u0022serve-id\u0022:\u00220.33024100 14107183201614347254\u0022}"}'><div class="post_content"><div class="post_content_inner"><div class="post_title">Pattern 312</div><p><a href="http://365tidalpatterns.tumblr.com/post/94787994310/pattern-312"><img src="http://assets.tumblr.com/images/inline_placeholder.png" width="18" height="14"/></a></p>
+
+<pre><code>bps (160/120)
+
+d1 $ whenmod 7 6 ((|+| speed "1.5") . stut 8 0.5 0.5) $ 
+whenmod 9 7 (trunc 0.25) $ whenmod 6 4 (0.25 &lt;~) $ stack [ 
+spread' (chop) "[16 24 16 12 6 16]/6" $ stack [ sound (
+samples "kv*16?" (run 24)) |+| speed "[1 1 0.8 1.2]/6", 
+sound "~ [sv:4, sv:0, sv:3]", sound "hv*8", 
+sound "{bass2 ~ bass2*4}%4" |+| delay "[0 0 0 0.5]/5" ], 
+jux (0.01 &lt;~) $ degradeBy 0.7 $ slow 4 $ (striate 64 $ 
+sound "plane") |+| speed "[[1 0.5]/2, [1.5 2]]" |+| delay "0.3"] 
+|+| delaytime "0.4" |+| delayfeedback "0.4"
+</code></pre></div></div><div class="post_glass post_micro_glass" 
+     title=""><a target="_blank" class="hover"
+               title=""
+               href="http://365tidalpatterns.tumblr.com/post/94787994310/pattern-312"><div class="hover_inner"><span class="post_date">Aug 14, 2014</span></div>  
+
+            <div class="hover_tags"></div></a></div>
+</div><div class="post post_micro is_regular post_tumblelog_c4ea9f2fbf633a20ea74c4654eb48a08 not_mine is_original with_permalink no_source no_notes has_hover" id="post_micro_94787893710"  data-id='94787893710' data-type='regular' data-root_id='94787893710' data-tumblelog='365tidalpatterns' data-tumblelog_key='YCGbdmhef' data-reblog_key='jyoR8ynJ' data-is_mine='' data-accepts_answers='' data-following_tumblelog='' data-liked='' data-sponsored='' data-premium_tracked='' data-is_recommended='' data-placement_id='' data-featured_tags='Array' data-reblog_source='' data-post-id='94787893710' data-root-id='94787893710' data-tumblelog-name='365tidalpatterns' data-tumblelog-key='YCGbdmhef' data-reblog-key='jyoR8ynJ' data-serve-id='0.33532300 1410718320528326974' data-json='{"id":"94787893710","type":"regular","root_id":"94787893710","tumblelog":"365tidalpatterns","tumblelog_key":"YCGbdmhef","reblog_key":"jyoR8ynJ","is_mine":false,"accepts_answers":false,"following_tumblelog":false,"liked":false,"sponsored":false,"premium_tracked":false,"is_recommended":false,"placement_id":null,"featured_tags":[],"reblog_source":null,"post-id":"94787893710","root-id":"94787893710","tumblelog-name":"365tidalpatterns","tumblelog-key":"YCGbdmhef","reblog-key":"jyoR8ynJ","serve-id":"0.33532300 1410718320528326974","json":"{\u0022id\u0022:\u002294787893710\u0022,\u0022type\u0022:\u0022regular\u0022,\u0022root_id\u0022:\u002294787893710\u0022,\u0022tumblelog\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog_key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog_key\u0022:\u0022jyoR8ynJ\u0022,\u0022is_mine\u0022:false,\u0022accepts_answers\u0022:false,\u0022following_tumblelog\u0022:false,\u0022liked\u0022:false,\u0022sponsored\u0022:false,\u0022premium_tracked\u0022:false,\u0022is_recommended\u0022:false,\u0022placement_id\u0022:null,\u0022featured_tags\u0022:[],\u0022reblog_source\u0022:null,\u0022post-id\u0022:\u002294787893710\u0022,\u0022root-id\u0022:\u002294787893710\u0022,\u0022tumblelog-name\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog-key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog-key\u0022:\u0022jyoR8ynJ\u0022,\u0022serve-id\u0022:\u00220.33532300 1410718320528326974\u0022}"}'><div class="post_content"><div class="post_content_inner"><div class="post_title">Pattern 311</div><p><a href="http://365tidalpatterns.tumblr.com/post/94787893710/pattern-311"><img src="http://assets.tumblr.com/images/inline_placeholder.png" width="18" height="14"/></a></p>
+
+<pre><code>bps (150/120)
+
+d1 $ whenmod 4 3 (trunc 0.5 . (|+| speed "0.8")) $ whenmod 6 5 (
+slow 2 . stut 4 0.25 0.25) $ whenmod 8 7 (trunc 0.25) $ 
+every 3 (0.25 &lt;~) $ whenmod 7 6 (stut 12 0.5 0.1) $ iter 4 $ 
+stack [ whenmod 6 4 (|+| speed "0.9") $ density 2 $ sound 
+"bass1:1 ~ ~ bass1:1" |+| cut "1",  whenmod 5 4 (const $ 
+sound (samples "[kv [sv hv]] [hv kv] [sv hv*2] [kv [sv hh*4]]" 
+(run 31))) $ sound (samples "kv*2 [sv kv] hv*4 [kv hv]*4" (run 13)) 
+|+| speed "[1, 1.1, 0.9]" ]
+</code></pre></div></div><div class="post_glass post_micro_glass" 
+     title=""><a target="_blank" class="hover"
+               title=""
+               href="http://365tidalpatterns.tumblr.com/post/94787893710/pattern-311"><div class="hover_inner"><span class="post_date">Aug 14, 2014</span></div>  
+
+            <div class="hover_tags"></div></a></div>
+</div><div class="post post_micro is_regular post_tumblelog_c4ea9f2fbf633a20ea74c4654eb48a08 not_mine is_original with_permalink no_source no_notes has_hover" id="post_micro_94497011255"  data-id='94497011255' data-type='regular' data-root_id='94497011255' data-tumblelog='365tidalpatterns' data-tumblelog_key='YCGbdmhef' data-reblog_key='6Un9j9fD' data-is_mine='' data-accepts_answers='' data-following_tumblelog='' data-liked='' data-sponsored='' data-premium_tracked='' data-is_recommended='' data-placement_id='' data-featured_tags='Array' data-reblog_source='' data-post-id='94497011255' data-root-id='94497011255' data-tumblelog-name='365tidalpatterns' data-tumblelog-key='YCGbdmhef' data-reblog-key='6Un9j9fD' data-serve-id='0.34056400 141071832075093970' data-json='{"id":"94497011255","type":"regular","root_id":"94497011255","tumblelog":"365tidalpatterns","tumblelog_key":"YCGbdmhef","reblog_key":"6Un9j9fD","is_mine":false,"accepts_answers":false,"following_tumblelog":false,"liked":false,"sponsored":false,"premium_tracked":false,"is_recommended":false,"placement_id":null,"featured_tags":[],"reblog_source":null,"post-id":"94497011255","root-id":"94497011255","tumblelog-name":"365tidalpatterns","tumblelog-key":"YCGbdmhef","reblog-key":"6Un9j9fD","serve-id":"0.34056400 141071832075093970","json":"{\u0022id\u0022:\u002294497011255\u0022,\u0022type\u0022:\u0022regular\u0022,\u0022root_id\u0022:\u002294497011255\u0022,\u0022tumblelog\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog_key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog_key\u0022:\u00226Un9j9fD\u0022,\u0022is_mine\u0022:false,\u0022accepts_answers\u0022:false,\u0022following_tumblelog\u0022:false,\u0022liked\u0022:false,\u0022sponsored\u0022:false,\u0022premium_tracked\u0022:false,\u0022is_recommended\u0022:false,\u0022placement_id\u0022:null,\u0022featured_tags\u0022:[],\u0022reblog_source\u0022:null,\u0022post-id\u0022:\u002294497011255\u0022,\u0022root-id\u0022:\u002294497011255\u0022,\u0022tumblelog-name\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog-key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog-key\u0022:\u00226Un9j9fD\u0022,\u0022serve-id\u0022:\u00220.34056400 141071832075093970\u0022}"}'><div class="post_content"><div class="post_content_inner"><div class="post_title">Pattern 310</div><p><a href="http://365tidalpatterns.tumblr.com/post/94497011255/pattern-310"><img src="http://assets.tumblr.com/images/inline_placeholder.png" width="18" height="14"/></a></p>
+
+<pre><code>bps (175/120)
+
+d1 $ stack [ whenmod 4 3 (stut 4 0.5 0.33) $ sound (samples 
+"[[kv kv:2]/2 ~ ~ tite:1] [sv tite:2] [hh ~ tite:4 tite:3]" (run 44)) 
+|+| speed "[1 [1,1.5] [0.8,2] [0.8 1 0.5 1.2]]/4", 
+whenmod 7 5 (trunc 0.25) $ slowspread (slow) [1,2,1.5,1,3,0.5] 
+$ chop 64 $ sound 
+"[~ bass2] bass2:1*4 [[bass2 bass2:1] [bass2:0 bass2:1]]" 
+|+| speed "[1, 0.5]"]
+</code></pre></div></div><div class="post_glass post_micro_glass" 
+     title=""><a target="_blank" class="hover"
+               title=""
+               href="http://365tidalpatterns.tumblr.com/post/94497011255/pattern-310"><div class="hover_inner"><span class="post_date">Aug 11, 2014</span></div>  
+
+            <div class="hover_tags"></div></a></div>
+</div><div class="post post_micro is_regular post_tumblelog_c4ea9f2fbf633a20ea74c4654eb48a08 not_mine is_original with_permalink no_source no_notes has_hover" id="post_micro_94496933190"  data-id='94496933190' data-type='regular' data-root_id='94496933190' data-tumblelog='365tidalpatterns' data-tumblelog_key='YCGbdmhef' data-reblog_key='Q1tmeT7a' data-is_mine='' data-accepts_answers='' data-following_tumblelog='' data-liked='' data-sponsored='' data-premium_tracked='' data-is_recommended='' data-placement_id='' data-featured_tags='Array' data-reblog_source='' data-post-id='94496933190' data-root-id='94496933190' data-tumblelog-name='365tidalpatterns' data-tumblelog-key='YCGbdmhef' data-reblog-key='Q1tmeT7a' data-serve-id='0.34624600 14107183201981287437' data-json='{"id":"94496933190","type":"regular","root_id":"94496933190","tumblelog":"365tidalpatterns","tumblelog_key":"YCGbdmhef","reblog_key":"Q1tmeT7a","is_mine":false,"accepts_answers":false,"following_tumblelog":false,"liked":false,"sponsored":false,"premium_tracked":false,"is_recommended":false,"placement_id":null,"featured_tags":[],"reblog_source":null,"post-id":"94496933190","root-id":"94496933190","tumblelog-name":"365tidalpatterns","tumblelog-key":"YCGbdmhef","reblog-key":"Q1tmeT7a","serve-id":"0.34624600 14107183201981287437","json":"{\u0022id\u0022:\u002294496933190\u0022,\u0022type\u0022:\u0022regular\u0022,\u0022root_id\u0022:\u002294496933190\u0022,\u0022tumblelog\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog_key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog_key\u0022:\u0022Q1tmeT7a\u0022,\u0022is_mine\u0022:false,\u0022accepts_answers\u0022:false,\u0022following_tumblelog\u0022:false,\u0022liked\u0022:false,\u0022sponsored\u0022:false,\u0022premium_tracked\u0022:false,\u0022is_recommended\u0022:false,\u0022placement_id\u0022:null,\u0022featured_tags\u0022:[],\u0022reblog_source\u0022:null,\u0022post-id\u0022:\u002294496933190\u0022,\u0022root-id\u0022:\u002294496933190\u0022,\u0022tumblelog-name\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog-key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog-key\u0022:\u0022Q1tmeT7a\u0022,\u0022serve-id\u0022:\u00220.34624600 14107183201981287437\u0022}"}'><div class="post_content"><div class="post_content_inner"><div class="post_title">Pattern 309</div><p><a href="http://365tidalpatterns.tumblr.com/post/94496933190/pattern-309"><img src="http://assets.tumblr.com/images/inline_placeholder.png" width="18" height="14"/></a></p>
+
+<pre><code>bps (150/120)
+
+d1 $ whenmod 8 6 (trunc 0.25) $ slowspread ($) [slow 2 . 
+(|+| delay "0.5"), slow 1, (|+| speed "0.5") . slow 1.5, 
+stut 8 0.5 0.2, rev, slow 1, stut 16 0.5 0.1] $ every 4 (0.25 &lt;~) 
+$ every 3 (0.25 &lt;~) $ stack [ whenmod 5 3 (|+| speed "0.5") 
+$ whenmod 4 3 (0.25 &lt;~) $ slow 2 $ chop 64 $ sound (
+samples "~ newnotes newnotes ~ newnotes newnotes ~ newnotes" 
+"[15 20 17 12 23 22 18]*5") |+| delay "0.5", whenmod 6 5 (0.25 &lt;~) 
+$ sound (samples "tite*8 [s tite*4 tite tite*2]" (run 34)), 
+whenmod 5 4 (0.25 &lt;~) $ slow 2 $ (chop 8 $ sound (samples 
+"k*8 hh*16 shard tite*12" (run 62)))  ] |+| delayfeedback "0.4" 
+|+| delaytime "0.35"
+</code></pre></div></div><div class="post_glass post_micro_glass" 
+     title=""><a target="_blank" class="hover"
+               title=""
+               href="http://365tidalpatterns.tumblr.com/post/94496933190/pattern-309"><div class="hover_inner"><span class="post_date">Aug 11, 2014</span></div>  
+
+            <div class="hover_tags"></div></a></div>
+</div><div class="post post_micro is_regular post_tumblelog_c4ea9f2fbf633a20ea74c4654eb48a08 not_mine is_original with_permalink no_source no_notes has_hover" id="post_micro_94496854140"  data-id='94496854140' data-type='regular' data-root_id='94496854140' data-tumblelog='365tidalpatterns' data-tumblelog_key='YCGbdmhef' data-reblog_key='qhkDLgnI' data-is_mine='' data-accepts_answers='' data-following_tumblelog='' data-liked='' data-sponsored='' data-premium_tracked='' data-is_recommended='' data-placement_id='' data-featured_tags='Array' data-reblog_source='' data-post-id='94496854140' data-root-id='94496854140' data-tumblelog-name='365tidalpatterns' data-tumblelog-key='YCGbdmhef' data-reblog-key='qhkDLgnI' data-serve-id='0.35203500 1410718320535255895' data-json='{"id":"94496854140","type":"regular","root_id":"94496854140","tumblelog":"365tidalpatterns","tumblelog_key":"YCGbdmhef","reblog_key":"qhkDLgnI","is_mine":false,"accepts_answers":false,"following_tumblelog":false,"liked":false,"sponsored":false,"premium_tracked":false,"is_recommended":false,"placement_id":null,"featured_tags":[],"reblog_source":null,"post-id":"94496854140","root-id":"94496854140","tumblelog-name":"365tidalpatterns","tumblelog-key":"YCGbdmhef","reblog-key":"qhkDLgnI","serve-id":"0.35203500 1410718320535255895","json":"{\u0022id\u0022:\u002294496854140\u0022,\u0022type\u0022:\u0022regular\u0022,\u0022root_id\u0022:\u002294496854140\u0022,\u0022tumblelog\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog_key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog_key\u0022:\u0022qhkDLgnI\u0022,\u0022is_mine\u0022:false,\u0022accepts_answers\u0022:false,\u0022following_tumblelog\u0022:false,\u0022liked\u0022:false,\u0022sponsored\u0022:false,\u0022premium_tracked\u0022:false,\u0022is_recommended\u0022:false,\u0022placement_id\u0022:null,\u0022featured_tags\u0022:[],\u0022reblog_source\u0022:null,\u0022post-id\u0022:\u002294496854140\u0022,\u0022root-id\u0022:\u002294496854140\u0022,\u0022tumblelog-name\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog-key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog-key\u0022:\u0022qhkDLgnI\u0022,\u0022serve-id\u0022:\u00220.35203500 1410718320535255895\u0022}"}'><div class="post_content"><div class="post_content_inner"><div class="post_title">Pattern 308</div><p><a href="http://365tidalpatterns.tumblr.com/post/94496854140/pattern-308"><img src="http://assets.tumblr.com/images/inline_placeholder.png" width="18" height="14"/></a></p>
+
+<pre><code>bps (180/120)
+
+d1 $ slowspread ($) [(|+| accelerate "0.5 -0.5"), rev, slow 1, 
+trunc 0.25, trunc 0.25, slow 1, jux (iter 8), slow 1] $ stack [
+chop 64 $ every 4 (const $ sound 
+"[kv:0 kv:2] kv:1 [sv:1 kv:2] [kv:0 kv:1]") $ sound "kv:1 sv", 
+slow 8 $ chop 128 $ sound (samples 
+"sea:0 ~ newnotes*2 newnotes*2 ~ ~ sea:0 sea:0" 
+"[11 12 17 20 15 9 23]*2") |+| delay "0.4" |+| speed (((*0.5) &lt;$&gt;) 
+"[1 1 1 1 1 1 0.8 1.1225]"), slowspread (slow) [1,2,1.5,3,2.5] 
+$ chop 64 $ sound (samples "[numbers]*4" (run 4)) 
+|+| gain "0.8" |+| speed "1.1" ] |+| delayfeedback "0.4" 
+|+| delaytime "0.5"
+</code></pre></div></div><div class="post_glass post_micro_glass" 
+     title=""><a target="_blank" class="hover"
+               title=""
+               href="http://365tidalpatterns.tumblr.com/post/94496854140/pattern-308"><div class="hover_inner"><span class="post_date">Aug 11, 2014</span></div>  
+
+            <div class="hover_tags"></div></a></div>
+</div><div class="post post_micro is_regular post_tumblelog_c4ea9f2fbf633a20ea74c4654eb48a08 not_mine is_original with_permalink no_source no_notes has_hover" id="post_micro_94496771535"  data-id='94496771535' data-type='regular' data-root_id='94496771535' data-tumblelog='365tidalpatterns' data-tumblelog_key='YCGbdmhef' data-reblog_key='lKqgTR5E' data-is_mine='' data-accepts_answers='' data-following_tumblelog='' data-liked='' data-sponsored='' data-premium_tracked='' data-is_recommended='' data-placement_id='' data-featured_tags='Array' data-reblog_source='' data-post-id='94496771535' data-root-id='94496771535' data-tumblelog-name='365tidalpatterns' data-tumblelog-key='YCGbdmhef' data-reblog-key='lKqgTR5E' data-serve-id='0.35750400 1410718320967410460' data-json='{"id":"94496771535","type":"regular","root_id":"94496771535","tumblelog":"365tidalpatterns","tumblelog_key":"YCGbdmhef","reblog_key":"lKqgTR5E","is_mine":false,"accepts_answers":false,"following_tumblelog":false,"liked":false,"sponsored":false,"premium_tracked":false,"is_recommended":false,"placement_id":null,"featured_tags":[],"reblog_source":null,"post-id":"94496771535","root-id":"94496771535","tumblelog-name":"365tidalpatterns","tumblelog-key":"YCGbdmhef","reblog-key":"lKqgTR5E","serve-id":"0.35750400 1410718320967410460","json":"{\u0022id\u0022:\u002294496771535\u0022,\u0022type\u0022:\u0022regular\u0022,\u0022root_id\u0022:\u002294496771535\u0022,\u0022tumblelog\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog_key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog_key\u0022:\u0022lKqgTR5E\u0022,\u0022is_mine\u0022:false,\u0022accepts_answers\u0022:false,\u0022following_tumblelog\u0022:false,\u0022liked\u0022:false,\u0022sponsored\u0022:false,\u0022premium_tracked\u0022:false,\u0022is_recommended\u0022:false,\u0022placement_id\u0022:null,\u0022featured_tags\u0022:[],\u0022reblog_source\u0022:null,\u0022post-id\u0022:\u002294496771535\u0022,\u0022root-id\u0022:\u002294496771535\u0022,\u0022tumblelog-name\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog-key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog-key\u0022:\u0022lKqgTR5E\u0022,\u0022serve-id\u0022:\u00220.35750400 1410718320967410460\u0022}"}'><div class="post_content"><div class="post_content_inner"><div class="post_title">Pattern 307</div><p><a href="http://365tidalpatterns.tumblr.com/post/94496771535/pattern-307"><img src="http://assets.tumblr.com/images/inline_placeholder.png" width="18" height="14"/></a></p>
+
+<pre><code>bps (200/120)
+
+d1 $ whenmod 15 13 (iter 4) $ every 3 (0.25 &lt;~) $ stack [
+whenmod 8 7 ((|+| speed "0.5") . slow 1.5) $ 
+whenmod 9 7 (trunc 0.25) $ whenmod 5 4 (stut 8 0.6 0.1) $ 
+whenmod 4 3 ((|+| speed "1.5") . stut 4 0.25 0.25) $ slow 2 $ 
+sound (samples "[sv:1 sv:0 ~ kv]!! [kv kv ~ kv]" (run 9)), 
+whenmod 7 4 (|+| speed "1.1225") $ whenmod 5 4 (chop 12) $ 
+sound (samples "{~ bass2*2 mach bass2*2 ~}%4" (run 26)) 
+|+| gain "0.9" |+| shape "0.2" |+| cut "1", sound (samples 
+"{hh*2 hh*2 hh*2 hh*2 hh*2 ~ ~ ~ ~ ~ ~}%8" (run 44))]
+</code></pre></div></div><div class="post_glass post_micro_glass" 
+     title=""><a target="_blank" class="hover"
+               title=""
+               href="http://365tidalpatterns.tumblr.com/post/94496771535/pattern-307"><div class="hover_inner"><span class="post_date">Aug 11, 2014</span></div>  
+
+            <div class="hover_tags"></div></a></div>
+</div><div class="post post_micro is_regular post_tumblelog_c4ea9f2fbf633a20ea74c4654eb48a08 not_mine is_original with_permalink no_source no_notes has_hover" id="post_micro_94496695825"  data-id='94496695825' data-type='regular' data-root_id='94496695825' data-tumblelog='365tidalpatterns' data-tumblelog_key='YCGbdmhef' data-reblog_key='RFobFsOF' data-is_mine='' data-accepts_answers='' data-following_tumblelog='' data-liked='' data-sponsored='' data-premium_tracked='' data-is_recommended='' data-placement_id='' data-featured_tags='Array' data-reblog_source='' data-post-id='94496695825' data-root-id='94496695825' data-tumblelog-name='365tidalpatterns' data-tumblelog-key='YCGbdmhef' data-reblog-key='RFobFsOF' data-serve-id='0.36327700 14107183201300159218' data-json='{"id":"94496695825","type":"regular","root_id":"94496695825","tumblelog":"365tidalpatterns","tumblelog_key":"YCGbdmhef","reblog_key":"RFobFsOF","is_mine":false,"accepts_answers":false,"following_tumblelog":false,"liked":false,"sponsored":false,"premium_tracked":false,"is_recommended":false,"placement_id":null,"featured_tags":[],"reblog_source":null,"post-id":"94496695825","root-id":"94496695825","tumblelog-name":"365tidalpatterns","tumblelog-key":"YCGbdmhef","reblog-key":"RFobFsOF","serve-id":"0.36327700 14107183201300159218","json":"{\u0022id\u0022:\u002294496695825\u0022,\u0022type\u0022:\u0022regular\u0022,\u0022root_id\u0022:\u002294496695825\u0022,\u0022tumblelog\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog_key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog_key\u0022:\u0022RFobFsOF\u0022,\u0022is_mine\u0022:false,\u0022accepts_answers\u0022:false,\u0022following_tumblelog\u0022:false,\u0022liked\u0022:false,\u0022sponsored\u0022:false,\u0022premium_tracked\u0022:false,\u0022is_recommended\u0022:false,\u0022placement_id\u0022:null,\u0022featured_tags\u0022:[],\u0022reblog_source\u0022:null,\u0022post-id\u0022:\u002294496695825\u0022,\u0022root-id\u0022:\u002294496695825\u0022,\u0022tumblelog-name\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog-key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog-key\u0022:\u0022RFobFsOF\u0022,\u0022serve-id\u0022:\u00220.36327700 14107183201300159218\u0022}"}'><div class="post_content"><div class="post_content_inner"><div class="post_title">Pattern 306</div><p><a href="http://365tidalpatterns.tumblr.com/post/94496695825/pattern-306"><img src="http://assets.tumblr.com/images/inline_placeholder.png" width="18" height="14"/></a></p>
+
+<pre><code>d1 $ whenmod 8 7 (|+| vowel "a o u e") $ every 3 (0.25 &lt;~) $ 
+every 4 (0.25 &lt;~) $ stack [ whenmod 6 5 (|+| accelerate "1") 
+$ whenmod 5 4 (stut 8 0.5 0.1) $ whenmod 6 4 (chop 6) $ slow 2 
+$ sound (samples "keys2*4 keys2*4 keys2*4 keys1*4" (
+whenmod 4 3 (const $ "[2 3]*8") $ "[0 1]*8")) |+| delay "0.2" 
+|+| delayfeedback "0.2" |+| delaytime "0.35" |+| speed 
+"[1 0.9 1.25 1]/3", slowspread ($) [chop 16, slow 1, 
+stut 12 0.7 0.1, slow 1, jux (iter 8), slow 1, iter 4] $ 
+every 3 (0.25 &lt;~) $ slow 2 $ sound "~ [kv kv ~ kv] sv [~ kv? ~ kv?]" 
+|+| speed (whenmod 5 3 ((*0.8) &lt;$&gt;) "[1 1.1 1 1 0.9]/7"), 
+sound "{hh*2 hh*2 ~ hh*2 ~}%4" |+| gain "0.8" 
+|+| speed "[1 1 2 1 1.5 -1]/5" ]
+</code></pre></div></div><div class="post_glass post_micro_glass" 
+     title=""><a target="_blank" class="hover"
+               title=""
+               href="http://365tidalpatterns.tumblr.com/post/94496695825/pattern-306"><div class="hover_inner"><span class="post_date">Aug 11, 2014</span></div>  
+
+            <div class="hover_tags"></div></a></div>
+</div><div class="post post_micro is_regular post_tumblelog_c4ea9f2fbf633a20ea74c4654eb48a08 not_mine is_original with_permalink no_source no_notes has_hover" id="post_micro_93897005855"  data-id='93897005855' data-type='regular' data-root_id='93897005855' data-tumblelog='365tidalpatterns' data-tumblelog_key='YCGbdmhef' data-reblog_key='l7QPy1zW' data-is_mine='' data-accepts_answers='' data-following_tumblelog='' data-liked='' data-sponsored='' data-premium_tracked='' data-is_recommended='' data-placement_id='' data-featured_tags='Array' data-reblog_source='' data-post-id='93897005855' data-root-id='93897005855' data-tumblelog-name='365tidalpatterns' data-tumblelog-key='YCGbdmhef' data-reblog-key='l7QPy1zW' data-serve-id='0.36940100 1410718320355245413' data-json='{"id":"93897005855","type":"regular","root_id":"93897005855","tumblelog":"365tidalpatterns","tumblelog_key":"YCGbdmhef","reblog_key":"l7QPy1zW","is_mine":false,"accepts_answers":false,"following_tumblelog":false,"liked":false,"sponsored":false,"premium_tracked":false,"is_recommended":false,"placement_id":null,"featured_tags":[],"reblog_source":null,"post-id":"93897005855","root-id":"93897005855","tumblelog-name":"365tidalpatterns","tumblelog-key":"YCGbdmhef","reblog-key":"l7QPy1zW","serve-id":"0.36940100 1410718320355245413","json":"{\u0022id\u0022:\u002293897005855\u0022,\u0022type\u0022:\u0022regular\u0022,\u0022root_id\u0022:\u002293897005855\u0022,\u0022tumblelog\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog_key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog_key\u0022:\u0022l7QPy1zW\u0022,\u0022is_mine\u0022:false,\u0022accepts_answers\u0022:false,\u0022following_tumblelog\u0022:false,\u0022liked\u0022:false,\u0022sponsored\u0022:false,\u0022premium_tracked\u0022:false,\u0022is_recommended\u0022:false,\u0022placement_id\u0022:null,\u0022featured_tags\u0022:[],\u0022reblog_source\u0022:null,\u0022post-id\u0022:\u002293897005855\u0022,\u0022root-id\u0022:\u002293897005855\u0022,\u0022tumblelog-name\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog-key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog-key\u0022:\u0022l7QPy1zW\u0022,\u0022serve-id\u0022:\u00220.36940100 1410718320355245413\u0022}"}'><div class="post_content"><div class="post_content_inner"><div class="post_title">Pattern 305</div><p><a href="http://365tidalpatterns.tumblr.com/post/93897005855/pattern-305"><img src="http://assets.tumblr.com/images/inline_placeholder.png" width="18" height="14"/></a></p>
+
+<pre><code>bps (125/120)
+
+d1 $ whenmod 8 6 (trunc 0.25) $ stack [ slow 8 $ trunc 0.25 $ 
+striate 16 $ sound (samples "k*16 s:4*8 hh*12 perc*16" (run 33)) 
+|+| cutoff (scale 0.07 0.3 $ slow 3.1 sine1) |+| resonance "0.2" 
+|+| gain "0.8", sound (samples "flkick*16?" (run 33)) |+| gain "0.8",
+density 2 $ sound "laz:1/2 laz [~ laz] [~ laz:1 ~ laz*2]/4" 
+|+| speed "0.25" |+| gain "0.8" |+| cut "3", sound "[kh hh:3]*4" 
+|+| speed "1", sound (samples "sub/4 ~ [~ bass2] ~ b/3 ~ [bass2 b] 
+[~ b]" (run 13)) |+| gain "0.8" |+| cut "1" |+| speed "1", density 2 
+$ sound "~ shard" |+| speed "1", slow 2 $ sound (samples 
+"keys2*4 [~ keys1*2] [~ keys1*2] keys2*4 [keys1*2 ~] 
+[~ keys1*2] keys2*4 [keys1*2 keys1*2]" (run 43)) |+| delay "0.5" 
+|+| cutoff (scale 0.05 0.2 $ slow 4.1 sine1) |+| resonance "0.7" 
+|+| speed "[1 0.9]/2", slow 8 $ striate 128 $ sound "[sweep ~]/2" 
+|+| gain "0.9" |+| delay "0.4" ] |+| delayfeedback "0.6" 
+|+| delaytime "0.485"
+</code></pre></div></div><div class="post_glass post_micro_glass" 
+     title=""><a target="_blank" class="hover"
+               title=""
+               href="http://365tidalpatterns.tumblr.com/post/93897005855/pattern-305"><div class="hover_inner"><span class="post_date">Aug 5, 2014</span></div>  
+
+            <div class="hover_tags"></div></a></div>
+</div><div class="post post_micro is_regular post_tumblelog_c4ea9f2fbf633a20ea74c4654eb48a08 not_mine is_original with_permalink no_source no_notes has_hover" id="post_micro_93896453710"  data-id='93896453710' data-type='regular' data-root_id='93896453710' data-tumblelog='365tidalpatterns' data-tumblelog_key='YCGbdmhef' data-reblog_key='yS7n6C75' data-is_mine='' data-accepts_answers='' data-following_tumblelog='' data-liked='' data-sponsored='' data-premium_tracked='' data-is_recommended='' data-placement_id='' data-featured_tags='Array' data-reblog_source='' data-post-id='93896453710' data-root-id='93896453710' data-tumblelog-name='365tidalpatterns' data-tumblelog-key='YCGbdmhef' data-reblog-key='yS7n6C75' data-serve-id='0.37535900 1410718320366366578' data-json='{"id":"93896453710","type":"regular","root_id":"93896453710","tumblelog":"365tidalpatterns","tumblelog_key":"YCGbdmhef","reblog_key":"yS7n6C75","is_mine":false,"accepts_answers":false,"following_tumblelog":false,"liked":false,"sponsored":false,"premium_tracked":false,"is_recommended":false,"placement_id":null,"featured_tags":[],"reblog_source":null,"post-id":"93896453710","root-id":"93896453710","tumblelog-name":"365tidalpatterns","tumblelog-key":"YCGbdmhef","reblog-key":"yS7n6C75","serve-id":"0.37535900 1410718320366366578","json":"{\u0022id\u0022:\u002293896453710\u0022,\u0022type\u0022:\u0022regular\u0022,\u0022root_id\u0022:\u002293896453710\u0022,\u0022tumblelog\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog_key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog_key\u0022:\u0022yS7n6C75\u0022,\u0022is_mine\u0022:false,\u0022accepts_answers\u0022:false,\u0022following_tumblelog\u0022:false,\u0022liked\u0022:false,\u0022sponsored\u0022:false,\u0022premium_tracked\u0022:false,\u0022is_recommended\u0022:false,\u0022placement_id\u0022:null,\u0022featured_tags\u0022:[],\u0022reblog_source\u0022:null,\u0022post-id\u0022:\u002293896453710\u0022,\u0022root-id\u0022:\u002293896453710\u0022,\u0022tumblelog-name\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog-key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog-key\u0022:\u0022yS7n6C75\u0022,\u0022serve-id\u0022:\u00220.37535900 1410718320366366578\u0022}"}'><div class="post_content"><div class="post_content_inner"><div class="post_title">Pattern 304</div><p><a href="http://365tidalpatterns.tumblr.com/post/93896453710/pattern-304"><img src="http://assets.tumblr.com/images/inline_placeholder.png" width="18" height="14"/></a></p>
+
+<pre><code>bps (175/120)
+
+d1 $ slowspread ($) [slow 1.5, slow 1, slow 2, slow 3, slow 1, rev, 
+(|+| speed "0.5") . slow 2, slow 1] $ whenmod 9 7 (degradeBy 0.8) 
+$ every 3 (0.25 &lt;~) $ every 4 (0.25 &lt;~) $ stack [ degradeBy 0.5 
+$ stack [ sound (samples "flkick*16" (run 72)) |+| shape "0.1" 
+|+| gain "1.1", slow 8 $ (striate 128 $ sound "insect") |+| cut "1" 
+|+| shape "0.6" |+| gain "1" |+| speed "[0.5, 1]" ], sound (samples 
+"~ s ~ s" (run 16)) |+| speed "0.7", density 2 $ sound (samples 
+"{hh hh*2 hh hh*2 hh ~}%4" (run 22)), slow 8 $ (striate' 128 (1/60) 
+$ sound "padloop4") |+| speed "[1 0.5, ~ 1.5 2]" ]
+</code></pre></div></div><div class="post_glass post_micro_glass" 
+     title=""><a target="_blank" class="hover"
+               title=""
+               href="http://365tidalpatterns.tumblr.com/post/93896453710/pattern-304"><div class="hover_inner"><span class="post_date">Aug 5, 2014</span></div>  
+
+            <div class="hover_tags"></div></a></div>
+</div><div class="post post_micro is_regular post_tumblelog_c4ea9f2fbf633a20ea74c4654eb48a08 not_mine is_original with_permalink no_source no_notes has_hover" id="post_micro_93896397615"  data-id='93896397615' data-type='regular' data-root_id='93896397615' data-tumblelog='365tidalpatterns' data-tumblelog_key='YCGbdmhef' data-reblog_key='eBF7GbF9' data-is_mine='' data-accepts_answers='' data-following_tumblelog='' data-liked='' data-sponsored='' data-premium_tracked='' data-is_recommended='' data-placement_id='' data-featured_tags='Array' data-reblog_source='' data-post-id='93896397615' data-root-id='93896397615' data-tumblelog-name='365tidalpatterns' data-tumblelog-key='YCGbdmhef' data-reblog-key='eBF7GbF9' data-serve-id='0.38117800 14107183201171591647' data-json='{"id":"93896397615","type":"regular","root_id":"93896397615","tumblelog":"365tidalpatterns","tumblelog_key":"YCGbdmhef","reblog_key":"eBF7GbF9","is_mine":false,"accepts_answers":false,"following_tumblelog":false,"liked":false,"sponsored":false,"premium_tracked":false,"is_recommended":false,"placement_id":null,"featured_tags":[],"reblog_source":null,"post-id":"93896397615","root-id":"93896397615","tumblelog-name":"365tidalpatterns","tumblelog-key":"YCGbdmhef","reblog-key":"eBF7GbF9","serve-id":"0.38117800 14107183201171591647","json":"{\u0022id\u0022:\u002293896397615\u0022,\u0022type\u0022:\u0022regular\u0022,\u0022root_id\u0022:\u002293896397615\u0022,\u0022tumblelog\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog_key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog_key\u0022:\u0022eBF7GbF9\u0022,\u0022is_mine\u0022:false,\u0022accepts_answers\u0022:false,\u0022following_tumblelog\u0022:false,\u0022liked\u0022:false,\u0022sponsored\u0022:false,\u0022premium_tracked\u0022:false,\u0022is_recommended\u0022:false,\u0022placement_id\u0022:null,\u0022featured_tags\u0022:[],\u0022reblog_source\u0022:null,\u0022post-id\u0022:\u002293896397615\u0022,\u0022root-id\u0022:\u002293896397615\u0022,\u0022tumblelog-name\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog-key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog-key\u0022:\u0022eBF7GbF9\u0022,\u0022serve-id\u0022:\u00220.38117800 14107183201171591647\u0022}"}'><div class="post_content"><div class="post_content_inner"><div class="post_title">Pattern 303</div><p><a href="http://365tidalpatterns.tumblr.com/post/93896397615/pattern-303"><img src="http://assets.tumblr.com/images/inline_placeholder.png" width="18" height="14"/></a></p>
+
+<pre><code>bps (130/120)
+
+d1 $ whenmod 5 4 (|+| speed "1.2 1.5 1 0.7") $ iter 4 $ 
+stack [whenmod 6 5 (0.25 &lt;~) $ density 2 $  sound 
+"squares ~ ~ squares" |+| cut "1" |+| speed "1 1.1", whenmod 7 5 
+(0.25 &lt;~) $ sound "[[~ ~ ~ ~ ~ ~ laz:1*4]/8 [laz:1 laz:0]/2]*2" 
+|+| speed "0.25" |+| cut "2", whenmod 4 3 (0.25 &lt;~) $  sound 
+"[cp:4/2 ~ ~ cp:4 ~ ~ ~ ~]*2", sound "[~ ~ ~ [~ gab*2]/2 ~ ~ ~]" 
+|+| cut "3", whenmod 5 4 (0.25 &lt;~) $ sound (samples "kit1*16" 
+(run 33)) |+| speed "2" ]
+</code></pre></div></div><div class="post_glass post_micro_glass" 
+     title=""><a target="_blank" class="hover"
+               title=""
+               href="http://365tidalpatterns.tumblr.com/post/93896397615/pattern-303"><div class="hover_inner"><span class="post_date">Aug 5, 2014</span></div>  
+
+            <div class="hover_tags"></div></a></div>
+</div><div class="post post_micro is_regular post_tumblelog_c4ea9f2fbf633a20ea74c4654eb48a08 not_mine is_original with_permalink no_source no_notes has_hover" id="post_micro_93896348460"  data-id='93896348460' data-type='regular' data-root_id='93896348460' data-tumblelog='365tidalpatterns' data-tumblelog_key='YCGbdmhef' data-reblog_key='QrG1Winr' data-is_mine='' data-accepts_answers='' data-following_tumblelog='' data-liked='' data-sponsored='' data-premium_tracked='' data-is_recommended='' data-placement_id='' data-featured_tags='Array' data-reblog_source='' data-post-id='93896348460' data-root-id='93896348460' data-tumblelog-name='365tidalpatterns' data-tumblelog-key='YCGbdmhef' data-reblog-key='QrG1Winr' data-serve-id='0.38733500 1410718320912071987' data-json='{"id":"93896348460","type":"regular","root_id":"93896348460","tumblelog":"365tidalpatterns","tumblelog_key":"YCGbdmhef","reblog_key":"QrG1Winr","is_mine":false,"accepts_answers":false,"following_tumblelog":false,"liked":false,"sponsored":false,"premium_tracked":false,"is_recommended":false,"placement_id":null,"featured_tags":[],"reblog_source":null,"post-id":"93896348460","root-id":"93896348460","tumblelog-name":"365tidalpatterns","tumblelog-key":"YCGbdmhef","reblog-key":"QrG1Winr","serve-id":"0.38733500 1410718320912071987","json":"{\u0022id\u0022:\u002293896348460\u0022,\u0022type\u0022:\u0022regular\u0022,\u0022root_id\u0022:\u002293896348460\u0022,\u0022tumblelog\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog_key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog_key\u0022:\u0022QrG1Winr\u0022,\u0022is_mine\u0022:false,\u0022accepts_answers\u0022:false,\u0022following_tumblelog\u0022:false,\u0022liked\u0022:false,\u0022sponsored\u0022:false,\u0022premium_tracked\u0022:false,\u0022is_recommended\u0022:false,\u0022placement_id\u0022:null,\u0022featured_tags\u0022:[],\u0022reblog_source\u0022:null,\u0022post-id\u0022:\u002293896348460\u0022,\u0022root-id\u0022:\u002293896348460\u0022,\u0022tumblelog-name\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog-key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog-key\u0022:\u0022QrG1Winr\u0022,\u0022serve-id\u0022:\u00220.38733500 1410718320912071987\u0022}"}'><div class="post_content"><div class="post_content_inner"><div class="post_title">Pattern 302</div><p><a href="http://365tidalpatterns.tumblr.com/post/93896348460/pattern-302"><img src="http://assets.tumblr.com/images/inline_placeholder.png" width="18" height="14"/></a></p>
+
+<pre><code>bps (150/120)
+
+d1 $ whenmod 9 7 (trunc 0.25) $ every 3 (0.25 &lt;~) $ every 4 
+(0.25 &lt;~) $ stack [ sound (samples "k*4 [[s, cp] laz:1] [hh*4] 
+[[s, cp] ktite ~ hh]" (run 14)) |+| speed "[1 1 1.1 -0.9 1]/6", 
+sound (samples "[~ sub] ~ b/2 [~ b/3]" (run 14)) |+| cut "1", sound 
+"[kl [~ kl]]*2" |+| cut "2" |+| speed "0.5" |+| gain "0.9", sound 
+"~ gnome:2/2 vox:1/3 fran:8" |+| speed "1.25" |+| cut "3", slow 2 $ 
+trunc 0.25 $ striate 16 $ sound "alone" |+| speed (whenmod 5 4 
+((*0.9) &lt;$&gt;) "1") |+| gain "0.9" |+| cutoff "0.05" |+| resonance "0.1" 
+|+| delay "0.4"] |+| delayfeedback "0.5" |+| delaytime "0.5"
+</code></pre></div></div><div class="post_glass post_micro_glass" 
+     title=""><a target="_blank" class="hover"
+               title=""
+               href="http://365tidalpatterns.tumblr.com/post/93896348460/pattern-302"><div class="hover_inner"><span class="post_date">Aug 5, 2014</span></div>  
+
+            <div class="hover_tags"></div></a></div>
+</div><div class="post post_micro is_regular post_tumblelog_c4ea9f2fbf633a20ea74c4654eb48a08 not_mine is_original with_permalink no_source no_notes has_hover" id="post_micro_93896268190"  data-id='93896268190' data-type='regular' data-root_id='93896268190' data-tumblelog='365tidalpatterns' data-tumblelog_key='YCGbdmhef' data-reblog_key='IQFWex3L' data-is_mine='' data-accepts_answers='' data-following_tumblelog='' data-liked='' data-sponsored='' data-premium_tracked='' data-is_recommended='' data-placement_id='' data-featured_tags='Array' data-reblog_source='' data-post-id='93896268190' data-root-id='93896268190' data-tumblelog-name='365tidalpatterns' data-tumblelog-key='YCGbdmhef' data-reblog-key='IQFWex3L' data-serve-id='0.39321200 14107183201089637186' data-json='{"id":"93896268190","type":"regular","root_id":"93896268190","tumblelog":"365tidalpatterns","tumblelog_key":"YCGbdmhef","reblog_key":"IQFWex3L","is_mine":false,"accepts_answers":false,"following_tumblelog":false,"liked":false,"sponsored":false,"premium_tracked":false,"is_recommended":false,"placement_id":null,"featured_tags":[],"reblog_source":null,"post-id":"93896268190","root-id":"93896268190","tumblelog-name":"365tidalpatterns","tumblelog-key":"YCGbdmhef","reblog-key":"IQFWex3L","serve-id":"0.39321200 14107183201089637186","json":"{\u0022id\u0022:\u002293896268190\u0022,\u0022type\u0022:\u0022regular\u0022,\u0022root_id\u0022:\u002293896268190\u0022,\u0022tumblelog\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog_key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog_key\u0022:\u0022IQFWex3L\u0022,\u0022is_mine\u0022:false,\u0022accepts_answers\u0022:false,\u0022following_tumblelog\u0022:false,\u0022liked\u0022:false,\u0022sponsored\u0022:false,\u0022premium_tracked\u0022:false,\u0022is_recommended\u0022:false,\u0022placement_id\u0022:null,\u0022featured_tags\u0022:[],\u0022reblog_source\u0022:null,\u0022post-id\u0022:\u002293896268190\u0022,\u0022root-id\u0022:\u002293896268190\u0022,\u0022tumblelog-name\u0022:\u0022365tidalpatterns\u0022,\u0022tumblelog-key\u0022:\u0022YCGbdmhef\u0022,\u0022reblog-key\u0022:\u0022IQFWex3L\u0022,\u0022serve-id\u0022:\u00220.39321200 14107183201089637186\u0022}"}'><div class="post_content"><div class="post_content_inner"><div class="post_title">Pattern 301</div><p><a href="http://365tidalpatterns.tumblr.com/post/93896268190/pattern-301"><img src="http://assets.tumblr.com/images/inline_placeholder.png" width="18" height="14"/></a></p>
+
+<pre><code>bps 1
+
+d1 $ slowspread ($) [rev, jux (iter 8), slow 1, (|+| speed "0.5, -0.7") 
+. slow 2, slow 1, stut 8 0.5 0.5 . slow 2, slow 1, (|+| accelerate "-0.5")] 
+$ every 5 (0.25 &lt;~) $ whenmod 8 6 (trunc 0.25) $ stack [slow 4 
+$ striate 16 $ sound "pad:9" |+| shape "0.3", whenmod 11 9 (const 
+$ slow 2 $ sound (samples "k*6 k*6 [ul:1 ul]*2 [sea gab] 
+monster monster ul*2 ul" (run 33))) $ slow 2 $ sound (
+samples "monster:0 [ul2:0 k*2] peri*4 ul2:0" (run 19)), sound 
+"{~ ~ ul:3*2 ul:3*2 ~}%4"] |+| speed "[1 1 -1.1 1 1 0.8]/6"
+</code></pre></div></div><div class="post_glass post_micro_glass" 
+     title=""><a target="_blank" class="hover"
+               title=""
+               href="http://365tidalpatterns.tumblr.com/post/93896268190/pattern-301"><div class="hover_inner"><span class="post_date">Aug 5, 2014</span></div>  
+
+            <div class="hover_tags"></div></a></div>
+</div></section><!-- END CONTENT --></div><div id="pagination"><div rel="nowfollow" id="next_page" style="display:none"><a id="next_page_link" href="/archive?before_time=1407266425">Next page &rarr;</a></div></div><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://365tidalpatterns.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/archive?route=%2Farchive'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script>
+            var _qevents = _qevents || [];
+            (function() {
+                var s = document.createElement('script');
+                var el = document.getElementsByTagName('script')[0];
+                s.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+                el.parentNode.insertBefore(s, el);
+            })();
+        </script><script type="text/javascript">
+            _qevents.push( { qacct: 'p-19UtqE8ngoZbM' } );
+        </script><noscript><div style="display: none;"><img src="//pixel.quantserve.com/pixel/'p-19UtqE8ngoZbM'.gif" height="1" width="1" alt="Quantcast"/></div></noscript><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1410718320&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvMzY1dGlkYWxwYXR0ZXJucy50dW1ibHIuY29tXC9hcmNoaXZlIiwicmVxdHlwZSI6MCwicm91dGUiOiJcL2FyY2hpdmUifQ==&U=FFEOCJGAKJ&K=796b4519ab7aa0671a17cb5ba09c22f54925e9a482708ef443dfb5397269ca73&R=http%3A%2F%2F365tidalpatterns.tumblr.com%2F'.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1410718320&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvMzY1dGlkYWxwYXR0ZXJucy50dW1ibHIuY29tXC9hcmNoaXZlIiwicmVxdHlwZSI6MCwicm91dGUiOiJcL2FyY2hpdmUiLCJub3NjcmlwdCI6MX0=&U=FFEOCJGAKJ&K=988c9ef7011138b9640cca5d41d7e33cffef41ac5b2e5f372d52ac196571b8dc&R=http%3A%2F%2F365tidalpatterns.tumblr.com%2F"></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/archive',
+                                _li:0,
+                                b_id:162574359,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><div id="browse_months_widget" class="popover popover_gradient" style="display:none"><div class="popover_inner"><section id="year_2014" class="year" style="display:block"><header class="year_navigation"><a class="previous_year" href="#"><span>2013</span></a><span class="current_year">2014</span><div class="next_year"><span></span></div><div class="clear"></div></header><nav class="months"><ul><li><a href="/archive/2014/1">January</a><span class="count">40</span></li><li><a href="/archive/2014/2">February</a><span class="count">14</span></li><li><a href="/archive/2014/3">March</a><span class="count">41</span></li><li><a href="/archive/2014/4">April</a><span class="count">66</span></li><li><a href="/archive/2014/5">May</a><span class="count">44</span></li><li><a href="/archive/2014/6">June</a><span class="count">60</span></li><li><a href="/archive/2014/7">July</a><span class="count">29</span></li><li><a href="/archive/2014/8">August</a><span class="count">31</span></li><li><a href="/archive/2014/9">September</a><span class="count">24</span></li><li class="empty"><span>October</span></li><li class="empty"><span>November</span></li><li class="empty"><span>December</span></li></ul></nav></section><section id="year_2013" class="year" style="display:none"><header class="year_navigation"><div class="previous_year"><span></span></div><span class="current_year">2013</span><a class="next_year" href="#"><span>2014</span></a><div class="clear"></div></header><nav class="months"><ul><li class="empty"><span>January</span></li><li class="empty"><span>February</span></li><li class="empty"><span>March</span></li><li class="empty"><span>April</span></li><li class="empty"><span>May</span></li><li class="empty"><span>June</span></li><li class="empty"><span>July</span></li><li class="empty"><span>August</span></li><li class="empty"><span>September</span></li><li class="empty"><span>October</span></li><li class="empty"><span>November</span></li><li><a href="/archive/2013/12">December</a><span class="count">6</span></li></ul></nav></section></div></div></body></html>
