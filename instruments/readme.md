@@ -13,6 +13,10 @@ There are many paths to getting this setup.
 The most walked make our journey easier,
 but there is nothing stopping you going off on your own.
 
+### Sonic Pi
+
+While Sonic PI just works with OS x it is a contained editor and audio environment. Which means you need to do nothing other than install the DMG http://sonic-pi.net/files/Sonic-Pi-Mac-v2.0.1.dmg and you have your instrument and everything setup.
+
 ### Vim
 
 Plugins for interacting with a REPL with Clojure:
