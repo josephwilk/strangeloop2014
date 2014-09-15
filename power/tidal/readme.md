@@ -20,6 +20,6 @@ emacs core.tidal
 ## Examples
 
 @kindohm has been creating a pattern a day:
-http://365tidalpatterns.tumblr.com/ (also cached offline in [/docs/tidal/examples/index.html](/docs/tidal/examples/index.html) )
+https://github.com/kindohm/365tidalpatterns (also cached offline in [/docs/tidal/examples/365tidalpatterns](/docs/tidal/examples/365tidalpatterns) )
 
 You can listen to them also on SoundCloud: https://soundcloud.com/365tidalpatterns

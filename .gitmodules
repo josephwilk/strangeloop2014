@@ -13,3 +13,6 @@
 [submodule "instruments/vim/vim-tidal"]
 	path = instruments/vim/vim-tidal
 	url = git@github.com:munshkr/vim-tidal.git
+[submodule "docs/tidal/examples/365tidalpatterns"]
+	path = docs/tidal/examples/365tidalpatterns
+	url = git@github.com:kindohm/365tidalpatterns.git
