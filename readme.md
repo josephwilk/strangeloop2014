@@ -49,7 +49,7 @@ git clone git@github.com:josephwilk/strangeloop2014.git && cd strangeloop2014 &&
 
 The path you choose dictates what you need to setup.
 
-Also no matter what, you will need to pick and prepare an instrument: [Vim, Emacs, Lighttable](instruments/readme.md)
+Also no matter what, you will need to pick and prepare an instrument: [Vim, Emacs, Lighttable, SonicPi](instruments/readme.md)
 
 ##> You reach a fork in the road
 
@@ -68,6 +68,9 @@ Also no matter what, you will need to pick and prepare an instrument: [Vim, Emac
 One path leads to instant power but you are never truely free.
 The other leads to complete freedom but you have to build your world from scratch.
 ```
+
+##> Power
+
 
 ###> You encounter a Tidal. It seems to want to play.
 
@@ -88,6 +91,8 @@ Requires Haskell installed.
 * Linux installation:    https://github.com/yaxu/Tidal/blob/master/doc/install-linux.md
 * Mac OS X installation: https://github.com/yaxu/Tidal/blob/master/doc/install-osx.md
 * Windows installation:  https://github.com/yaxu/Tidal/blob/master/doc/install-windows.md
+
+##> Freedom
 
 ###> Armed with braces you enter the Overtone
 
