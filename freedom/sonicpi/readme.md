@@ -14,15 +14,11 @@ For example:
 
 ```ruby
 define :drums do
-  6.times do
-    sample :drum_heavy_kick, rate: 0.8
-    sleep 0.5
-  end
+  sample :drum_heavy_kick, rate: 0.8
+  sleep 0.5
 end
 
-in_thread(name: :drummers) do
-  loop{drums}
-end
+in_thread(name: :drummers) {loop{drums}}
 ```
 
 ## Examples
