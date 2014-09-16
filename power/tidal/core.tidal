@@ -1,4 +1,14 @@
-d1 $ sound "[bd:1 bd:2]"
+d1 $ density 2 $ jux (iter 32) $ sound "bass3/2 bass3/0"
+|+| (speed $ every 2 rev  $ "[8 3 4]/3")
+
+d1 $ density 2 $ jux (iter 32) $ sound "[bass3/2 bass3/0]"
+|+| (speed $ every 2 rev $ "[8 3 4]/3")
+
+d1 $ superimpose ((|+|vowel"a").iter 4) $ jux rev $ sound (samples "[amencutup*8 bass3*2,[jvbass*8]/3]" $ slow (3/5) $ run 12)
+
+d1 $ (spread' (striate' 4) ((+0.2) <$> slow 8 sine1)) $ jux rev $ sound (samples "[latibro*6,bd]/2" "0 7 4") |+| speed "[1 2 1.5]/4"
+
+d1 $ sound (samples "{casio ~ bd*3, bd*2 rm*3, numbers lt [mt sn, lt*3 voodoo] sn bass3*2}" ("{7 2, 3 1 5}")) |+| end rand
 
 d2
 
@@ -13,6 +23,8 @@ d6
 d7
 
 d8
+
+solo d5
 
 hush
 
