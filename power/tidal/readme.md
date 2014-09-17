@@ -17,6 +17,8 @@ Launch your editor of choice:
 emacs core.tidal
 ```
 
+```M-x tidal-start-haskell```
+
 ## Examples
 
 @kindohm has been creating a pattern a day:
