@@ -13,9 +13,7 @@ cd vendor/dirt && make clean; make
 
 Launch your editor of choice:
 
-```
-emacs core.tidal
-```
+```emacs core.tidal```
 
 ```M-x tidal-start-haskell```
 
