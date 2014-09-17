@@ -20,6 +20,6 @@ Launch your editor of choice:
 ## Examples
 
 @kindohm has been creating a pattern a day:
-https://github.com/kindohm/365tidalpatterns (also cached offline in [/docs/tidal/examples/](/docs/tidal/examples/365tidalpatterns) )
+https://github.com/kindohm/365tidalpatterns (also cached offline in [/docs/tidal/examples/](/docs/tidal/examples/) )
 
 You can listen to them also on SoundCloud: https://soundcloud.com/365tidalpatterns
