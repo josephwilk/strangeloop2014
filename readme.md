@@ -142,6 +142,7 @@ Take a look at things like:
 * ixi-lang http://www.ixi-audio.net/content/body_software_ixilang.html
 * LiveCodeLab (browser based) http://livecodelab.net/
 * Gibber (browser based) http://gibber.mat.ucsb.edu/
+* Tiny-sc https://github.com/iani/tiny-sc
 
 ##> Before you return home
 
