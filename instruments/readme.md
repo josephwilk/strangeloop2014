@@ -15,7 +15,7 @@ but there is nothing stopping you going off on your own.
 
 ### Sonic Pi
 
-While Sonic PI just works with OS x it is a contained editor and audio environment. Which means you need to do nothing other than install the DMG http://sonic-pi.net/files/Sonic-Pi-Mac-v2.0.1.dmg and you have your instrument and everything setup.
+Sonic PI works with OSX + Windows + Raspberry Pi. It is a contained editor and audio environment. Which means you need to do nothing other than install the http://www.sonic-pi.net and you have your instrument and everything setup.
 
 ### Vim
 
