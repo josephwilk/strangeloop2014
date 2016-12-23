@@ -143,6 +143,7 @@ Take a look at things like:
 * LiveCodeLab (browser based) http://livecodelab.net/
 * Gibber (browser based) http://gibber.mat.ucsb.edu/
 * Tiny-sc https://github.com/iani/tiny-sc
+* FoxDot http://foxdot.org/
 
 ##> Before you return home
 
