@@ -31,7 +31,7 @@ adjust your volume
 and your ears are ready to begin their journey.
 
 
-##> Before you begin your travels
+## > Before you begin your travels
 
 ```
                                     __
@@ -51,7 +51,7 @@ The path you choose dictates what you need to setup.
 
 Also no matter what, you will need to pick and prepare an instrument: [Vim, Emacs, Lighttable, SonicPi](instruments/readme.md)
 
-##> You reach a fork in the road
+## > You reach a fork in the road
 
 ```
    -----          -------
@@ -69,10 +69,10 @@ One path leads to instant power but you are never truely free.
 The other leads to complete freedom but you have to build your world from scratch.
 ```
 
-##> Power
+## > Power
 
 
-###> You encounter a Tidal. It seems to want to play.
+### > You encounter a Tidal. It seems to want to play.
 
 ```
  \:O  Hi
@@ -92,9 +92,9 @@ Requires Haskell installed.
 * Mac OS X installation: https://github.com/yaxu/Tidal/blob/master/doc/install-osx.md
 * Windows installation:  https://github.com/yaxu/Tidal/blob/master/doc/install-windows.md
 
-##> Freedom
+## > Freedom
 
-###> Armed with braces you enter the Overtone
+### > Armed with braces you enter the Overtone
 
 ```
                 .d88b.
@@ -112,7 +112,7 @@ http://overtone.github.io
 
 Prerequisite: Java: http://www.java.com/en/download/help/download_options.xml
 
-###> Out of a bush bursts a swarm of Sonic-PIs
+### > Out of a bush bursts a swarm of Sonic-PIs
 
 ```
   \:o/     π=-      π=-
@@ -126,7 +126,7 @@ Sonic-PI is an IDE for live coding music using Ruby. It runs on Windows + OSX an
 
 Download and install from: http://sonic-pi.net/get-v2.0 OR grab a USB key.
 
-###> You encounter a &lt;blank&gt;. It seems to want to &lt;action&gt;.
+### > You encounter a &lt;blank&gt;. It seems to want to &lt;action&gt;.
 
 ```
    :o      ███████      
@@ -145,7 +145,7 @@ Take a look at things like:
 * Tiny-sc https://github.com/iani/tiny-sc
 * FoxDot http://foxdot.org/
 
-##> Before you return home
+## > Before you return home
 
 ```
  \:D   ♪♫  ♪ ♫
@@ -155,7 +155,7 @@ Take a look at things like:
 
 In our final session we will have some space for people to demos what they have done. 
 
-##> exit
+## > exit
 
 Goodbye. 
 
